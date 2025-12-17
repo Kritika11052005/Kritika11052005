@@ -61,11 +61,19 @@
 
 <div align="center">
   
-<img src="https://github-readme-stats.vercel.app/api?username=Kritika11052005&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=3B82F6&icon_color=3B82F6&text_color=C9D1D9" alt="Kritika's GitHub Stats" />
+![Kritika's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Kritika11052005&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=3B82F6&icon_color=3B82F6&text_color=C9D1D9&count_private=true)
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Kritika11052005&theme=radical&hide_border=true&background=0D1117&stroke=3B82F6&ring=3B82F6&fire=FF6B6B&currStreakLabel=C9D1D9" alt="GitHub Streak" />
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Kritika11052005&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=3B82F6&text_color=C9D1D9&langs_count=8)
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kritika11052005&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=3B82F6&text_color=C9D1D9" alt="Top Languages" />
+</div>
+
+---
+
+## 🔥 GitHub Streak
+
+<div align="center">
+
+[![GitHub Streak](https://streak-stats.demolab.com?user=Kritika11052005&theme=radical&hide_border=true&background=0D1117&stroke=3B82F6&ring=3B82F6&fire=FF6B6B&currStreakLabel=C9D1D9&sideNums=C9D1D9&currStreakNum=C9D1D9&dates=C9D1D9&sideLabels=C9D1D9)](https://git.io/streak-stats)
 
 </div>
 
@@ -74,8 +82,8 @@
 ## 🏆 GitHub Trophies
 
 <div align="center">
-  
-<img src="https://github-profile-trophy.vercel.app/?username=Kritika11052005&theme=radical&no-frame=true&no-bg=true&row=1&column=7" alt="GitHub Trophies" />
+
+[![trophy](https://github-profile-trophy.vercel.app/?username=Kritika11052005&theme=radical&no-frame=true&no-bg=false&margin-w=4&row=2&column=4)](https://github.com/ryo-ma/github-profile-trophy)
 
 </div>
 
@@ -83,22 +91,55 @@
 
 ## 📈 Contribution Graph
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Kritika11052005&theme=react-dark&hide_border=true&area=true&bg_color=0D1117&color=3B82F6&line=3B82F6&point=FF6B6B" alt="Activity Graph" width="100%" />
+[![Kritika's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=Kritika11052005&bg_color=0d1117&color=3b82f6&line=3b82f6&point=ff6b6b&area=true&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
+---
+
+## 🎯 Featured Projects
+
+### 🔥 [FlowForge](https://github.com/Kritika1052005/FlowForge)
+**Full-Stack Project Management Platform**  
+Built with Next.js, React, Tailwind CSS, and Clerk authentication. Features kanban boards, sprint planning, and analytics dashboards.
+
+### 💻 [Code Wave](https://github.com/Kritika1052005/Code_Wave)
+**Multi-Language In-Browser Code Editor**  
+Integrated Monaco Editor with Piston API, customizable themes, and auto-save functionality.
+
+### ☀️ [RayWise](https://github.com/Kritika1052005/RayWise)
+**AI-Powered Solar Rooftop Analysis**  
+Uses Google Gemini API for rooftop analysis, polygon drawing tools, and comprehensive ROI calculator.
+
+### 🩺 [DonorConnect](https://github.com/Kritika1052005/DonorConnect)
+**Healthcare & Donation Management Platform**  
+Full-stack platform with Stripe integration, auto-generated tax certificates, and role-based dashboards.
 
 ---
 
 ## 🌟 Open Source Contributions
 
 ### Hacktoberfest 2025 🎃
-[![Holopin Badges](https://holopin.me/kritika11052005)](https://holopin.io/@kritika11052005)
+[![Holopin Board](https://holopin.me/kritika11052005)](https://holopin.io/@kritika11052005)
 
 **Achievements:**
 - 🏅 **Supercontributor Status** - Successfully merged 6+ pull requests during Hacktoberfest 2025
 - 🌳 **Environmental Impact** - Earned tree planting recognition, offsetting 50 Kg of CO2
 - 🤝 **Community Recognition** - Acknowledged by DigitalOcean and MLH Fellowship
 - 💻 **Project Contributions** - Enhanced Dev-Elevate project with merged pull requests
- 
+
+### GirlScript Summer of Code (GSSoC'25) 🌱
+- Selected as an **Open Source Contributor** for GSSoC'25
+- Actively contributing to open-source projects and building impactful solutions
+- [View Certificate](https://drive.google.com/file/d/1CzBxHl5dKK2uxrr8Z14VYqG0YD-KnKaH/view?usp=drivesdk)
+
+---
+
+## 🏅 Achievements & Recognition
+
+🏅 **Dean's List** - 2nd Semester (GPA: 9.11/10.0) | [Certificate](https://drive.google.com/file/d/1IHWdLdqvDtAQ1CXxxBzWfWZbEXEWx9yN/view?usp=drivesdk)  
+🌱 **GirlScript Summer of Code (GSSoC'25)** - Selected Open Source Contributor | [Certificate](https://drive.google.com/file/d/1CzBxHl5dKK2uxrr8Z14VYqG0YD-KnKaH/view?usp=drivesdk)  
+🎃 **Hacktoberfest 2025** - Supercontributor (6+ merged PRs)  
+📚 **NTSE Stage 1** - Qualified from Uttar Pradesh | [Certificate](https://drive.google.com/file/d/15eWKNhv93AE6_8KaK0o3T1ZrK3M6xFZD/view?usp=drivesdk)  
+🎓 **NPTEL Elite Certificates** - DSA & Design and Analysis of Algorithms  
 
 ---
 
@@ -115,10 +156,18 @@ Research paper accepted for publication in Springer proceedings, focusing on imp
 
 🔗 **Links:**
 - [View Publication on Springer](https://link.springer.com/chapter/10.1007/978-981-97-6465-5_54)
+- [View Acceptance Certificate](https://drive.google.com/file/d/1HiU3c3xdGZrUo8xm8KF-Xu9m3FtcwsMQ/view?usp=drivesdk)
 
+---
 
+## 📜 Certifications
 
-
+- 🎓 **DeepLearning.AI Mathematics for ML and Data Science Specialization** (Coursera) - [Certificate](https://www.coursera.org/account/accomplishments/specialization/certificate/RMHZW46Y2QA2)
+- 💻 **Application Development using Microservices and Serverless** (Coursera – IBM) - [Certificate](https://www.coursera.org/account/accomplishments/certificate/YRY6RTLMM6PF)
+- 🔧 **Introduction to Software Engineering** (Coursera – IBM) - [Certificate](https://www.coursera.org/account/accomplishments/certificate/6J7V86B8DY86)
+- ☁️ **Introduction to Cloud Computing** (Coursera – IBM) - [Certificate](https://www.coursera.org/account/accomplishments/certificate/L6W3KUEHJXCE)
+- 📊 **NPTEL Elite Certificate in Data Structures and Algorithms using Java** - [Certificate](https://drive.google.com/file/d/1PUx23WjVgxLQn6hx1x3U0iiZ0q5XMVBT/view?usp=drivesdk)
+- 🧮 **NPTEL Elite Certificate in Design and Analysis of Algorithms (DAA)** - [Certificate](https://drive.google.com/file/d/1nMGhBZ3XE2a8RKQTXF4OB1T2Vpo0fkLE/view?usp=drivesdk)
 
 ---
 
@@ -139,10 +188,10 @@ Research paper accepted for publication in Springer proceedings, focusing on imp
 <div align="center">
   
 ### 💭 Quote of the Day
-<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" alt="Quote" />
+![Quote](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
 
 ### 👀 Profile Views
-<img src="https://komarev.com/ghpvc/?username=Kritika11052005&color=3B82F6&style=for-the-badge&label=Profile+Views" alt="Profile Views" />
+![Profile Views](https://komarev.com/ghpvc/?username=Kritika11052005&color=3B82F6&style=for-the-badge&label=Profile+Views)
 
 ### ⚡ Fun Fact
 *"First, solve the problem. Then, write the code."* – John Johnson
