@@ -12,7 +12,7 @@
 💡 Passionate about **Full-Stack Development**, **AI/ML**, and **Blockchain Technology**  
 🌱 Currently exploring **Generative AI**, **Cloud Computing**, and **Machine Learning**  
 📝 Published researcher at **ICT4SD 2025 Conference** (Springer)  
-🏆 **Dean's List** achiever | **GSSoC'25** Selected | **Hacktoberfest Supercontributor**  
+🏆 **GSSoC'25** Selected | **Hacktoberfest Supercontributor**  
 ⚡ Fun fact: I solve problems one line of code at a time! 🌟
 
 ---
