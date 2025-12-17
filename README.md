@@ -61,11 +61,11 @@
 
 <div align="center">
   
-![Kritika's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Kritika11052005&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=3B82F6&icon_color=3B82F6&text_color=C9D1D9)
+<img src="https://github-readme-stats.vercel.app/api?username=Kritika11052005&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=3B82F6&icon_color=3B82F6&text_color=C9D1D9" alt="Kritika's GitHub Stats" />
 
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=Kritika11052005&theme=radical&hide_border=true&background=0D1117&stroke=3B82F6&ring=3B82F6&fire=FF6B6B&currStreakLabel=C9D1D9)
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=Kritika11052005&theme=radical&hide_border=true&background=0D1117&stroke=3B82F6&ring=3B82F6&fire=FF6B6B&currStreakLabel=C9D1D9" alt="GitHub Streak" />
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Kritika11052005&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=3B82F6&text_color=C9D1D9)
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kritika11052005&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=3B82F6&text_color=C9D1D9" alt="Top Languages" />
 
 </div>
 
@@ -75,7 +75,7 @@
 
 <div align="center">
   
-![Trophies](https://github-profile-trophy.vercel.app/?username=Kritika11052005&theme=radical&no-frame=true&no-bg=true&row=1&column=7)
+<img src="https://github-profile-trophy.vercel.app/?username=Kritika11052005&theme=radical&no-frame=true&no-bg=true&row=1&column=7" alt="GitHub Trophies" />
 
 </div>
 
@@ -83,47 +83,42 @@
 
 ## 📈 Contribution Graph
 
-![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Kritika11052005&theme=react-dark&hide_border=true&area=true&bg_color=0D1117&color=3B82F6&line=3B82F6&point=FF6B6B)
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Kritika11052005&theme=react-dark&hide_border=true&area=true&bg_color=0D1117&color=3B82F6&line=3B82F6&point=FF6B6B" alt="Activity Graph" width="100%" />
+
 
 ---
 
-## 🎯 Featured Projects
+## 🌟 Open Source Contributions
 
-### 🔥 [FlowForge](https://github.com/Kritika1052005/FlowForge)
-**Full-Stack Project Management Platform**  
-Built with Next.js, React, Tailwind CSS, and Clerk authentication. Features kanban boards, sprint planning, and analytics dashboards.
+### Hacktoberfest 2025 🎃
+[![Holopin Badges](https://holopin.me/kritika11052005)](https://holopin.io/@kritika11052005)
 
-### 💻 [Code Wave](https://github.com/Kritika1052005/Code_Wave)
-**Multi-Language In-Browser Code Editor**  
-Integrated Monaco Editor with Piston API, customizable themes, and auto-save functionality.
-
-### ☀️ [RayWise](https://github.com/Kritika1052005/RayWise)
-**AI-Powered Solar Rooftop Analysis**  
-Uses Google Gemini API for rooftop analysis, polygon drawing tools, and comprehensive ROI calculator.
-
-### 🩺 [DonorConnect](https://github.com/Kritika1052005/DonorConnect)
-**Healthcare & Donation Management Platform**  
-Full-stack platform with Stripe integration, auto-generated tax certificates, and role-based dashboards.
+**Achievements:**
+- 🏅 **Supercontributor Status** - Successfully merged 6+ pull requests during Hacktoberfest 2025
+- 🌳 **Environmental Impact** - Earned tree planting recognition, offsetting 50 Kg of CO2
+- 🤝 **Community Recognition** - Acknowledged by DigitalOcean and MLH Fellowship
+- 💻 **Project Contributions** - Enhanced Dev-Elevate project with merged pull requests
+ 
 
 ---
 
-## 🌟 Achievements & Recognition
+## 📝 Publications
 
-🏅 **Dean's List** - 2nd Semester (GPA: 9.11/10.0)  
-🌱 **GirlScript Summer of Code (GSSoC'25)** - Selected Open Source Contributor  
-🎃 **Hacktoberfest 2025** - Supercontributor (6+ merged PRs)  
-📚 **NTSE Stage 1** - Qualified from Uttar Pradesh  
-📜 **Published Researcher** - ICT4SD 2025 Conference (Springer)  
-🎓 **NPTEL Elite Certificates** - DSA & Design and Analysis of Algorithms  
+### **Blockchain in Public Distribution System** 📄
+**Authors:** K. Benjwal, R. Agrawal, R. Gupta, D.K. Saini  
+**Conference:** 10th International Conference on ICT for Sustainable Development (ICT4SD 2025)  
+**Location:** Goa, India  
+**Publisher:** Springer  
+**Paper ID:** 293
 
----
+Research paper accepted for publication in Springer proceedings, focusing on implementing blockchain technology in the Public Distribution System to enhance transparency, reduce corruption, and improve efficiency in resource allocation.
 
-## 📝 Latest Publications
+🔗 **Links:**
+- [View Publication on Springer](https://link.springer.com/chapter/10.1007/978-981-97-6465-5_54)
+- [View Acceptance Certificate](https://drive.google.com/file/d/1HiU3c3xdGZrUo8xm8KF-Xu9m3FtcwsMQ/view?usp=drivesdk)
 
-**"Blockchain in Public Distribution System"**  
-K. Benjwal, R. Agrawal, R. Gupta, D.K. Saini  
-*10th International Conference on ICT for Sustainable Development (ICT4SD 2025)*  
-Springer Proceedings | Paper ID: 293
+
+
 
 ---
 
@@ -132,10 +127,10 @@ Springer Proceedings | Paper ID: 293
 <div align="center">
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/kritika-benjwal)
-[![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/u/Kritika_Benjwal)
-[![Codeforces](https://img.shields.io/badge/Codeforces-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white)](https://codeforces.com/profile/Kritika_Benjwal)
-[![Kaggle](https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white)](https://kaggle.com/kritikabenjwal)
-[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:kritikabenjwal05@gmail.com)
+[![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/u/Kritzzz_11/)
+[![Codeforces](https://img.shields.io/badge/Codeforces-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white)](https://codeforces.com/profile/Kritzzz_11)
+[![Kaggle](https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white)](https://www.kaggle.com/kritikabenjwal)
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ananya.benjwal@gmail.com)
 
 </div>
 
@@ -144,10 +139,10 @@ Springer Proceedings | Paper ID: 293
 <div align="center">
   
 ### 💭 Quote of the Day
-![Quote](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
+<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" alt="Quote" />
 
 ### 👀 Profile Views
-![Profile Views](https://komarev.com/ghpvc/?username=Kritika1052005&color=3B82F6&style=for-the-badge&label=Profile+Views)
+<img src="https://komarev.com/ghpvc/?username=Kritika11052005&color=3B82F6&style=for-the-badge&label=Profile+Views" alt="Profile Views" />
 
 ### ⚡ Fun Fact
 *"First, solve the problem. Then, write the code."* – John Johnson
