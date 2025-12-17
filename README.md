@@ -115,7 +115,7 @@ Research paper accepted for publication in Springer proceedings, focusing on imp
 
 🔗 **Links:**
 - [View Publication on Springer](https://link.springer.com/chapter/10.1007/978-981-97-6465-5_54)
-- [View Acceptance Certificate](https://drive.google.com/file/d/1HiU3c3xdGZrUo8xm8KF-Xu9m3FtcwsMQ/view?usp=drivesdk)
+
 
 
 
