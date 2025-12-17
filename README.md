@@ -8,7 +8,7 @@
 
 ## 🚀 About Me
 
-🎓 **Computer Science Engineering** student at **Manipal University Jaipur** 
+🎓 **Computer Science Engineering** student at **Manipal University Jaipur**  
 💡 Passionate about **Full-Stack Development**, **AI/ML**, and **Blockchain Technology**  
 🌱 Currently exploring **Generative AI**, **Cloud Computing**, and **Machine Learning**  
 📝 Published researcher at **ICT4SD 2025 Conference** (Springer)  
