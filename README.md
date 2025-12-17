@@ -61,11 +61,11 @@
 
 <div align="center">
   
-![Kritika's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Kritika1052005&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=3B82F6&icon_color=3B82F6&text_color=C9D1D9)
+![Kritika's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Kritika11052005&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=3B82F6&icon_color=3B82F6&text_color=C9D1D9)
 
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=Kritika1052005&theme=radical&hide_border=true&background=0D1117&stroke=3B82F6&ring=3B82F6&fire=FF6B6B&currStreakLabel=C9D1D9)
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=Kritika11052005&theme=radical&hide_border=true&background=0D1117&stroke=3B82F6&ring=3B82F6&fire=FF6B6B&currStreakLabel=C9D1D9)
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Kritika1052005&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=3B82F6&text_color=C9D1D9)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Kritika11052005&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=3B82F6&text_color=C9D1D9)
 
 </div>
 
@@ -75,7 +75,7 @@
 
 <div align="center">
   
-![Trophies](https://github-profile-trophy.vercel.app/?username=Kritika1052005&theme=radical&no-frame=true&no-bg=true&row=1&column=7)
+![Trophies](https://github-profile-trophy.vercel.app/?username=Kritika11052005&theme=radical&no-frame=true&no-bg=true&row=1&column=7)
 
 </div>
 
@@ -83,7 +83,7 @@
 
 ## 📈 Contribution Graph
 
-![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Kritika1052005&theme=react-dark&hide_border=true&area=true&bg_color=0D1117&color=3B82F6&line=3B82F6&point=FF6B6B)
+![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Kritika11052005&theme=react-dark&hide_border=true&area=true&bg_color=0D1117&color=3B82F6&line=3B82F6&point=FF6B6B)
 
 ---
 
