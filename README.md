@@ -61,12 +61,13 @@
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Kritika11052005&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=3B82F6&icon_color=3B82F6&text_color=C9D1D9&count_private=true" alt="GitHub Stats" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kritika11052005&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=3B82F6&text_color=C9D1D9&langs_count=8" alt="Top Languages" width="48%" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Kritika11052005&theme=github_dark" alt="GitHub Stats" height="180"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Kritika11052005&theme=github_dark" alt="Top Languages" height="180"/>
+  
 </p>
 
 <p align="center">
-  <img src="https://nirzak-streak-stats.vercel.app?user=Kritika11052005&theme=tokyonight&hide_border=true" alt="GitHub Streak" width="60%" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Kritika11052005&theme=github_dark" alt="GitHub Streak"/>
 </p>
 
 ---
