@@ -26,40 +26,9 @@
 
 <br>
 
-<table align="center" border="0" cellpadding="0" cellspacing="0">
-  <tr>
-    <td width="55%" valign="top">
-      <br>
-      <img src="https://img.shields.io/badge/🎓-Education-3B82F6?style=flat-square&labelColor=1E3A5F" />
-      <br><br>
-      &nbsp;&nbsp;&nbsp;Computer Science Engineering @ <strong>Manipal University Jaipur</strong>
-      <br><br>
-      <img src="https://img.shields.io/badge/💡-Interests-3B82F6?style=flat-square&labelColor=1E3A5F" />
-      <br><br>
-      &nbsp;&nbsp;&nbsp;Full-Stack Dev · AI/ML · Blockchain Technology
-      <br><br>
-      <img src="https://img.shields.io/badge/🌱-Currently%20Learning-3B82F6?style=flat-square&labelColor=1E3A5F" />
-      <br><br>
-      &nbsp;&nbsp;&nbsp;Generative AI · Cloud Computing · Machine Learning
-      <br><br>
-      <img src="https://img.shields.io/badge/📝-Researcher-3B82F6?style=flat-square&labelColor=1E3A5F" />
-      <br><br>
-      &nbsp;&nbsp;&nbsp;Published @ <strong>ICT4SD 2025</strong> (Springer)
-      <br><br>
-      <img src="https://img.shields.io/badge/🏆-Achievements-3B82F6?style=flat-square&labelColor=1E3A5F" />
-      <br><br>
-      &nbsp;&nbsp;&nbsp;GSSoC'25 Selected · Hacktoberfest Supercontributor
-      <br><br>
-      <img src="https://img.shields.io/badge/⚡-Fun%20Fact-3B82F6?style=flat-square&labelColor=1E3A5F" />
-      <br><br>
-      &nbsp;&nbsp;&nbsp;<em>"I solve problems one line of code at a time! 🌟"</em>
-      <br><br>
-    </td>
-    <td width="45%" align="center" valign="middle">
-      <img src="https://media.giphy.com/media/L1R1tvI9svkIWwpVYr/giphy.gif" width="320" style="border-radius: 12px;" />
-    </td>
-  </tr>
-</table>
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Kritika11052005/Kritika11052005/main/about-me.svg" alt="About Me Terminal Card" width="100%"/>
+</div>
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0D1117,50:1E3A5F,100:3B82F6&height=3&width=800" />
 
@@ -204,6 +173,16 @@
 
 ---
 
+## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="35"> GitHub Trophies
+
+<div align="center">
+
+<img src="https://github-trophies.vercel.app/?username=Kritika11052005&theme=radical&no-frame=true&margin-w=6&column=8" alt="GitHub Trophies" />
+
+</div>
+
+---
+
 ## <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="35"> Achievements & Badges
 
 <div align="center">
@@ -253,23 +232,41 @@
 
 <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="900">
 
-### 🏆 Open Source Programs
+### 🚀 Major Achievements
 
-<table border="2" bordercolor="#3B82F6">
+<table border="2" bordercolor="#f59e0b">
   <tr>
-    <td align="center" width="220" style="padding: 20px;">
-      <img src="https://img.shields.io/badge/🏅-GSSoC'25-f59e0b?style=for-the-badge&labelColor=451a03" width="130">
+    <td align="center" width="280" style="padding: 24px;">
+      <img src="https://img.shields.io/badge/🏆-INDIA%20AI%20BUILDATHON-f59e0b?style=for-the-badge&labelColor=451a03" width="200">
       <br><br>
-      <img src="https://img.shields.io/badge/Selected%20Contributor-f59e0b?style=flat-square&labelColor=451a03" />
+      <img src="https://img.shields.io/badge/TOP%202%25%20NATIONAL%20FINALIST-f59e0b?style=flat-square&labelColor=451a03" />
+      <br><br>
+      <b>Score: 72/100</b>
+      <br>
+      <sub>Out of <b>40,000+</b> participants nationwide</sub>
+      <br><br>
+      <a href="https://drive.google.com/file/d/1q9s7Ar5TL1_kjM3r2G7klTw83Xd8xUPU/view">
+        <img src="https://img.shields.io/badge/📜%20View%20Certificate-f59e0b?style=for-the-badge&logo=googledrive&logoColor=white&labelColor=451a03" />
+      </a>
+    </td>
+    <td align="center" width="280" style="padding: 24px;">
+      <img src="https://img.shields.io/badge/🏅-GSSoC'25-10b981?style=for-the-badge&labelColor=064e3b" width="200">
+      <br><br>
+      <a href="https://drive.google.com/file/d/1BiyN9ouzIHm1TXL4iPBbfzjHr_AOcvoo/view">
+      <img src="https://img.shields.io/badge/Selected%20Contributor-10b981?style=flat-square&labelColor=064e3b" /></a>
+      <br><br>
+      <b>Open Source Contributor</b>
       <br>
       <sub>GirlScript Summer of Code 2025</sub>
     </td>
-    <td align="center" width="220" style="padding: 20px;">
-      <img src="https://img.shields.io/badge/🏅-Hacktoberfest-FF6B6B?style=for-the-badge&labelColor=8B0000" width="130">
+    <td align="center" width="280" style="padding: 24px;">
+      <img src="https://img.shields.io/badge/🏅-HACKTOBERFEST-FF6B6B?style=for-the-badge&labelColor=8B0000" width="200">
       <br><br>
       <img src="https://img.shields.io/badge/Supercontributor-FF4500?style=flat-square&labelColor=8B0000" />
+      <br><br>
+      <b>6+ Merged Pull Requests</b>
       <br>
-      <sub>6+ Merged Pull Requests</sub>
+      <sub>DigitalOcean × MLH recognised</sub>
     </td>
   </tr>
 </table>
