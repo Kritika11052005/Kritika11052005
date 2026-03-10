@@ -1,248 +1,229 @@
-<svg width="900" height="380" viewBox="0 0 900 380" xmlns="http://www.w3.org/2000/svg">
+<svg width="900" height="480" viewBox="0 0 900 480" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <!-- Background gradient -->
     <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#0a0f1e;stop-opacity:1" />
+      <stop offset="0%" style="stop-color:#060a14;stop-opacity:1" />
       <stop offset="50%" style="stop-color:#0d1117;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#0a0f1e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#060a14;stop-opacity:1" />
     </linearGradient>
-
-    <!-- Blue glow border gradient -->
     <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" style="stop-color:#3B82F6;stop-opacity:1" />
-      <stop offset="30%" style="stop-color:#06b6d4;stop-opacity:1" />
-      <stop offset="70%" style="stop-color:#a855f7;stop-opacity:1" />
+      <stop offset="25%" style="stop-color:#06b6d4;stop-opacity:1" />
+      <stop offset="75%" style="stop-color:#a855f7;stop-opacity:1" />
       <stop offset="100%" style="stop-color:#3B82F6;stop-opacity:1" />
     </linearGradient>
-
-    <!-- Inner border gradient -->
-    <linearGradient id="innerBorderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#1e3a5f;stop-opacity:0.8" />
-      <stop offset="100%" style="stop-color:#1a1a3e;stop-opacity:0.8" />
-    </linearGradient>
-
-    <!-- Scanline pattern -->
-    <pattern id="scanlines" x="0" y="0" width="900" height="3" patternUnits="userSpaceOnUse">
-      <rect width="900" height="1" fill="rgba(59,130,246,0.03)" />
-      <rect y="1" width="900" height="2" fill="transparent" />
-    </pattern>
-
-    <!-- Grid pattern -->
-    <pattern id="grid" x="0" y="0" width="30" height="30" patternUnits="userSpaceOnUse">
-      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="rgba(59,130,246,0.04)" stroke-width="0.5"/>
-    </pattern>
-
-    <!-- Glow filter for text -->
-    <filter id="blueGlow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="2" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
-
-    <!-- Glow filter for border -->
-    <filter id="borderGlow" x="-5%" y="-5%" width="110%" height="110%">
-      <feGaussianBlur stdDeviation="3" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
-
-    <!-- Clip path -->
-    <clipPath id="cardClip">
-      <rect x="4" y="4" width="892" height="372" rx="12"/>
-    </clipPath>
-
-    <!-- Cyan glow -->
-    <filter id="cyanGlow">
-      <feGaussianBlur stdDeviation="1.5" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
-
-    <!-- Right panel gradient -->
-    <linearGradient id="rightPanel" x1="0%" y1="0%" x2="100%" y2="100%">
+    <linearGradient id="rightPanelGrad" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" style="stop-color:#0f172a;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#1e1b4b;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1e1b4b;stop-opacity:0.9" />
     </linearGradient>
-
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#1e3a5f;stop-opacity:0.4" />
+      <stop offset="100%" style="stop-color:#0d1117;stop-opacity:0" />
+    </linearGradient>
+    <pattern id="grid" x="0" y="0" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M 28 0 L 0 0 0 28" fill="none" stroke="rgba(59,130,246,0.035)" stroke-width="0.5"/>
+    </pattern>
+    <pattern id="scanlines" x="0" y="0" width="900" height="4" patternUnits="userSpaceOnUse">
+      <rect width="900" height="1" fill="rgba(59,130,246,0.025)" />
+      <rect y="1" width="900" height="3" fill="transparent" />
+    </pattern>
+    <filter id="blueGlow">
+      <feGaussianBlur stdDeviation="1.8" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softGlow">
+      <feGaussianBlur stdDeviation="1" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="borderGlow">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="cardClip">
+      <rect x="3" y="3" width="894" height="474" rx="14"/>
+    </clipPath>
   </defs>
 
-  <!-- Outer glow border -->
-  <rect x="1" y="1" width="898" height="378" rx="14" fill="none" stroke="url(#borderGrad)" stroke-width="2" filter="url(#borderGlow)" opacity="0.9"/>
+  <!-- Outer glow -->
+  <rect x="1" y="1" width="898" height="478" rx="15" fill="none" stroke="url(#borderGrad)" stroke-width="2.5" filter="url(#borderGlow)" opacity="0.85"/>
+  <!-- Card bg -->
+  <rect x="3" y="3" width="894" height="474" rx="14" fill="url(#bgGrad)"/>
+  <!-- Grid -->
+  <rect x="3" y="3" width="894" height="474" rx="14" fill="url(#grid)" clip-path="url(#cardClip)"/>
+  <!-- Right panel bg -->
+  <rect x="510" y="3" width="387" height="474" fill="url(#rightPanelGrad)" clip-path="url(#cardClip)"/>
+  <!-- Scanlines -->
+  <rect x="3" y="3" width="894" height="474" rx="14" fill="url(#scanlines)" clip-path="url(#cardClip)" opacity="0.7"/>
+  <!-- Divider -->
+  <line x1="510" y1="15" x2="510" y2="465" stroke="url(#borderGrad)" stroke-width="0.8" opacity="0.5"/>
+  <!-- Corner accents -->
+  <polyline points="3,40 3,3 43,3" fill="none" stroke="#3B82F6" stroke-width="2"/>
+  <polyline points="897,40 897,3 857,3" fill="none" stroke="#a855f7" stroke-width="2"/>
+  <polyline points="3,440 3,477 43,477" fill="none" stroke="#06b6d4" stroke-width="2"/>
+  <polyline points="897,440 897,477 857,477" fill="none" stroke="#3B82F6" stroke-width="2"/>
 
-  <!-- Main card background -->
-  <rect x="4" y="4" width="892" height="372" rx="12" fill="url(#bgGrad)"/>
-
-  <!-- Grid overlay -->
-  <rect x="4" y="4" width="892" height="372" rx="12" fill="url(#grid)" clip-path="url(#cardClip)"/>
-
-  <!-- Right panel background -->
-  <rect x="520" y="4" width="376" height="372" rx="0" fill="url(#rightPanel)" opacity="0.6" clip-path="url(#cardClip)"/>
-
-  <!-- Divider line -->
-  <line x1="520" y1="20" x2="520" y2="360" stroke="url(#borderGrad)" stroke-width="1" opacity="0.5"/>
-
-  <!-- Scanlines overlay -->
-  <rect x="4" y="4" width="892" height="372" rx="12" fill="url(#scanlines)" clip-path="url(#cardClip)"/>
-
-  <!-- Corner accents top-left -->
-  <line x1="4" y1="30" x2="4" y2="4" stroke="#3B82F6" stroke-width="2"/>
-  <line x1="4" y1="4" x2="34" y2="4" stroke="#3B82F6" stroke-width="2"/>
-  <!-- Corner accents top-right -->
-  <line x1="896" y1="30" x2="896" y2="4" stroke="#a855f7" stroke-width="2"/>
-  <line x1="896" y1="4" x2="866" y2="4" stroke="#a855f7" stroke-width="2"/>
-  <!-- Corner accents bottom-left -->
-  <line x1="4" y1="350" x2="4" y2="376" stroke="#06b6d4" stroke-width="2"/>
-  <line x1="4" y1="376" x2="34" y2="376" stroke="#06b6d4" stroke-width="2"/>
-  <!-- Corner accents bottom-right -->
-  <line x1="896" y1="350" x2="896" y2="376" stroke="#3B82F6" stroke-width="2"/>
-  <line x1="896" y1="376" x2="866" y2="376" stroke="#3B82F6" stroke-width="2"/>
-
-  <!-- ═══════════ LEFT PANEL CONTENT ═══════════ -->
-
-  <!-- PROFILE: ACTIVE line -->
-  <circle cx="38" cy="46" r="5" fill="#10b981">
-    <animate attributeName="opacity" values="1;0.3;1" dur="1.5s" repeatCount="indefinite"/>
+  <!-- LEFT PANEL -->
+  <rect x="3" y="3" width="507" height="52" fill="url(#headerGrad)" clip-path="url(#cardClip)"/>
+  <circle cx="30" cy="28" r="5.5" fill="#10b981">
+    <animate attributeName="opacity" values="1;0.25;1" dur="1.6s" repeatCount="indefinite"/>
   </circle>
-  <text x="52" y="51" font-family="'Courier New', Courier, monospace" font-size="13" font-weight="bold" fill="#e2e8f0" letter-spacing="2">
-    PROFILE: <tspan fill="#10b981" filter="url(#blueGlow)">ACTIVE</tspan>
-  </text>
-
-  <!-- Separator line -->
-  <line x1="28" y1="62" x2="500" y2="62" stroke="#1e3a5f" stroke-width="1" opacity="0.8"/>
-
-  <!-- ▶ Education -->
-  <text x="28" y="88" font-family="'Courier New', Courier, monospace" font-size="12" fill="#3B82F6" filter="url(#cyanGlow)">▶</text>
-  <text x="46" y="88" font-family="'Courier New', Courier, monospace" font-size="13" font-weight="bold" fill="#06b6d4" letter-spacing="1" filter="url(#cyanGlow)">Education</text>
-  <text x="46" y="108" font-family="'Courier New', Courier, monospace" font-size="12" fill="#94a3b8" letter-spacing="0.5">  CSE @ Manipal University Jaipur</text>
-
-  <!-- Separator -->
-  <line x1="28" y1="120" x2="500" y2="120" stroke="#1e3a5f" stroke-width="1" opacity="0.5"/>
-
-  <!-- ▶ Tech Stack -->
-  <text x="28" y="142" font-family="'Courier New', Courier, monospace" font-size="12" fill="#3B82F6" filter="url(#cyanGlow)">▶</text>
-  <text x="46" y="142" font-family="'Courier New', Courier, monospace" font-size="13" font-weight="bold" fill="#06b6d4" letter-spacing="1" filter="url(#cyanGlow)">Tech Stack</text>
-
-  <!-- Row 1 -->
-  <text x="46" y="163" font-family="'Courier New', Courier, monospace" font-size="11" fill="#f59e0b">◆</text>
-  <text x="62" y="163" font-family="'Courier New', Courier, monospace" font-size="11" fill="#e2e8f0"> TypeScript</text>
-  <text x="162" y="163" font-family="'Courier New', Courier, monospace" font-size="11" fill="#3B82F6">◆</text>
-  <text x="178" y="163" font-family="'Courier New', Courier, monospace" font-size="11" fill="#e2e8f0"> Python</text>
-  <text x="258" y="163" font-family="'Courier New', Courier, monospace" font-size="11" fill="#a855f7">◆</text>
-  <text x="274" y="163" font-family="'Courier New', Courier, monospace" font-size="11" fill="#e2e8f0"> React / Next.js</text>
-
-  <!-- Row 2 -->
-  <text x="46" y="182" font-family="'Courier New', Courier, monospace" font-size="11" fill="#10b981">◆</text>
-  <text x="62" y="182" font-family="'Courier New', Courier, monospace" font-size="11" fill="#e2e8f0"> Node.js</text>
-  <text x="162" y="182" font-family="'Courier New', Courier, monospace" font-size="11" fill="#f472b6">◆</text>
-  <text x="178" y="182" font-family="'Courier New', Courier, monospace" font-size="11" fill="#e2e8f0"> FastAPI</text>
-  <text x="258" y="182" font-family="'Courier New', Courier, monospace" font-size="11" fill="#f59e0b">◆</text>
-  <text x="274" y="182" font-family="'Courier New', Courier, monospace" font-size="11" fill="#e2e8f0"> MongoDB</text>
-
-  <!-- Row 3 -->
-  <text x="46" y="201" font-family="'Courier New', Courier, monospace" font-size="11" fill="#06b6d4">◆</text>
-  <text x="62" y="201" font-family="'Courier New', Courier, monospace" font-size="11" fill="#e2e8f0"> LangChain</text>
-  <text x="162" y="201" font-family="'Courier New', Courier, monospace" font-size="11" fill="#a855f7">◆</text>
-  <text x="178" y="201" font-family="'Courier New', Courier, monospace" font-size="11" fill="#e2e8f0"> RAG</text>
-  <text x="258" y="201" font-family="'Courier New', Courier, monospace" font-size="11" fill="#3B82F6">◆</text>
-  <text x="274" y="201" font-family="'Courier New', Courier, monospace" font-size="11" fill="#e2e8f0"> Blockchain</text>
-
-  <!-- Separator -->
-  <line x1="28" y1="214" x2="500" y2="214" stroke="#1e3a5f" stroke-width="1" opacity="0.5"/>
-
-  <!-- ▶ Research -->
-  <text x="28" y="234" font-family="'Courier New', Courier, monospace" font-size="12" fill="#3B82F6" filter="url(#cyanGlow)">▶</text>
-  <text x="46" y="234" font-family="'Courier New', Courier, monospace" font-size="13" font-weight="bold" fill="#06b6d4" letter-spacing="1" filter="url(#cyanGlow)">Research</text>
-  <text x="46" y="254" font-family="'Courier New', Courier, monospace" font-size="11" fill="#94a3b8">  Published @ ICT4SD 2025 — Springer</text>
-
-  <!-- Separator -->
-  <line x1="28" y1="266" x2="500" y2="266" stroke="#1e3a5f" stroke-width="1" opacity="0.5"/>
-
-  <!-- ▶ Mission -->
-  <text x="28" y="286" font-family="'Courier New', Courier, monospace" font-size="12" fill="#3B82F6" filter="url(#cyanGlow)">▶</text>
-  <text x="46" y="286" font-family="'Courier New', Courier, monospace" font-size="13" font-weight="bold" fill="#06b6d4" letter-spacing="1" filter="url(#cyanGlow)">Mission</text>
-  <text x="46" y="306" font-family="'Courier New', Courier, monospace" font-size="11" fill="#94a3b8">  Full Stack + AI/ML + Open Source</text>
-
-  <!-- Separator -->
-  <line x1="28" y1="318" x2="500" y2="318" stroke="#1e3a5f" stroke-width="1" opacity="0.5"/>
-
-  <!-- STATUS: BUILDING_ with blinking cursor -->
-  <circle cx="38" cy="342" r="5" fill="#3B82F6">
-    <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/>
+  <circle cx="30" cy="28" r="8" fill="none" stroke="#10b981" stroke-width="0.8">
+    <animate attributeName="r" values="8;15;8" dur="2.5s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.3;0;0.3" dur="2.5s" repeatCount="indefinite"/>
   </circle>
-  <text x="52" y="347" font-family="'Courier New', Courier, monospace" font-size="13" font-weight="bold" fill="#e2e8f0" letter-spacing="2">
-    STATUS: <tspan fill="#3B82F6" filter="url(#blueGlow)">BUILDING</tspan><tspan fill="#06b6d4" filter="url(#blueGlow)">_</tspan>
-  </text>
+  <text x="46" y="33" font-family="Courier New,monospace" font-size="12" font-weight="bold" fill="#cbd5e1" letter-spacing="2.5">PROFILE: <tspan fill="#10b981" filter="url(#blueGlow)">ACTIVE</tspan></text>
+  <line x1="18" y1="52" x2="496" y2="52" stroke="#1e3a5f" stroke-width="0.8" opacity="0.9"/>
 
-  <!-- ═══════════ RIGHT PANEL CONTENT ═══════════ -->
+  <!-- Education -->
+  <text x="20" y="76" font-family="Courier New,monospace" font-size="11" fill="#3B82F6">&#9654;</text>
+  <text x="36" y="76" font-family="Courier New,monospace" font-size="12" font-weight="bold" fill="#06b6d4" letter-spacing="1.5" filter="url(#softGlow)">Education</text>
+  <text x="36" y="93" font-family="Courier New,monospace" font-size="10.5" fill="#94a3b8">  B.Tech CSE @ Manipal University Jaipur</text>
+  <line x1="18" y1="104" x2="496" y2="104" stroke="#1e3a5f" stroke-width="0.6" opacity="0.6"/>
 
-  <!-- Title bar dots -->
-  <circle cx="548" cy="30" r="5" fill="#ff5f57" opacity="0.9"/>
-  <circle cx="568" cy="30" r="5" fill="#febc2e" opacity="0.9"/>
-  <circle cx="588" cy="30" r="5" fill="#28c840" opacity="0.9"/>
+  <!-- Experience -->
+  <text x="20" y="121" font-family="Courier New,monospace" font-size="11" fill="#3B82F6">&#9654;</text>
+  <text x="36" y="121" font-family="Courier New,monospace" font-size="12" font-weight="bold" fill="#06b6d4" letter-spacing="1.5" filter="url(#softGlow)">Experience</text>
 
-  <!-- Right panel title -->
-  <text x="620" y="35" font-family="'Courier New', Courier, monospace" font-size="11" fill="#475569" letter-spacing="2">kritika@github ~ $</text>
+  <text x="36" y="138" font-family="Courier New,monospace" font-size="10" fill="#a855f7">&#9670;</text>
+  <text x="50" y="138" font-family="Courier New,monospace" font-size="10" fill="#e2e8f0" font-weight="bold">AariyaTech Corp</text>
+  <text x="170" y="138" font-family="Courier New,monospace" font-size="9.5" fill="#64748b"> — MERN/Next.js Intern</text>
+  <text x="36" y="152" font-family="Courier New,monospace" font-size="9.5" fill="#64748b">  JSO AI platform · 500+ users · 85% resume improvement</text>
 
-  <!-- Separator under title bar -->
-  <line x1="524" y1="45" x2="892" y2="45" stroke="#1e3a5f" stroke-width="1" opacity="0.6"/>
+  <text x="36" y="167" font-family="Courier New,monospace" font-size="10" fill="#06b6d4">&#9670;</text>
+  <text x="50" y="167" font-family="Courier New,monospace" font-size="10" fill="#e2e8f0" font-weight="bold">Infosys Springboard</text>
+  <text x="185" y="167" font-family="Courier New,monospace" font-size="9.5" fill="#64748b"> — AI Virtual Intern</text>
+  <text x="36" y="181" font-family="Courier New,monospace" font-size="9.5" fill="#64748b">  LLM Contract Review · FastAPI · RAG · 95% accuracy</text>
 
-  <!-- Code/stats content -->
-  <text x="540" y="72" font-family="'Courier New', Courier, monospace" font-size="11" fill="#475569">$ whoami</text>
-  <text x="540" y="90" font-family="'Courier New', Courier, monospace" font-size="11" fill="#3B82F6" filter="url(#cyanGlow)">→ Kritika Benjwal</text>
+  <text x="36" y="196" font-family="Courier New,monospace" font-size="10" fill="#10b981">&#9670;</text>
+  <text x="50" y="196" font-family="Courier New,monospace" font-size="10" fill="#e2e8f0" font-weight="bold">Edunet Foundation</text>
+  <text x="180" y="196" font-family="Courier New,monospace" font-size="9.5" fill="#64748b"> — AI Intern · Microsoft</text>
+  <text x="36" y="210" font-family="Courier New,monospace" font-size="9.5" fill="#64748b">  Azure AI · Generative AI · NLP · MS Copilot</text>
+  <line x1="18" y1="220" x2="496" y2="220" stroke="#1e3a5f" stroke-width="0.6" opacity="0.6"/>
 
-  <text x="540" y="115" font-family="'Courier New', Courier, monospace" font-size="11" fill="#475569">$ cat achievements.log</text>
-  <text x="540" y="133" font-family="'Courier New', Courier, monospace" font-size="10" fill="#10b981">✓ GSSoC'25 Selected</text>
-  <text x="540" y="149" font-family="'Courier New', Courier, monospace" font-size="10" fill="#10b981">✓ Hacktoberfest Supercontributor</text>
-  <text x="540" y="165" font-family="'Courier New', Courier, monospace" font-size="10" fill="#10b981">✓ Springer Published Author</text>
-  <text x="540" y="181" font-family="'Courier New', Courier, monospace" font-size="10" fill="#10b981">✓ 469+ GitHub Contributions</text>
+  <!-- Tech Stack -->
+  <text x="20" y="237" font-family="Courier New,monospace" font-size="11" fill="#3B82F6">&#9654;</text>
+  <text x="36" y="237" font-family="Courier New,monospace" font-size="12" font-weight="bold" fill="#06b6d4" letter-spacing="1.5" filter="url(#softGlow)">Tech Stack</text>
 
-  <text x="540" y="206" font-family="'Courier New', Courier, monospace" font-size="11" fill="#475569">$ git log --oneline</text>
-  <text x="540" y="224" font-family="'Courier New', Courier, monospace" font-size="10" fill="#a855f7">a4f2c1e</text>
-  <text x="590" y="224" font-family="'Courier New', Courier, monospace" font-size="10" fill="#94a3b8"> Build RAG pipeline</text>
-  <text x="540" y="240" font-family="'Courier New', Courier, monospace" font-size="10" fill="#a855f7">3d8b9f2</text>
-  <text x="590" y="240" font-family="'Courier New', Courier, monospace" font-size="10" fill="#94a3b8"> Integrate LangChain</text>
-  <text x="540" y="256" font-family="'Courier New', Courier, monospace" font-size="10" fill="#a855f7">7c1e4a8</text>
-  <text x="590" y="256" font-family="'Courier New', Courier, monospace" font-size="10" fill="#94a3b8"> Publish research paper</text>
-  <text x="540" y="272" font-family="'Courier New', Courier, monospace" font-size="10" fill="#a855f7">2f9d3b1</text>
-  <text x="590" y="272" font-family="'Courier New', Courier, monospace" font-size="10" fill="#94a3b8"> Open source contrib ++</text>
+  <!-- Row 1: Languages -->
+  <text x="36" y="254" font-family="Courier New,monospace" font-size="9.5" fill="#f59e0b">&#9670;</text>
+  <text x="50" y="254" font-family="Courier New,monospace" font-size="9.5" fill="#cbd5e1"> JavaScript</text>
+  <text x="140" y="254" font-family="Courier New,monospace" font-size="9.5" fill="#3B82F6">&#9670;</text>
+  <text x="154" y="254" font-family="Courier New,monospace" font-size="9.5" fill="#cbd5e1"> TypeScript</text>
+  <text x="248" y="254" font-family="Courier New,monospace" font-size="9.5" fill="#a855f7">&#9670;</text>
+  <text x="262" y="254" font-family="Courier New,monospace" font-size="9.5" fill="#cbd5e1"> Node.js</text>
+  <text x="332" y="254" font-family="Courier New,monospace" font-size="9.5" fill="#10b981">&#9670;</text>
+  <text x="346" y="254" font-family="Courier New,monospace" font-size="9.5" fill="#cbd5e1"> Express.js</text>
 
-  <text x="540" y="297" font-family="'Courier New', Courier, monospace" font-size="11" fill="#475569">$ cat contact.md</text>
-  <text x="540" y="315" font-family="'Courier New', Courier, monospace" font-size="10" fill="#06b6d4">🔗 linkedin/kritika-benjwal</text>
-  <text x="540" y="331" font-family="'Courier New', Courier, monospace" font-size="10" fill="#06b6d4">⚡ leetcode/Kritzzz_11</text>
+  <!-- Row 2: Backend/AI -->
+  <text x="36" y="270" font-family="Courier New,monospace" font-size="9.5" fill="#06b6d4">&#9670;</text>
+  <text x="50" y="270" font-family="Courier New,monospace" font-size="9.5" fill="#cbd5e1"> FastAPI</text>
+  <text x="140" y="270" font-family="Courier New,monospace" font-size="9.5" fill="#f472b6">&#9670;</text>
+  <text x="154" y="270" font-family="Courier New,monospace" font-size="9.5" fill="#cbd5e1"> LangChain</text>
+  <text x="248" y="270" font-family="Courier New,monospace" font-size="9.5" fill="#f59e0b">&#9670;</text>
+  <text x="262" y="270" font-family="Courier New,monospace" font-size="9.5" fill="#cbd5e1"> RAG</text>
+  <text x="332" y="270" font-family="Courier New,monospace" font-size="9.5" fill="#3B82F6">&#9670;</text>
+  <text x="346" y="270" font-family="Courier New,monospace" font-size="9.5" fill="#cbd5e1"> React · Next.js</text>
 
-  <!-- Blinking cursor at bottom -->
-  <text x="540" y="352" font-family="'Courier New', Courier, monospace" font-size="11" fill="#475569">$ <tspan fill="#3B82F6" filter="url(#blueGlow)">■</tspan></text>
-  <rect x="554" y="339" width="8" height="14" fill="#3B82F6" opacity="0.8">
-    <animate attributeName="opacity" values="0.8;0;0.8" dur="1s" repeatCount="indefinite"/>
+  <!-- Row 3: Databases -->
+  <text x="36" y="286" font-family="Courier New,monospace" font-size="9.5" fill="#10b981">&#9670;</text>
+  <text x="50" y="286" font-family="Courier New,monospace" font-size="9.5" fill="#cbd5e1"> MongoDB</text>
+  <text x="140" y="286" font-family="Courier New,monospace" font-size="9.5" fill="#a855f7">&#9670;</text>
+  <text x="154" y="286" font-family="Courier New,monospace" font-size="9.5" fill="#cbd5e1"> PostgreSQL</text>
+  <text x="248" y="286" font-family="Courier New,monospace" font-size="9.5" fill="#06b6d4">&#9670;</text>
+  <text x="262" y="286" font-family="Courier New,monospace" font-size="9.5" fill="#cbd5e1"> MySQL</text>
+  <text x="332" y="286" font-family="Courier New,monospace" font-size="9.5" fill="#f472b6">&#9670;</text>
+  <text x="346" y="286" font-family="Courier New,monospace" font-size="9.5" fill="#cbd5e1"> ConvexDB</text>
+
+  <!-- Row 4: Tools -->
+  <text x="36" y="302" font-family="Courier New,monospace" font-size="9.5" fill="#f59e0b">&#9670;</text>
+  <text x="50" y="302" font-family="Courier New,monospace" font-size="9.5" fill="#cbd5e1"> Prisma</text>
+  <text x="140" y="302" font-family="Courier New,monospace" font-size="9.5" fill="#3B82F6">&#9670;</text>
+  <text x="154" y="302" font-family="Courier New,monospace" font-size="9.5" fill="#cbd5e1"> Docker</text>
+  <text x="248" y="302" font-family="Courier New,monospace" font-size="9.5" fill="#10b981">&#9670;</text>
+  <text x="262" y="302" font-family="Courier New,monospace" font-size="9.5" fill="#cbd5e1"> Vercel</text>
+  <text x="332" y="302" font-family="Courier New,monospace" font-size="9.5" fill="#a855f7">&#9670;</text>
+  <text x="346" y="302" font-family="Courier New,monospace" font-size="9.5" fill="#cbd5e1"> Render</text>
+
+  <line x1="18" y1="313" x2="496" y2="313" stroke="#1e3a5f" stroke-width="0.6" opacity="0.6"/>
+
+  <!-- Mission -->
+  <text x="20" y="330" font-family="Courier New,monospace" font-size="11" fill="#3B82F6">&#9654;</text>
+  <text x="36" y="330" font-family="Courier New,monospace" font-size="12" font-weight="bold" fill="#06b6d4" letter-spacing="1.5" filter="url(#softGlow)">Mission</text>
+  <text x="36" y="347" font-family="Courier New,monospace" font-size="10" fill="#94a3b8">  Building intelligent full-stack systems at the</text>
+  <text x="36" y="362" font-family="Courier New,monospace" font-size="10" fill="#94a3b8">  intersection of AI, blockchain &amp; open source.</text>
+  <line x1="18" y1="373" x2="496" y2="373" stroke="#1e3a5f" stroke-width="0.6" opacity="0.6"/>
+
+  <!-- Research -->
+  <text x="20" y="390" font-family="Courier New,monospace" font-size="11" fill="#3B82F6">&#9654;</text>
+  <text x="36" y="390" font-family="Courier New,monospace" font-size="12" font-weight="bold" fill="#06b6d4" letter-spacing="1.5" filter="url(#softGlow)">Research</text>
+  <text x="36" y="407" font-family="Courier New,monospace" font-size="9.5" fill="#94a3b8">  Blockchain in Public Distribution System</text>
+  <text x="36" y="421" font-family="Courier New,monospace" font-size="9.5" fill="#64748b">  ICT4SD 2025 · <tspan fill="#a855f7">Springer</tspan> · Paper ID: 293</text>
+  <line x1="18" y1="432" x2="496" y2="432" stroke="#1e3a5f" stroke-width="0.6" opacity="0.6"/>
+
+  <!-- STATUS -->
+  <circle cx="30" cy="455" r="5" fill="#3B82F6">
+    <animate attributeName="opacity" values="1;0.2;1" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <text x="46" y="460" font-family="Courier New,monospace" font-size="12" font-weight="bold" fill="#cbd5e1" letter-spacing="2">STATUS: <tspan fill="#3B82F6" filter="url(#blueGlow)">BUILDING</tspan><tspan fill="#06b6d4">_</tspan></text>
+  <rect x="168" y="447" width="7" height="13" fill="#06b6d4">
+    <animate attributeName="opacity" values="1;0;1" dur="0.9s" repeatCount="indefinite"/>
   </rect>
 
-  <!-- Decorative dots pattern (right side visual) -->
-  <!-- Row of glowing dots matrix -->
-  <g opacity="0.15">
-    <rect x="530" y="55" width="2" height="2" fill="#3B82F6" rx="1"/>
-    <rect x="540" y="55" width="2" height="2" fill="#3B82F6" rx="1"/>
-    <rect x="870" y="55" width="2" height="2" fill="#a855f7" rx="1"/>
-    <rect x="880" y="55" width="2" height="2" fill="#a855f7" rx="1"/>
-    <rect x="870" y="355" width="2" height="2" fill="#06b6d4" rx="1"/>
-    <rect x="880" y="355" width="2" height="2" fill="#06b6d4" rx="1"/>
-  </g>
+  <!-- RIGHT PANEL -->
+  <rect x="510" y="3" width="387" height="44" fill="rgba(15,23,42,0.7)" clip-path="url(#cardClip)"/>
+  <circle cx="534" cy="25" r="5" fill="#ff5f57"/>
+  <circle cx="552" cy="25" r="5" fill="#febc2e"/>
+  <circle cx="570" cy="25" r="5" fill="#28c840"/>
+  <text x="596" y="30" font-family="Courier New,monospace" font-size="10" fill="#334155" letter-spacing="1.5">kritika@github ~ $</text>
+  <line x1="514" y1="44" x2="893" y2="44" stroke="#1e3a5f" stroke-width="0.8" opacity="0.8"/>
 
-  <!-- Top decoration dots -->
-  <circle cx="850" cy="22" r="2" fill="#3B82F6" opacity="0.5"/>
-  <circle cx="862" cy="22" r="2" fill="#a855f7" opacity="0.5"/>
-  <circle cx="874" cy="22" r="2" fill="#06b6d4" opacity="0.5"/>
-  <circle cx="886" cy="22" r="2" fill="#3B82F6" opacity="0.5"/>
+  <text x="524" y="64" font-family="Courier New,monospace" font-size="10" fill="#334155">$ whoami</text>
+  <text x="524" y="79" font-family="Courier New,monospace" font-size="10.5" fill="#3B82F6" filter="url(#softGlow)" font-weight="bold">&#8594; Kritika Benjwal</text>
+  <text x="524" y="93" font-family="Courier New,monospace" font-size="9.5" fill="#64748b">   kritikabenjwal · MUJ '27 · CSE</text>
 
-  <!-- Animated ping top right -->
-  <circle cx="880" cy="22" r="6" fill="none" stroke="#3B82F6" stroke-width="1" opacity="0.4">
-    <animate attributeName="r" values="4;12;4" dur="3s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0.4;0;0.4" dur="3s" repeatCount="indefinite"/>
+  <text x="524" y="114" font-family="Courier New,monospace" font-size="10" fill="#334155">$ cat achievements.log</text>
+  <text x="524" y="130" font-family="Courier New,monospace" font-size="9.5" fill="#10b981">&#10003; India AI Buildathon — Top 2% of 40,000+</text>
+  <text x="524" y="145" font-family="Courier New,monospace" font-size="9.5" fill="#10b981">&#10003; Hacktoberfest Supercontributor (6+ PRs)</text>
+  <text x="524" y="160" font-family="Courier New,monospace" font-size="9.5" fill="#10b981">&#10003; GSSoC'25 Selected Contributor</text>
+  <text x="524" y="175" font-family="Courier New,monospace" font-size="9.5" fill="#10b981">&#10003; Springer Published Researcher</text>
+  <text x="524" y="190" font-family="Courier New,monospace" font-size="9.5" fill="#10b981">&#10003; 469+ GitHub Contributions</text>
+
+  <text x="524" y="212" font-family="Courier New,monospace" font-size="10" fill="#334155">$ ls projects/</text>
+  <text x="524" y="228" font-family="Courier New,monospace" font-size="9.5" fill="#a855f7">&#9658; FlowForge</text>
+  <text x="604" y="228" font-family="Courier New,monospace" font-size="9" fill="#64748b">  Jira-like · 1000+ tasks · 50+ users</text>
+  <text x="524" y="243" font-family="Courier New,monospace" font-size="9.5" fill="#a855f7">&#9658; RayWise</text>
+  <text x="600" y="243" font-family="Courier New,monospace" font-size="9" fill="#64748b">   AI Solar · 92% accuracy · $50K+ ROI</text>
+  <text x="524" y="258" font-family="Courier New,monospace" font-size="9.5" fill="#a855f7">&#9658; CodeWave</text>
+  <text x="608" y="258" font-family="Courier New,monospace" font-size="9" fill="#64748b">  Multi-lang editor · 6 langs · 10+ themes</text>
+  <text x="524" y="273" font-family="Courier New,monospace" font-size="9.5" fill="#a855f7">&#9658; DonorConnect</text>
+  <text x="624" y="273" font-family="Courier New,monospace" font-size="9" fill="#64748b"> $100K+ donations · 99.9% uptime</text>
+
+  <text x="524" y="294" font-family="Courier New,monospace" font-size="10" fill="#334155">$ git log --oneline --recent</text>
+  <text x="524" y="309" font-family="Courier New,monospace" font-size="9.5" fill="#f59e0b">3f8a1c2</text>
+  <text x="572" y="309" font-family="Courier New,monospace" font-size="9.5" fill="#94a3b8"> RAG pipeline + LangChain chatbot</text>
+  <text x="524" y="323" font-family="Courier New,monospace" font-size="9.5" fill="#f59e0b">9b2e7d4</text>
+  <text x="572" y="323" font-family="Courier New,monospace" font-size="9.5" fill="#94a3b8"> FastAPI + NeonDB integration</text>
+  <text x="524" y="337" font-family="Courier New,monospace" font-size="9.5" fill="#f59e0b">1c4f9a8</text>
+  <text x="572" y="337" font-family="Courier New,monospace" font-size="9.5" fill="#94a3b8"> Springer paper accepted</text>
+  <text x="524" y="351" font-family="Courier New,monospace" font-size="9.5" fill="#f59e0b">6d3b2f1</text>
+  <text x="572" y="351" font-family="Courier New,monospace" font-size="9.5" fill="#94a3b8"> Top 2% India AI Buildathon</text>
+
+  <text x="524" y="372" font-family="Courier New,monospace" font-size="10" fill="#334155">$ cat contact.md</text>
+  <text x="524" y="388" font-family="Courier New,monospace" font-size="9.5" fill="#06b6d4">&#128279; linkedin/kritika-benjwal</text>
+  <text x="524" y="403" font-family="Courier New,monospace" font-size="9.5" fill="#06b6d4">&#9889; leetcode/Kritzzz_11</text>
+  <text x="524" y="418" font-family="Courier New,monospace" font-size="9.5" fill="#06b6d4">&#128202; kaggle/kritikabenjwal</text>
+  <text x="524" y="433" font-family="Courier New,monospace" font-size="9.5" fill="#06b6d4">&#9993; ananya.benjwal@gmail.com</text>
+
+  <text x="524" y="454" font-family="Courier New,monospace" font-size="10" fill="#334155">$ </text>
+  <rect x="538" y="441" width="7" height="13" fill="#3B82F6">
+    <animate attributeName="opacity" values="1;0;1" dur="0.95s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Decorative pings -->
+  <circle cx="876" cy="22" r="4" fill="#3B82F6" opacity="0.6"/>
+  <circle cx="876" cy="22" r="4" fill="none" stroke="#3B82F6" stroke-width="1">
+    <animate attributeName="r" values="4;14;4" dur="3s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.6;0;0.6" dur="3s" repeatCount="indefinite"/>
   </circle>
-
+  <circle cx="860" cy="22" r="3" fill="#a855f7" opacity="0.5"/>
+  <circle cx="846" cy="22" r="3" fill="#06b6d4" opacity="0.4"/>
 </svg>
