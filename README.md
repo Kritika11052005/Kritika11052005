@@ -232,7 +232,7 @@
 
 <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="900">
 
-### 🚀 Major Achievements
+### 🚀 Other Achievements
 
 <table border="2" bordercolor="#f59e0b">
   <tr>
@@ -258,15 +258,6 @@
       <b>Open Source Contributor</b>
       <br>
       <sub>GirlScript Summer of Code 2025</sub>
-    </td>
-    <td align="center" width="280" style="padding: 24px;">
-      <img src="https://img.shields.io/badge/🏅-HACKTOBERFEST-FF6B6B?style=for-the-badge&labelColor=8B0000" width="200">
-      <br><br>
-      <img src="https://img.shields.io/badge/Supercontributor-FF4500?style=flat-square&labelColor=8B0000" />
-      <br><br>
-      <b>6+ Merged Pull Requests</b>
-      <br>
-      <sub>DigitalOcean × MLH recognised</sub>
     </td>
   </tr>
 </table>
