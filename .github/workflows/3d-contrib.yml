@@ -20,6 +20,13 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: Kritika11052005
+          SETTING_JSON: |
+            {
+              "githubUserName": "Kritika11052005",
+              "type": "gitblock",
+              "backgroundColor": "#0D1117",
+              "foregroundColor": "#FFFFFF"
+            }
 
       - name: Commit & Push
         run: |
