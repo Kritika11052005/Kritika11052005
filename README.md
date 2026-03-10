@@ -184,15 +184,15 @@
 
 <br>
 
-### 🧊 3D Contribution Calendar
+### 🧊 3D Isometric Contribution Calendar
 
 <a href="https://github.com/Kritika11052005">
-  <img src="https://skyline.github.com/Kritika11052005/2024.png" alt="GitHub Skyline 3D" width="100%" />
+  <img src="https://raw.githubusercontent.com/Kritika11052005/Kritika11052005/main/profile-3d-contrib/profile-gitblock.svg" alt="3D Isometric Contributions" width="100%" />
 </a>
 
-> 🌐 **[View Interactive 3D Skyline →](https://skyline.github.com/Kritika11052005/2024)**  &nbsp;|&nbsp;  **[2025 Edition →](https://skyline.github.com/Kritika11052005/2025)**
-
 <br>
+
+### 🐍 Contribution Snake
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Kritika11052005/Kritika11052005/output/github-contribution-grid-snake-dark.svg" />
