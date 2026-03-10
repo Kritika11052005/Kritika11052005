@@ -205,9 +205,9 @@
   <text x="524" y="397" font-family="Courier New,monospace" font-size="9.5" fill="#06b6d4">&#9993; ananya.benjwal@gmail.com</text>
 
   <!-- currently learning / fun fact -->
-  <text x="524" y="420" font-family="Courier New,monospace" font-size="10" fill="#334155">$ cat fun_fact.txt</text>
-  <text x="524" y="437" font-family="Courier New,monospace" font-size="9.5" fill="#a855f7">  I juggle 3 internships + research</text>
-  <text x="524" y="452" font-family="Courier New,monospace" font-size="9.5" fill="#a855f7">  + open source simultaneously &#9889;</text>
+  <text x="524" y="420" font-family="Courier New,monospace" font-size="10" fill="#334155">$ cat currently_learning.txt</text>
+  <text x="524" y="437" font-family="Courier New,monospace" font-size="9.5" fill="#a855f7">  ML · NLP · DL · CV · Agents · MCP</text>
+  <text x="524" y="452" font-family="Courier New,monospace" font-size="9.5" fill="#a855f7">  System Design · Automation 🌱</text>
 
   <!-- Blinking cursor -->
   <text x="524" y="470" font-family="Courier New,monospace" font-size="10" fill="#334155">$ </text>
