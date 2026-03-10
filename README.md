@@ -161,15 +161,7 @@
 
 </div>
 
----
 
-## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="35"> GitHub Trophies
-
-<div align="center">
-
-<img src="https://github-trophies.vercel.app/?username=Kritika11052005&theme=radical&no-frame=true&margin-w=6&column=8" alt="GitHub Trophies" />
-
-</div>
 
 ---
 
