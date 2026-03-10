@@ -1,0 +1,248 @@
+<svg width="900" height="380" viewBox="0 0 900 380" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Background gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0f1e;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#0d1117;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0a0f1e;stop-opacity:1" />
+    </linearGradient>
+
+    <!-- Blue glow border gradient -->
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3B82F6;stop-opacity:1" />
+      <stop offset="30%" style="stop-color:#06b6d4;stop-opacity:1" />
+      <stop offset="70%" style="stop-color:#a855f7;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#3B82F6;stop-opacity:1" />
+    </linearGradient>
+
+    <!-- Inner border gradient -->
+    <linearGradient id="innerBorderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e3a5f;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#1a1a3e;stop-opacity:0.8" />
+    </linearGradient>
+
+    <!-- Scanline pattern -->
+    <pattern id="scanlines" x="0" y="0" width="900" height="3" patternUnits="userSpaceOnUse">
+      <rect width="900" height="1" fill="rgba(59,130,246,0.03)" />
+      <rect y="1" width="900" height="2" fill="transparent" />
+    </pattern>
+
+    <!-- Grid pattern -->
+    <pattern id="grid" x="0" y="0" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="rgba(59,130,246,0.04)" stroke-width="0.5"/>
+    </pattern>
+
+    <!-- Glow filter for text -->
+    <filter id="blueGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Glow filter for border -->
+    <filter id="borderGlow" x="-5%" y="-5%" width="110%" height="110%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Clip path -->
+    <clipPath id="cardClip">
+      <rect x="4" y="4" width="892" height="372" rx="12"/>
+    </clipPath>
+
+    <!-- Cyan glow -->
+    <filter id="cyanGlow">
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Right panel gradient -->
+    <linearGradient id="rightPanel" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f172a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1e1b4b;stop-opacity:1" />
+    </linearGradient>
+
+  </defs>
+
+  <!-- Outer glow border -->
+  <rect x="1" y="1" width="898" height="378" rx="14" fill="none" stroke="url(#borderGrad)" stroke-width="2" filter="url(#borderGlow)" opacity="0.9"/>
+
+  <!-- Main card background -->
+  <rect x="4" y="4" width="892" height="372" rx="12" fill="url(#bgGrad)"/>
+
+  <!-- Grid overlay -->
+  <rect x="4" y="4" width="892" height="372" rx="12" fill="url(#grid)" clip-path="url(#cardClip)"/>
+
+  <!-- Right panel background -->
+  <rect x="520" y="4" width="376" height="372" rx="0" fill="url(#rightPanel)" opacity="0.6" clip-path="url(#cardClip)"/>
+
+  <!-- Divider line -->
+  <line x1="520" y1="20" x2="520" y2="360" stroke="url(#borderGrad)" stroke-width="1" opacity="0.5"/>
+
+  <!-- Scanlines overlay -->
+  <rect x="4" y="4" width="892" height="372" rx="12" fill="url(#scanlines)" clip-path="url(#cardClip)"/>
+
+  <!-- Corner accents top-left -->
+  <line x1="4" y1="30" x2="4" y2="4" stroke="#3B82F6" stroke-width="2"/>
+  <line x1="4" y1="4" x2="34" y2="4" stroke="#3B82F6" stroke-width="2"/>
+  <!-- Corner accents top-right -->
+  <line x1="896" y1="30" x2="896" y2="4" stroke="#a855f7" stroke-width="2"/>
+  <line x1="896" y1="4" x2="866" y2="4" stroke="#a855f7" stroke-width="2"/>
+  <!-- Corner accents bottom-left -->
+  <line x1="4" y1="350" x2="4" y2="376" stroke="#06b6d4" stroke-width="2"/>
+  <line x1="4" y1="376" x2="34" y2="376" stroke="#06b6d4" stroke-width="2"/>
+  <!-- Corner accents bottom-right -->
+  <line x1="896" y1="350" x2="896" y2="376" stroke="#3B82F6" stroke-width="2"/>
+  <line x1="896" y1="376" x2="866" y2="376" stroke="#3B82F6" stroke-width="2"/>
+
+  <!-- ═══════════ LEFT PANEL CONTENT ═══════════ -->
+
+  <!-- PROFILE: ACTIVE line -->
+  <circle cx="38" cy="46" r="5" fill="#10b981">
+    <animate attributeName="opacity" values="1;0.3;1" dur="1.5s" repeatCount="indefinite"/>
+  </circle>
+  <text x="52" y="51" font-family="'Courier New', Courier, monospace" font-size="13" font-weight="bold" fill="#e2e8f0" letter-spacing="2">
+    PROFILE: <tspan fill="#10b981" filter="url(#blueGlow)">ACTIVE</tspan>
+  </text>
+
+  <!-- Separator line -->
+  <line x1="28" y1="62" x2="500" y2="62" stroke="#1e3a5f" stroke-width="1" opacity="0.8"/>
+
+  <!-- ▶ Education -->
+  <text x="28" y="88" font-family="'Courier New', Courier, monospace" font-size="12" fill="#3B82F6" filter="url(#cyanGlow)">▶</text>
+  <text x="46" y="88" font-family="'Courier New', Courier, monospace" font-size="13" font-weight="bold" fill="#06b6d4" letter-spacing="1" filter="url(#cyanGlow)">Education</text>
+  <text x="46" y="108" font-family="'Courier New', Courier, monospace" font-size="12" fill="#94a3b8" letter-spacing="0.5">  CSE @ Manipal University Jaipur</text>
+
+  <!-- Separator -->
+  <line x1="28" y1="120" x2="500" y2="120" stroke="#1e3a5f" stroke-width="1" opacity="0.5"/>
+
+  <!-- ▶ Tech Stack -->
+  <text x="28" y="142" font-family="'Courier New', Courier, monospace" font-size="12" fill="#3B82F6" filter="url(#cyanGlow)">▶</text>
+  <text x="46" y="142" font-family="'Courier New', Courier, monospace" font-size="13" font-weight="bold" fill="#06b6d4" letter-spacing="1" filter="url(#cyanGlow)">Tech Stack</text>
+
+  <!-- Row 1 -->
+  <text x="46" y="163" font-family="'Courier New', Courier, monospace" font-size="11" fill="#f59e0b">◆</text>
+  <text x="62" y="163" font-family="'Courier New', Courier, monospace" font-size="11" fill="#e2e8f0"> TypeScript</text>
+  <text x="162" y="163" font-family="'Courier New', Courier, monospace" font-size="11" fill="#3B82F6">◆</text>
+  <text x="178" y="163" font-family="'Courier New', Courier, monospace" font-size="11" fill="#e2e8f0"> Python</text>
+  <text x="258" y="163" font-family="'Courier New', Courier, monospace" font-size="11" fill="#a855f7">◆</text>
+  <text x="274" y="163" font-family="'Courier New', Courier, monospace" font-size="11" fill="#e2e8f0"> React / Next.js</text>
+
+  <!-- Row 2 -->
+  <text x="46" y="182" font-family="'Courier New', Courier, monospace" font-size="11" fill="#10b981">◆</text>
+  <text x="62" y="182" font-family="'Courier New', Courier, monospace" font-size="11" fill="#e2e8f0"> Node.js</text>
+  <text x="162" y="182" font-family="'Courier New', Courier, monospace" font-size="11" fill="#f472b6">◆</text>
+  <text x="178" y="182" font-family="'Courier New', Courier, monospace" font-size="11" fill="#e2e8f0"> FastAPI</text>
+  <text x="258" y="182" font-family="'Courier New', Courier, monospace" font-size="11" fill="#f59e0b">◆</text>
+  <text x="274" y="182" font-family="'Courier New', Courier, monospace" font-size="11" fill="#e2e8f0"> MongoDB</text>
+
+  <!-- Row 3 -->
+  <text x="46" y="201" font-family="'Courier New', Courier, monospace" font-size="11" fill="#06b6d4">◆</text>
+  <text x="62" y="201" font-family="'Courier New', Courier, monospace" font-size="11" fill="#e2e8f0"> LangChain</text>
+  <text x="162" y="201" font-family="'Courier New', Courier, monospace" font-size="11" fill="#a855f7">◆</text>
+  <text x="178" y="201" font-family="'Courier New', Courier, monospace" font-size="11" fill="#e2e8f0"> RAG</text>
+  <text x="258" y="201" font-family="'Courier New', Courier, monospace" font-size="11" fill="#3B82F6">◆</text>
+  <text x="274" y="201" font-family="'Courier New', Courier, monospace" font-size="11" fill="#e2e8f0"> Blockchain</text>
+
+  <!-- Separator -->
+  <line x1="28" y1="214" x2="500" y2="214" stroke="#1e3a5f" stroke-width="1" opacity="0.5"/>
+
+  <!-- ▶ Research -->
+  <text x="28" y="234" font-family="'Courier New', Courier, monospace" font-size="12" fill="#3B82F6" filter="url(#cyanGlow)">▶</text>
+  <text x="46" y="234" font-family="'Courier New', Courier, monospace" font-size="13" font-weight="bold" fill="#06b6d4" letter-spacing="1" filter="url(#cyanGlow)">Research</text>
+  <text x="46" y="254" font-family="'Courier New', Courier, monospace" font-size="11" fill="#94a3b8">  Published @ ICT4SD 2025 — Springer</text>
+
+  <!-- Separator -->
+  <line x1="28" y1="266" x2="500" y2="266" stroke="#1e3a5f" stroke-width="1" opacity="0.5"/>
+
+  <!-- ▶ Mission -->
+  <text x="28" y="286" font-family="'Courier New', Courier, monospace" font-size="12" fill="#3B82F6" filter="url(#cyanGlow)">▶</text>
+  <text x="46" y="286" font-family="'Courier New', Courier, monospace" font-size="13" font-weight="bold" fill="#06b6d4" letter-spacing="1" filter="url(#cyanGlow)">Mission</text>
+  <text x="46" y="306" font-family="'Courier New', Courier, monospace" font-size="11" fill="#94a3b8">  Full Stack + AI/ML + Open Source</text>
+
+  <!-- Separator -->
+  <line x1="28" y1="318" x2="500" y2="318" stroke="#1e3a5f" stroke-width="1" opacity="0.5"/>
+
+  <!-- STATUS: BUILDING_ with blinking cursor -->
+  <circle cx="38" cy="342" r="5" fill="#3B82F6">
+    <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <text x="52" y="347" font-family="'Courier New', Courier, monospace" font-size="13" font-weight="bold" fill="#e2e8f0" letter-spacing="2">
+    STATUS: <tspan fill="#3B82F6" filter="url(#blueGlow)">BUILDING</tspan><tspan fill="#06b6d4" filter="url(#blueGlow)">_</tspan>
+  </text>
+
+  <!-- ═══════════ RIGHT PANEL CONTENT ═══════════ -->
+
+  <!-- Title bar dots -->
+  <circle cx="548" cy="30" r="5" fill="#ff5f57" opacity="0.9"/>
+  <circle cx="568" cy="30" r="5" fill="#febc2e" opacity="0.9"/>
+  <circle cx="588" cy="30" r="5" fill="#28c840" opacity="0.9"/>
+
+  <!-- Right panel title -->
+  <text x="620" y="35" font-family="'Courier New', Courier, monospace" font-size="11" fill="#475569" letter-spacing="2">kritika@github ~ $</text>
+
+  <!-- Separator under title bar -->
+  <line x1="524" y1="45" x2="892" y2="45" stroke="#1e3a5f" stroke-width="1" opacity="0.6"/>
+
+  <!-- Code/stats content -->
+  <text x="540" y="72" font-family="'Courier New', Courier, monospace" font-size="11" fill="#475569">$ whoami</text>
+  <text x="540" y="90" font-family="'Courier New', Courier, monospace" font-size="11" fill="#3B82F6" filter="url(#cyanGlow)">→ Kritika Benjwal</text>
+
+  <text x="540" y="115" font-family="'Courier New', Courier, monospace" font-size="11" fill="#475569">$ cat achievements.log</text>
+  <text x="540" y="133" font-family="'Courier New', Courier, monospace" font-size="10" fill="#10b981">✓ GSSoC'25 Selected</text>
+  <text x="540" y="149" font-family="'Courier New', Courier, monospace" font-size="10" fill="#10b981">✓ Hacktoberfest Supercontributor</text>
+  <text x="540" y="165" font-family="'Courier New', Courier, monospace" font-size="10" fill="#10b981">✓ Springer Published Author</text>
+  <text x="540" y="181" font-family="'Courier New', Courier, monospace" font-size="10" fill="#10b981">✓ 469+ GitHub Contributions</text>
+
+  <text x="540" y="206" font-family="'Courier New', Courier, monospace" font-size="11" fill="#475569">$ git log --oneline</text>
+  <text x="540" y="224" font-family="'Courier New', Courier, monospace" font-size="10" fill="#a855f7">a4f2c1e</text>
+  <text x="590" y="224" font-family="'Courier New', Courier, monospace" font-size="10" fill="#94a3b8"> Build RAG pipeline</text>
+  <text x="540" y="240" font-family="'Courier New', Courier, monospace" font-size="10" fill="#a855f7">3d8b9f2</text>
+  <text x="590" y="240" font-family="'Courier New', Courier, monospace" font-size="10" fill="#94a3b8"> Integrate LangChain</text>
+  <text x="540" y="256" font-family="'Courier New', Courier, monospace" font-size="10" fill="#a855f7">7c1e4a8</text>
+  <text x="590" y="256" font-family="'Courier New', Courier, monospace" font-size="10" fill="#94a3b8"> Publish research paper</text>
+  <text x="540" y="272" font-family="'Courier New', Courier, monospace" font-size="10" fill="#a855f7">2f9d3b1</text>
+  <text x="590" y="272" font-family="'Courier New', Courier, monospace" font-size="10" fill="#94a3b8"> Open source contrib ++</text>
+
+  <text x="540" y="297" font-family="'Courier New', Courier, monospace" font-size="11" fill="#475569">$ cat contact.md</text>
+  <text x="540" y="315" font-family="'Courier New', Courier, monospace" font-size="10" fill="#06b6d4">🔗 linkedin/kritika-benjwal</text>
+  <text x="540" y="331" font-family="'Courier New', Courier, monospace" font-size="10" fill="#06b6d4">⚡ leetcode/Kritzzz_11</text>
+
+  <!-- Blinking cursor at bottom -->
+  <text x="540" y="352" font-family="'Courier New', Courier, monospace" font-size="11" fill="#475569">$ <tspan fill="#3B82F6" filter="url(#blueGlow)">■</tspan></text>
+  <rect x="554" y="339" width="8" height="14" fill="#3B82F6" opacity="0.8">
+    <animate attributeName="opacity" values="0.8;0;0.8" dur="1s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Decorative dots pattern (right side visual) -->
+  <!-- Row of glowing dots matrix -->
+  <g opacity="0.15">
+    <rect x="530" y="55" width="2" height="2" fill="#3B82F6" rx="1"/>
+    <rect x="540" y="55" width="2" height="2" fill="#3B82F6" rx="1"/>
+    <rect x="870" y="55" width="2" height="2" fill="#a855f7" rx="1"/>
+    <rect x="880" y="55" width="2" height="2" fill="#a855f7" rx="1"/>
+    <rect x="870" y="355" width="2" height="2" fill="#06b6d4" rx="1"/>
+    <rect x="880" y="355" width="2" height="2" fill="#06b6d4" rx="1"/>
+  </g>
+
+  <!-- Top decoration dots -->
+  <circle cx="850" cy="22" r="2" fill="#3B82F6" opacity="0.5"/>
+  <circle cx="862" cy="22" r="2" fill="#a855f7" opacity="0.5"/>
+  <circle cx="874" cy="22" r="2" fill="#06b6d4" opacity="0.5"/>
+  <circle cx="886" cy="22" r="2" fill="#3B82F6" opacity="0.5"/>
+
+  <!-- Animated ping top right -->
+  <circle cx="880" cy="22" r="6" fill="none" stroke="#3B82F6" stroke-width="1" opacity="0.4">
+    <animate attributeName="r" values="4;12;4" dur="3s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.4;0;0.4" dur="3s" repeatCount="indefinite"/>
+  </circle>
+
+</svg>
