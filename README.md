@@ -187,7 +187,7 @@
 ### 🧊 3D Isometric Contribution Calendar
 
 <a href="https://github.com/Kritika11052005">
-  <img src="https://raw.githubusercontent.com/Kritika11052005/Kritika11052005/main/profile-3d-contrib/profile-gitblock.svg" alt="3D Isometric Contributions" width="100%" />
+  <img src="https://raw.githubusercontent.com/Kritika11052005/Kritika11052005/main/profile-3d-contrib/profile-night-view.svg" alt="3D Isometric Contributions" width="100%" />
 </a>
 
 <br>
