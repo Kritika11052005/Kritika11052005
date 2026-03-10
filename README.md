@@ -11,11 +11,11 @@
     <img src="https://komarev.com/ghpvc/?username=Kritika11052005&label=Profile+Views&color=3B82F6&labelColor=0d1117&style=for-the-badge&logo=eye&logoColor=white" alt="Profile Views" />
   </a>
   &nbsp;
-  <img src="https://img.shields.io/badge/Open%20to%20Opportunities-3B82F6?style=for-the-badge&logo=checkmarx&logoColor=white&labelColor=0d1117" />
+  <img src="https://img.shields.io/badge/Open%20to%20Opportunities-10b981?style=for-the-badge&logo=checkmarx&logoColor=white&labelColor=064e3b" />
   &nbsp;
-  <img src="https://img.shields.io/badge/GSSoC'25%20Selected-3B82F6?style=for-the-badge&logo=opensourceinitiative&logoColor=white&labelColor=0d1117" />
+  <img src="https://img.shields.io/badge/GSSoC'25%20Selected-f59e0b?style=for-the-badge&logo=opensourceinitiative&logoColor=white&labelColor=451a03" />
   &nbsp;
-  <img src="https://img.shields.io/badge/Springer%20Published-3B82F6?style=for-the-badge&logo=bookstack&logoColor=white&labelColor=0d1117" />
+  <img src="https://img.shields.io/badge/Springer%20Published-a855f7?style=for-the-badge&logo=bookstack&logoColor=white&labelColor=3b0764" />
 </div>
 
 <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
@@ -73,68 +73,59 @@
 
 <table align="center" border="0" cellpadding="18">
   <tr>
-    <td width="160">
-      <img src="https://media.giphy.com/media/SWoSkN6DxTszqIKEqv/giphy.gif" width="26" />
-      <img src="https://img.shields.io/badge/Languages-3B82F6?style=flat-square&labelColor=1E3A5F" />
+    <td width="200" align="left">
+      <img src="https://media.giphy.com/media/SWoSkN6DxTszqIKEqv/giphy.gif" width="22" />&nbsp;<img src="https://img.shields.io/badge/Languages-3B82F6?style=flat-square&labelColor=1a1a2e" />
     </td>
     <td align="left">
       <img src="https://skillicons.dev/icons?i=c,cpp,java,python,ts,js&theme=dark" />
-      &nbsp;
-      <img src="https://img.shields.io/badge/SQL-3B82F6?style=flat-square&logo=postgresql&logoColor=white&labelColor=1E3A5F" height="25" />
+      &nbsp;<img src="https://img.shields.io/badge/SQL-3B82F6?style=flat-square&logo=postgresql&logoColor=white&labelColor=1a1a2e" height="25" />
     </td>
   </tr>
   <tr>
-    <td>
-      <img src="https://media.giphy.com/media/eNAsjO55tPbgaor7ma/giphy.gif" width="26" />
-      <img src="https://img.shields.io/badge/Frontend-3B82F6?style=flat-square&labelColor=1E3A5F" />
+    <td align="left">
+      <img src="https://media.giphy.com/media/eNAsjO55tPbgaor7ma/giphy.gif" width="22" />&nbsp;<img src="https://img.shields.io/badge/Frontend-06b6d4?style=flat-square&labelColor=0e4a5a" />
     </td>
     <td align="left">
       <img src="https://skillicons.dev/icons?i=react,nextjs,html,css,tailwind&theme=dark" />
     </td>
   </tr>
   <tr>
-    <td>
-      <img src="https://media.giphy.com/media/LMcB8XospGZO8UQq87/giphy.gif" width="26" />
-      <img src="https://img.shields.io/badge/Backend%20%26%20APIs-3B82F6?style=flat-square&labelColor=1E3A5F" />
+    <td align="left">
+      <img src="https://media.giphy.com/media/LMcB8XospGZO8UQq87/giphy.gif" width="22" />&nbsp;<img src="https://img.shields.io/badge/Backend%20%26%20APIs-10b981?style=flat-square&labelColor=064e3b" />
     </td>
     <td align="left">
       <img src="https://skillicons.dev/icons?i=nodejs,express&theme=dark" />
-      &nbsp;
-      <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white&labelColor=1E3A5F" height="25" />
-      <img src="https://img.shields.io/badge/Convex-FF6F00?style=flat-square&logo=convex&logoColor=white&labelColor=1E3A5F" height="25" />
+      &nbsp;<img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white&labelColor=064e3b" height="25" />
+      <img src="https://img.shields.io/badge/Convex-FF6F00?style=flat-square&logo=convex&logoColor=white&labelColor=064e3b" height="25" />
     </td>
   </tr>
   <tr>
-    <td>
-      <img src="https://media.giphy.com/media/fsEaZR08421Tq9bDlw/giphy.gif" width="26" />
-      <img src="https://img.shields.io/badge/Databases-3B82F6?style=flat-square&labelColor=1E3A5F" />
+    <td align="left">
+      <img src="https://media.giphy.com/media/fsEaZR08421Tq9bDlw/giphy.gif" width="22" />&nbsp;<img src="https://img.shields.io/badge/Databases-f59e0b?style=flat-square&labelColor=451a03" />
     </td>
     <td align="left">
       <img src="https://skillicons.dev/icons?i=mongodb,mysql,firebase&theme=dark" />
-      &nbsp;
-      <img src="https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white&labelColor=1E3A5F" height="25" />
+      &nbsp;<img src="https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white&labelColor=451a03" height="25" />
     </td>
   </tr>
   <tr>
-    <td>
-      <img src="https://media.giphy.com/media/kH6CqYiquZawmU1HI6/giphy.gif" width="26" />
-      <img src="https://img.shields.io/badge/DevOps%20%26%20Tools-3B82F6?style=flat-square&labelColor=1E3A5F" />
+    <td align="left">
+      <img src="https://media.giphy.com/media/kH6CqYiquZawmU1HI6/giphy.gif" width="22" />&nbsp;<img src="https://img.shields.io/badge/DevOps%20%26%20Tools-f472b6?style=flat-square&labelColor=4a044e" />
     </td>
     <td align="left">
       <img src="https://skillicons.dev/icons?i=git,github,vscode,vercel,azure&theme=dark" />
     </td>
   </tr>
   <tr>
-    <td>
-      <img src="https://media.giphy.com/media/3oEjI6SIIHBdRxXI40/giphy.gif" width="26" />
-      <img src="https://img.shields.io/badge/AI%20%26%20ML-3B82F6?style=flat-square&labelColor=1E3A5F" />
+    <td align="left">
+      <img src="https://media.giphy.com/media/3oEjI6SIIHBdRxXI40/giphy.gif" width="22" />&nbsp;<img src="https://img.shields.io/badge/AI%20%26%20ML-a855f7?style=flat-square&labelColor=3b0764" />
     </td>
     <td align="left">
-      <img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white&labelColor=1E3A5F" height="25" />
-      <img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white&labelColor=1E3A5F" height="25" />
-      <img src="https://img.shields.io/badge/Matplotlib-11557c?style=flat-square&logo=python&logoColor=white&labelColor=1E3A5F" height="25" />
-      <img src="https://img.shields.io/badge/🦜%20LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white&labelColor=1E3A5F" height="25" />
-      <img src="https://img.shields.io/badge/🔍%20RAG-3B82F6?style=flat-square&logo=openai&logoColor=white&labelColor=0d1117" height="25" />
+      <img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white&labelColor=3b0764" height="25" />
+      <img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white&labelColor=3b0764" height="25" />
+      <img src="https://img.shields.io/badge/Matplotlib-11557c?style=flat-square&logo=python&logoColor=white&labelColor=3b0764" height="25" />
+      <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white&labelColor=3b0764" height="25" />
+      <img src="https://img.shields.io/badge/RAG-a855f7?style=flat-square&logo=openai&logoColor=white&labelColor=3b0764" height="25" />
     </td>
   </tr>
 </table>
@@ -184,7 +175,6 @@
 
 <br>
 
-### 🧊 3D Isometric Contribution Calendar
 
 <a href="https://github.com/Kritika11052005">
   <img src="https://raw.githubusercontent.com/Kritika11052005/Kritika11052005/main/profile-3d-contrib/profile-night-view.svg" alt="3D Isometric Contributions" width="100%" />
@@ -238,21 +228,21 @@
       <sub>Successfully merged pull requests during Hacktoberfest 2025</sub>
     </td>
     <td align="center" width="200">
-      <img src="https://img.shields.io/badge/🌳-ECO%20IMPACT-32CD32?style=for-the-badge&labelColor=228B22" width="150">
+      <img src="https://img.shields.io/badge/🌳-ECO%20IMPACT-10b981?style=for-the-badge&labelColor=064e3b" width="150">
       <br><br>
       <b>Tree Planted 🌱</b>
       <br>
       <sub>50 Kg CO2 offset earned through contributions</sub>
     </td>
     <td align="center" width="200">
-      <img src="https://img.shields.io/badge/🤝-COMMUNITY-3B82F6?style=for-the-badge&labelColor=1E3A5F" width="150">
+      <img src="https://img.shields.io/badge/🤝-COMMUNITY-f59e0b?style=for-the-badge&labelColor=451a03" width="150">
       <br><br>
       <b>DigitalOcean × MLH</b>
       <br>
       <sub>Recognised by DigitalOcean and MLH Fellowship</sub>
     </td>
     <td align="center" width="200">
-      <img src="https://img.shields.io/badge/💻-CONTRIBUTOR-9370DB?style=for-the-badge&labelColor=4B0082" width="150">
+      <img src="https://img.shields.io/badge/💻-CONTRIBUTOR-a855f7?style=for-the-badge&labelColor=3b0764" width="150">
       <br><br>
       <b>Dev-Elevate</b>
       <br>
@@ -267,26 +257,19 @@
 
 <table border="2" bordercolor="#3B82F6">
   <tr>
-    <td align="center" width="180" style="padding: 20px;">
-      <img src="https://img.shields.io/badge/🏅-GSSoC'25-3B82F6?style=for-the-badge&labelColor=1E3A5F" width="130">
+    <td align="center" width="220" style="padding: 20px;">
+      <img src="https://img.shields.io/badge/🏅-GSSoC'25-f59e0b?style=for-the-badge&labelColor=451a03" width="130">
       <br><br>
-      <img src="https://img.shields.io/badge/Selected%20Contributor-60A5FA?style=flat-square&labelColor=0d1117" />
+      <img src="https://img.shields.io/badge/Selected%20Contributor-f59e0b?style=flat-square&labelColor=451a03" />
       <br>
       <sub>GirlScript Summer of Code 2025</sub>
     </td>
-    <td align="center" width="180" style="padding: 20px;">
+    <td align="center" width="220" style="padding: 20px;">
       <img src="https://img.shields.io/badge/🏅-Hacktoberfest-FF6B6B?style=for-the-badge&labelColor=8B0000" width="130">
       <br><br>
-      <img src="https://img.shields.io/badge/Supercontributor-FF4500?style=flat-square&labelColor=0d1117" />
+      <img src="https://img.shields.io/badge/Supercontributor-FF4500?style=flat-square&labelColor=8B0000" />
       <br>
       <sub>6+ Merged Pull Requests</sub>
-    </td>
-    <td align="center" width="180" style="padding: 20px;">
-      <img src="https://img.shields.io/badge/🏅-Springer-9370DB?style=for-the-badge&labelColor=4B0082" width="130">
-      <br><br>
-      <img src="https://img.shields.io/badge/Published%20Author-8B5CF6?style=flat-square&labelColor=0d1117" />
-      <br>
-      <sub>ICT4SD 2025 Conference</sub>
     </td>
   </tr>
 </table>
