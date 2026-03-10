@@ -61,7 +61,7 @@
   <polyline points="3,440 3,477 43,477" fill="none" stroke="#06b6d4" stroke-width="2"/>
   <polyline points="897,440 897,477 857,477" fill="none" stroke="#3B82F6" stroke-width="2"/>
 
-  <!-- LEFT PANEL -->
+  <!-- ═══════ LEFT PANEL ═══════ -->
   <rect x="3" y="3" width="507" height="52" fill="url(#headerGrad)" clip-path="url(#cardClip)"/>
   <circle cx="30" cy="28" r="5.5" fill="#10b981">
     <animate attributeName="opacity" values="1;0.25;1" dur="1.6s" repeatCount="indefinite"/>
@@ -103,7 +103,6 @@
   <text x="20" y="237" font-family="Courier New,monospace" font-size="11" fill="#3B82F6">&#9654;</text>
   <text x="36" y="237" font-family="Courier New,monospace" font-size="12" font-weight="bold" fill="#06b6d4" letter-spacing="1.5" filter="url(#softGlow)">Tech Stack</text>
 
-  <!-- Row 1: Languages -->
   <text x="36" y="254" font-family="Courier New,monospace" font-size="9.5" fill="#f59e0b">&#9670;</text>
   <text x="50" y="254" font-family="Courier New,monospace" font-size="9.5" fill="#cbd5e1"> JavaScript</text>
   <text x="140" y="254" font-family="Courier New,monospace" font-size="9.5" fill="#3B82F6">&#9670;</text>
@@ -113,7 +112,6 @@
   <text x="332" y="254" font-family="Courier New,monospace" font-size="9.5" fill="#10b981">&#9670;</text>
   <text x="346" y="254" font-family="Courier New,monospace" font-size="9.5" fill="#cbd5e1"> Express.js</text>
 
-  <!-- Row 2: Backend/AI -->
   <text x="36" y="270" font-family="Courier New,monospace" font-size="9.5" fill="#06b6d4">&#9670;</text>
   <text x="50" y="270" font-family="Courier New,monospace" font-size="9.5" fill="#cbd5e1"> FastAPI</text>
   <text x="140" y="270" font-family="Courier New,monospace" font-size="9.5" fill="#f472b6">&#9670;</text>
@@ -123,7 +121,6 @@
   <text x="332" y="270" font-family="Courier New,monospace" font-size="9.5" fill="#3B82F6">&#9670;</text>
   <text x="346" y="270" font-family="Courier New,monospace" font-size="9.5" fill="#cbd5e1"> React · Next.js</text>
 
-  <!-- Row 3: Databases -->
   <text x="36" y="286" font-family="Courier New,monospace" font-size="9.5" fill="#10b981">&#9670;</text>
   <text x="50" y="286" font-family="Courier New,monospace" font-size="9.5" fill="#cbd5e1"> MongoDB</text>
   <text x="140" y="286" font-family="Courier New,monospace" font-size="9.5" fill="#a855f7">&#9670;</text>
@@ -133,7 +130,6 @@
   <text x="332" y="286" font-family="Courier New,monospace" font-size="9.5" fill="#f472b6">&#9670;</text>
   <text x="346" y="286" font-family="Courier New,monospace" font-size="9.5" fill="#cbd5e1"> ConvexDB</text>
 
-  <!-- Row 4: Tools -->
   <text x="36" y="302" font-family="Courier New,monospace" font-size="9.5" fill="#f59e0b">&#9670;</text>
   <text x="50" y="302" font-family="Courier New,monospace" font-size="9.5" fill="#cbd5e1"> Prisma</text>
   <text x="140" y="302" font-family="Courier New,monospace" font-size="9.5" fill="#3B82F6">&#9670;</text>
@@ -142,7 +138,6 @@
   <text x="262" y="302" font-family="Courier New,monospace" font-size="9.5" fill="#cbd5e1"> Vercel</text>
   <text x="332" y="302" font-family="Courier New,monospace" font-size="9.5" fill="#a855f7">&#9670;</text>
   <text x="346" y="302" font-family="Courier New,monospace" font-size="9.5" fill="#cbd5e1"> Render</text>
-
   <line x1="18" y1="313" x2="496" y2="313" stroke="#1e3a5f" stroke-width="0.6" opacity="0.6"/>
 
   <!-- Mission -->
@@ -168,7 +163,7 @@
     <animate attributeName="opacity" values="1;0;1" dur="0.9s" repeatCount="indefinite"/>
   </rect>
 
-  <!-- RIGHT PANEL -->
+  <!-- ═══════ RIGHT PANEL ═══════ -->
   <rect x="510" y="3" width="387" height="44" fill="rgba(15,23,42,0.7)" clip-path="url(#cardClip)"/>
   <circle cx="534" cy="25" r="5" fill="#ff5f57"/>
   <circle cx="552" cy="25" r="5" fill="#febc2e"/>
@@ -176,45 +171,47 @@
   <text x="596" y="30" font-family="Courier New,monospace" font-size="10" fill="#334155" letter-spacing="1.5">kritika@github ~ $</text>
   <line x1="514" y1="44" x2="893" y2="44" stroke="#1e3a5f" stroke-width="0.8" opacity="0.8"/>
 
+  <!-- whoami -->
   <text x="524" y="64" font-family="Courier New,monospace" font-size="10" fill="#334155">$ whoami</text>
   <text x="524" y="79" font-family="Courier New,monospace" font-size="10.5" fill="#3B82F6" filter="url(#softGlow)" font-weight="bold">&#8594; Kritika Benjwal</text>
   <text x="524" y="93" font-family="Courier New,monospace" font-size="9.5" fill="#64748b">   kritikabenjwal · MUJ '27 · CSE</text>
 
-  <text x="524" y="114" font-family="Courier New,monospace" font-size="10" fill="#334155">$ cat achievements.log</text>
-  <text x="524" y="130" font-family="Courier New,monospace" font-size="9.5" fill="#10b981">&#10003; India AI Buildathon — Top 2% of 40,000+</text>
-  <text x="524" y="145" font-family="Courier New,monospace" font-size="9.5" fill="#10b981">&#10003; Hacktoberfest Supercontributor (6+ PRs)</text>
-  <text x="524" y="160" font-family="Courier New,monospace" font-size="9.5" fill="#10b981">&#10003; GSSoC'25 Selected Contributor</text>
-  <text x="524" y="175" font-family="Courier New,monospace" font-size="9.5" fill="#10b981">&#10003; Springer Published Researcher</text>
-  <text x="524" y="190" font-family="Courier New,monospace" font-size="9.5" fill="#10b981">&#10003; 469+ GitHub Contributions</text>
+  <!-- achievements -->
+  <text x="524" y="116" font-family="Courier New,monospace" font-size="10" fill="#334155">$ cat achievements.log</text>
+  <text x="524" y="133" font-family="Courier New,monospace" font-size="9.5" fill="#10b981">&#10003; India AI Buildathon — Top 2% of 40,000+</text>
+  <text x="524" y="150" font-family="Courier New,monospace" font-size="9.5" fill="#10b981">&#10003; Hacktoberfest Supercontributor (6+ PRs)</text>
+  <text x="524" y="167" font-family="Courier New,monospace" font-size="9.5" fill="#10b981">&#10003; GSSoC'25 Selected Contributor</text>
+  <text x="524" y="184" font-family="Courier New,monospace" font-size="9.5" fill="#10b981">&#10003; Springer Published Researcher</text>
+  <text x="524" y="201" font-family="Courier New,monospace" font-size="9.5" fill="#10b981">&#10003; 3x Active Intern (concurrent)</text>
 
-  <text x="524" y="212" font-family="Courier New,monospace" font-size="10" fill="#334155">$ ls projects/</text>
-  <text x="524" y="228" font-family="Courier New,monospace" font-size="9.5" fill="#a855f7">&#9658; FlowForge</text>
-  <text x="604" y="228" font-family="Courier New,monospace" font-size="9" fill="#64748b">  Jira-like · 1000+ tasks · 50+ users</text>
-  <text x="524" y="243" font-family="Courier New,monospace" font-size="9.5" fill="#a855f7">&#9658; RayWise</text>
-  <text x="600" y="243" font-family="Courier New,monospace" font-size="9" fill="#64748b">   AI Solar · 92% accuracy · $50K+ ROI</text>
-  <text x="524" y="258" font-family="Courier New,monospace" font-size="9.5" fill="#a855f7">&#9658; CodeWave</text>
-  <text x="608" y="258" font-family="Courier New,monospace" font-size="9" fill="#64748b">  Multi-lang editor · 6 langs · 10+ themes</text>
-  <text x="524" y="273" font-family="Courier New,monospace" font-size="9.5" fill="#a855f7">&#9658; DonorConnect</text>
-  <text x="624" y="273" font-family="Courier New,monospace" font-size="9" fill="#64748b"> $100K+ donations · 99.9% uptime</text>
+  <!-- git log -->
+  <text x="524" y="224" font-family="Courier New,monospace" font-size="10" fill="#334155">$ git log --oneline --recent</text>
+  <text x="524" y="241" font-family="Courier New,monospace" font-size="9.5" fill="#f59e0b">3f8a1c2</text>
+  <text x="572" y="241" font-family="Courier New,monospace" font-size="9.5" fill="#94a3b8"> RAG pipeline + LangChain chatbot</text>
+  <text x="524" y="257" font-family="Courier New,monospace" font-size="9.5" fill="#f59e0b">9b2e7d4</text>
+  <text x="572" y="257" font-family="Courier New,monospace" font-size="9.5" fill="#94a3b8"> FastAPI + NeonDB integration</text>
+  <text x="524" y="273" font-family="Courier New,monospace" font-size="9.5" fill="#f59e0b">1c4f9a8</text>
+  <text x="572" y="273" font-family="Courier New,monospace" font-size="9.5" fill="#94a3b8"> Springer paper accepted</text>
+  <text x="524" y="289" font-family="Courier New,monospace" font-size="9.5" fill="#f59e0b">6d3b2f1</text>
+  <text x="572" y="289" font-family="Courier New,monospace" font-size="9.5" fill="#94a3b8"> Top 2% India AI Buildathon</text>
+  <text x="524" y="305" font-family="Courier New,monospace" font-size="9.5" fill="#f59e0b">a7c3e9f</text>
+  <text x="572" y="305" font-family="Courier New,monospace" font-size="9.5" fill="#94a3b8"> GSOC'25 onboarding complete</text>
 
-  <text x="524" y="294" font-family="Courier New,monospace" font-size="10" fill="#334155">$ git log --oneline --recent</text>
-  <text x="524" y="309" font-family="Courier New,monospace" font-size="9.5" fill="#f59e0b">3f8a1c2</text>
-  <text x="572" y="309" font-family="Courier New,monospace" font-size="9.5" fill="#94a3b8"> RAG pipeline + LangChain chatbot</text>
-  <text x="524" y="323" font-family="Courier New,monospace" font-size="9.5" fill="#f59e0b">9b2e7d4</text>
-  <text x="572" y="323" font-family="Courier New,monospace" font-size="9.5" fill="#94a3b8"> FastAPI + NeonDB integration</text>
-  <text x="524" y="337" font-family="Courier New,monospace" font-size="9.5" fill="#f59e0b">1c4f9a8</text>
-  <text x="572" y="337" font-family="Courier New,monospace" font-size="9.5" fill="#94a3b8"> Springer paper accepted</text>
-  <text x="524" y="351" font-family="Courier New,monospace" font-size="9.5" fill="#f59e0b">6d3b2f1</text>
-  <text x="572" y="351" font-family="Courier New,monospace" font-size="9.5" fill="#94a3b8"> Top 2% India AI Buildathon</text>
+  <!-- contact -->
+  <text x="524" y="328" font-family="Courier New,monospace" font-size="10" fill="#334155">$ cat contact.md</text>
+  <text x="524" y="346" font-family="Courier New,monospace" font-size="9.5" fill="#06b6d4">&#128279; linkedin/kritika-benjwal</text>
+  <text x="524" y="363" font-family="Courier New,monospace" font-size="9.5" fill="#06b6d4">&#9889; leetcode/Kritzzz_11</text>
+  <text x="524" y="380" font-family="Courier New,monospace" font-size="9.5" fill="#06b6d4">&#128202; kaggle/kritikabenjwal</text>
+  <text x="524" y="397" font-family="Courier New,monospace" font-size="9.5" fill="#06b6d4">&#9993; ananya.benjwal@gmail.com</text>
 
-  <text x="524" y="372" font-family="Courier New,monospace" font-size="10" fill="#334155">$ cat contact.md</text>
-  <text x="524" y="388" font-family="Courier New,monospace" font-size="9.5" fill="#06b6d4">&#128279; linkedin/kritika-benjwal</text>
-  <text x="524" y="403" font-family="Courier New,monospace" font-size="9.5" fill="#06b6d4">&#9889; leetcode/Kritzzz_11</text>
-  <text x="524" y="418" font-family="Courier New,monospace" font-size="9.5" fill="#06b6d4">&#128202; kaggle/kritikabenjwal</text>
-  <text x="524" y="433" font-family="Courier New,monospace" font-size="9.5" fill="#06b6d4">&#9993; ananya.benjwal@gmail.com</text>
+  <!-- currently learning / fun fact -->
+  <text x="524" y="420" font-family="Courier New,monospace" font-size="10" fill="#334155">$ cat fun_fact.txt</text>
+  <text x="524" y="437" font-family="Courier New,monospace" font-size="9.5" fill="#a855f7">  I juggle 3 internships + research</text>
+  <text x="524" y="452" font-family="Courier New,monospace" font-size="9.5" fill="#a855f7">  + open source simultaneously &#9889;</text>
 
-  <text x="524" y="454" font-family="Courier New,monospace" font-size="10" fill="#334155">$ </text>
-  <rect x="538" y="441" width="7" height="13" fill="#3B82F6">
+  <!-- Blinking cursor -->
+  <text x="524" y="470" font-family="Courier New,monospace" font-size="10" fill="#334155">$ </text>
+  <rect x="538" y="457" width="7" height="13" fill="#3B82F6">
     <animate attributeName="opacity" values="1;0;1" dur="0.95s" repeatCount="indefinite"/>
   </rect>
 
