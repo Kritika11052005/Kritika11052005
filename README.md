@@ -35,11 +35,8 @@
 ---
 
 ## <img src="https://media.giphy.com/media/SWoSkN6DxTszqIKEqv/giphy.gif" width="36"> Tech Arsenal
-
 <div align="center">
-
 <br>
-
 <table align="center" border="0" cellpadding="18">
   <tr>
     <td width="200" align="left">
@@ -55,7 +52,8 @@
       <img src="https://media.giphy.com/media/eNAsjO55tPbgaor7ma/giphy.gif" width="22" />&nbsp;<img src="https://img.shields.io/badge/Frontend-06b6d4?style=flat-square&labelColor=0e4a5a" />
     </td>
     <td align="left">
-      <img src="https://skillicons.dev/icons?i=react,nextjs,html,css,tailwind&theme=dark" />
+      <img src="https://skillicons.dev/icons?i=react,nextjs,html,css,tailwind,threejs&theme=dark" />
+      &nbsp;<img src="https://img.shields.io/badge/GSAP-88CE02?style=flat-square&logo=greensock&logoColor=white&labelColor=0e4a5a" height="25" />
     </td>
   </tr>
   <tr>
@@ -65,7 +63,9 @@
     <td align="left">
       <img src="https://skillicons.dev/icons?i=nodejs,express&theme=dark" />
       &nbsp;<img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white&labelColor=064e3b" height="25" />
-      <img src="https://img.shields.io/badge/Convex-FF6F00?style=flat-square&logo=convex&logoColor=white&labelColor=064e3b" height="25" />
+      <img src="https://img.shields.io/badge/Mongoose-880000?style=flat-square&logo=mongoose&logoColor=white&labelColor=064e3b" height="25" />
+      <img src="https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white&labelColor=064e3b" height="25" />
+      <img src="https://img.shields.io/badge/Convex-FF6F00?style=flat-square&logoColor=white&labelColor=064e3b" height="25" />
     </td>
   </tr>
   <tr>
@@ -73,16 +73,19 @@
       <img src="https://media.giphy.com/media/fsEaZR08421Tq9bDlw/giphy.gif" width="22" />&nbsp;<img src="https://img.shields.io/badge/Databases-f59e0b?style=flat-square&labelColor=451a03" />
     </td>
     <td align="left">
-      <img src="https://skillicons.dev/icons?i=mongodb,mysql,firebase&theme=dark" />
-      &nbsp;<img src="https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white&labelColor=451a03" height="25" />
+      <img src="https://skillicons.dev/icons?i=mongodb,mysql,postgresql,supabase,firebase&theme=dark" />
+      &nbsp;<img src="https://img.shields.io/badge/NeonDB-00E5A0?style=flat-square&logo=neon&logoColor=white&labelColor=451a03" height="25" />
     </td>
   </tr>
   <tr>
     <td align="left">
-      <img src="https://media.giphy.com/media/kH6CqYiquZawmU1HI6/giphy.gif" width="22" />&nbsp;<img src="https://img.shields.io/badge/DevOps%20%26%20Tools-f472b6?style=flat-square&labelColor=4a044e" />
+      <img src="https://media.giphy.com/media/kH6CqYiquZawmU1HI6/giphy.gif" width="22" />&nbsp;<img src="https://img.shields.io/badge/Cloud%20%26%20DevOps-f472b6?style=flat-square&labelColor=4a044e" />
     </td>
     <td align="left">
-      <img src="https://skillicons.dev/icons?i=git,github,vscode,vercel,azure&theme=dark" />
+      <img src="https://skillicons.dev/icons?i=docker,vercel,azure,git,github,vscode&theme=dark" />
+      &nbsp;<img src="https://img.shields.io/badge/Render-46E3B7?style=flat-square&logo=render&logoColor=white&labelColor=4a044e" height="25" />
+      <img src="https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white&labelColor=4a044e" height="25" />
+      <img src="https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white&labelColor=4a044e" height="25" />
     </td>
   </tr>
   <tr>
@@ -90,19 +93,23 @@
       <img src="https://media.giphy.com/media/3oEjI6SIIHBdRxXI40/giphy.gif" width="22" />&nbsp;<img src="https://img.shields.io/badge/AI%20%26%20ML-a855f7?style=flat-square&labelColor=3b0764" />
     </td>
     <td align="left">
-      <img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white&labelColor=3b0764" height="25" />
+      <img src="https://skillicons.dev/icons?i=pytorch,tensorflow,sklearn&theme=dark" />
+      &nbsp;<img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white&labelColor=3b0764" height="25" />
       <img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white&labelColor=3b0764" height="25" />
       <img src="https://img.shields.io/badge/Matplotlib-11557c?style=flat-square&logo=python&logoColor=white&labelColor=3b0764" height="25" />
+      <img src="https://img.shields.io/badge/Seaborn-4C72B0?style=flat-square&logo=python&logoColor=white&labelColor=3b0764" height="25" />
+      <img src="https://img.shields.io/badge/Plotly-3F4F75?style=flat-square&logo=plotly&logoColor=white&labelColor=3b0764" height="25" />
+      <img src="https://img.shields.io/badge/SHAP-FF6B6B?style=flat-square&logoColor=white&labelColor=3b0764" height="25" />
       <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white&labelColor=3b0764" height="25" />
-      <img src="https://img.shields.io/badge/RAG-a855f7?style=flat-square&logo=openai&logoColor=white&labelColor=3b0764" height="25" />
+      <img src="https://img.shields.io/badge/HuggingFace-FFD21E?style=flat-square&logo=huggingface&logoColor=black&labelColor=3b0764" height="25" />
+      <img src="https://img.shields.io/badge/ChromaDB-FF6F61?style=flat-square&logoColor=white&labelColor=3b0764" height="25" />
+      <img src="https://img.shields.io/badge/Google%20Gemini-4285F4?style=flat-square&logo=google&logoColor=white&labelColor=3b0764" height="25" />
+      <img src="https://img.shields.io/badge/RAG-a855f7?style=flat-square&logoColor=white&labelColor=3b0764" height="25" />
     </td>
   </tr>
 </table>
-
 <br>
-
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0D1117,50:1E3A5F,100:3B82F6&height=3&width=800" />
-
 </div>
 
 ---
