@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kritika Benjwal - Magazine Cover</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,800;0,900;1,400;1,600;1,700;1,900&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap');
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    background: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Inter', sans-serif;
+    padding: 20px;
+  }
+
+  .cover {
+    width: 900px;
+    height: 860px;
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(175deg, #08080a 0%, #0c0c12 40%, #11121a 100%);
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.85);
+  }
+
+  /* Photo Bottom Vignette Dissolve */
+  .cover::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 380px;
+    background: linear-gradient(to top, rgba(12, 12, 18, 0.98) 0%, rgba(12, 12, 18, 0.85) 35%, rgba(12, 12, 18, 0.25) 75%, transparent 100%);
+    z-index: 2;
+    pointer-events: none;
+  }
+
+  /* Top Gold Luxury Line */
+  .top-line {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 5px;
+    background: linear-gradient(90deg, #B45309, #D97706, #F59E0B, #D97706, #B45309);
+    z-index: 15;
+  }
+
+  /* Border Frame */
+  .frame {
+    position: absolute;
+    top: 14px;
+    left: 14px;
+    right: 14px;
+    bottom: 14px;
+    border: 0.8px solid rgba(168, 162, 158, 0.15);
+    z-index: 14;
+    pointer-events: none;
+  }
+  .frame-inner {
+    position: absolute;
+    top: 18px;
+    left: 18px;
+    right: 18px;
+    bottom: 18px;
+    border: 0.4px solid rgba(217, 119, 6, 0.2);
+    z-index: 14;
+    pointer-events: none;
+  }
+
+  /* ═══════ MASTHEAD ═══════ */
+  .masthead {
+    position: absolute;
+    top: 32px;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    text-align: center;
+    padding: 0 40px;
+  }
+
+  .masthead-title {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 66px;
+    font-weight: 900;
+    letter-spacing: 14px;
+    color: #FAFAF9;
+    text-transform: uppercase;
+    line-height: 1;
+    text-shadow: 0 2px 30px rgba(0,0,0,0.8);
+  }
+
+  .masthead-title span {
+    font-family: 'Cormorant Garamond', Georgia, serif;
+    font-weight: 300;
+    font-style: italic;
+    color: #D4A574;
+    letter-spacing: 8px;
+  }
+
+  .masthead-rule {
+    width: 620px;
+    height: 1.2px;
+    background: linear-gradient(90deg, transparent, #D97706, #F59E0B, #D97706, transparent);
+    margin: 12px auto 8px;
+  }
+
+  .masthead-sub {
+    font-family: 'Cormorant Garamond', Georgia, serif;
+    font-size: 15.5px;
+    font-style: italic;
+    letter-spacing: 1.5px;
+    color: #A8A29E;
+  }
+
+  /* ═══════ PHOTO ═══════ */
+  .photo-container {
+    position: absolute;
+    top: 80px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+    width: 560px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .photo-container img {
+    width: 100%;
+    height: auto;
+    filter: contrast(1.04) brightness(0.98);
+  }
+
+  /* ═══════ LEFT COVER LINES ═══════ */
+  .left-lines {
+    position: absolute;
+    left: 42px;
+    top: 220px;
+    z-index: 12;
+    max-width: 220px;
+  }
+
+  .cover-line {
+    margin-bottom: 20px;
+  }
+
+  .cover-line-category {
+    font-family: 'Inter', system-ui, sans-serif;
+    font-size: 9px;
+    font-weight: 700;
+    letter-spacing: 3.5px;
+    color: #D97706;
+    text-transform: uppercase;
+    margin-bottom: 6px;
+  }
+
+  .cover-line-title {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 15.5px;
+    font-weight: 600;
+    color: #F5F5F4;
+    line-height: 1.25;
+  }
+
+  .cover-line-title em {
+    font-style: italic;
+    color: #D4A574;
+  }
+
+  .cover-line-sub {
+    font-family: 'Inter', system-ui, sans-serif;
+    font-size: 11px;
+    color: #A8A29E;
+    margin-top: 3px;
+    line-height: 1.35;
+  }
+
+  /* ═══════ RIGHT COVER LINES ═══════ */
+  .right-lines {
+    position: absolute;
+    right: 42px;
+    top: 220px;
+    z-index: 12;
+    max-width: 220px;
+    text-align: right;
+  }
+
+  /* ═══════ DYNAMIC TYPING TEXT BELOW PHOTO ═══════ */
+  .ticker-bar {
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 12;
+    background: #0c0a09;
+    border: 1.2px solid #D97706;
+    border-radius: 30px;
+    padding: 8px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.8);
+    width: 700px;
+  }
+
+  /* ═══════ BARCODE ═══════ */
+  .barcode {
+    margin-top: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 4px;
+  }
+
+  .barcode-lines {
+    display: flex;
+    gap: 2px;
+    height: 32px;
+    align-items: flex-end;
+  }
+
+  .barcode-lines div {
+    width: 2px;
+    background: #3E3835;
+  }
+
+  .barcode-text {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 8px;
+    color: #57534E;
+    letter-spacing: 2px;
+  }
+
+  /* ═══════ SIDE VERTICAL TEXT ═══════ */
+  .side-text-left {
+    position: absolute;
+    left: 18px;
+    top: 50%;
+    transform: rotate(-90deg) translateX(-50%);
+    transform-origin: left center;
+    font-family: 'Inter', sans-serif;
+    font-size: 8px;
+    letter-spacing: 6px;
+    color: #44403C;
+    text-transform: uppercase;
+    z-index: 12;
+    white-space: nowrap;
+  }
+
+  .side-text-right {
+    position: absolute;
+    right: 18px;
+    top: 50%;
+    transform: rotate(90deg) translateX(50%);
+    transform-origin: right center;
+    font-family: 'Inter', sans-serif;
+    font-size: 8px;
+    letter-spacing: 6px;
+    color: #44403C;
+    text-transform: uppercase;
+    z-index: 12;
+    white-space: nowrap;
+  }
+</style>
+</head>
+<body>
+
+<div class="cover">
+  <div class="top-line"></div>
+  <div class="frame"></div>
+  <div class="frame-inner"></div>
+
+  <!-- Masthead -->
+  <div class="masthead">
+    <div class="masthead-title">KRITIKA <span>BENJWAL</span></div>
+    <div class="masthead-rule"></div>
+    <div class="masthead-sub">"Building AI that thinks, systems that scale, and research that matters."</div>
+  </div>
+
+  <!-- Centerpiece Photo -->
+  <div class="photo-container">
+    <img src="placeholder-user1.png" alt="Kritika Benjwal" />
+  </div>
+
+  <!-- Left Column Cover Lines -->
+  <div class="left-lines">
+    <!-- Academics -->
+    <div class="cover-line">
+      <div class="cover-line-category">Education &amp; Focus</div>
+      <div class="cover-line-title">B.Tech <em>CSE</em> @ MUJ '27</div>
+      <div class="cover-line-sub">Manipal University Jaipur · Rajasthan</div>
+    </div>
+
+    <!-- Live Profile Views -->
+    <div class="cover-line">
+      <div class="cover-line-category">Live Profile Views</div>
+      <div style="margin-top: 6px;">
+        <img src="https://komarev.com/ghpvc/?username=Kritika11052005&label=PROFILE%20VIEWS&color=D97706&labelColor=141210&style=flat-square" alt="Live Profile Views" height="24"/>
+      </div>
+      <div class="cover-line-sub" style="margin-top: 4px;">Real-Time Traffic Counter</div>
+    </div>
+
+    <!-- Recognition -->
+    <div class="cover-line">
+      <div class="cover-line-category">Recognition &amp; Impact</div>
+      <div class="cover-line-title" style="font-size: 14px;">Open Source Contributor</div>
+      <div class="cover-line-sub">Hacktoberfest &amp; GSSoC '25</div>
+      
+      <div class="cover-line-title" style="font-size: 14px; margin-top: 10px;">AI for Good <em>Winner</em></div>
+      <div class="cover-line-sub">India Consolation Prize Winner</div>
+
+      <div class="cover-line-title" style="font-size: 13.5px; margin-top: 10px;">India AI Impact Buildathon Finalist</div>
+      <div class="cover-line-sub">Top 2% amongst 40,000+ participants</div>
+    </div>
+  </div>
+
+  <!-- Right Column Cover Lines -->
+  <div class="right-lines">
+    <!-- Live GitHub Activity (Past 1-Year Contributions) -->
+    <div class="cover-line">
+      <div class="cover-line-category">Live GitHub Contributions</div>
+      <div class="cover-line-title">Past 1-Year <em>Activity</em></div>
+      <div style="margin-top: 6px;">
+        <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fgithub-contributions-api.jogruber.de%2Fv4%2FKritika11052005%3Fy%3Dlast&query=total.lastYear&label=YEARLY%20CONTRIBUTIONS&color=38BDF8&labelColor=141210&style=flat-square" height="24" alt="Past 1-Year Contributions"/>
+      </div>
+      <div class="cover-line-sub" style="margin-top: 4px;">Verified Past 365 Days on GitHub</div>
+    </div>
+
+    <!-- Profile -->
+    <div class="cover-line" style="margin-top: 18px;">
+      <div class="cover-line-category">Editorial Profile</div>
+      <div class="cover-line-title">The Engineer Building <em>Intelligent</em> Systems</div>
+      <div class="cover-line-sub">Intersection of fullstack and AI/ML</div>
+    </div>
+
+    <!-- Barcode / Issue Info -->
+    <div class="cover-line" style="margin-top: 18px;">
+      <div class="cover-line-category">Issue &amp; Verification</div>
+      <div class="barcode">
+        <div class="barcode-lines">
+          <div style="height:32px"></div>
+          <div style="height:24px"></div>
+          <div style="height:32px"></div>
+          <div style="height:18px"></div>
+          <div style="height:32px"></div>
+          <div style="height:26px"></div>
+          <div style="height:32px"></div>
+          <div style="height:20px"></div>
+          <div style="height:32px"></div>
+          <div style="height:16px"></div>
+          <div style="height:32px"></div>
+          <div style="height:28px"></div>
+          <div style="height:32px"></div>
+        </div>
+        <div class="barcode-text">ISSUE N° 2027 · JAIPUR</div>
+        <div class="barcode-text" style="color: #78716C;">github.com/Kritika11052005</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Live Typewriter Text Below Photo -->
+  <div class="ticker-bar">
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=14&duration=2400&pause=1000&color=FCD34D&center=true&vCenter=true&width=680&height=36&lines=%E2%9C%A6+Fullstack+development+%E2%9C%A6;%E2%9C%A6+AI%2FML+Engineering+and+Research+%E2%9C%A6;%E2%9C%A6+Software+Engineering+%E2%9C%A6;%E2%9C%A6+Building+Intelligent+platforms+and+systems+%E2%9C%A6" alt="Live Typewriter Text" />
+  </div>
+
+  <!-- Vertical Side Text -->
+  <div class="side-text-left">GITHUB · KRITIKA11052005 · PORTFOLIO 2026</div>
+  <div class="side-text-right">COMPUTER SCIENCE &amp; ENGINEERING · MUJ '27</div>
+</div>
+
+</body>
+</html>
