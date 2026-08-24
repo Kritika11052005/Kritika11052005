@@ -2,7 +2,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,50:1E3A5F,100:3B82F6&height=230&section=header&text=Kritika%20Benjwal&fontSize=52&fontAlignY=36&desc=Building%20AI%20that%20thinks%2C%20systems%20that%20scale%2C%20and%20research%20that%20matters.&descAlignY=62&descSize=15&fontColor=ffffff&animation=fadeIn" width="100%"/>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&duration=2800&pause=900&color=38BDF8&center=true&vCenter=true&width=860&height=50&lines=AI+Researcher+%26+Agentic+Systems+Engineer+%F0%9F%A4%96;Mixture+of+Experts+(MoE)+%26+Sparse+Attention+Architectures+%F0%9F%94%AC;Full-Stack+Architect+(Next.js+15+%C2%B7+FastAPI+%C2%B7+Distributed+DBs)+%E2%9A%A1;Published+Author+(Springer+Nature+%C2%B7+CLEF+2026+%C2%B7+IEEE+Access)+%F0%9F%93%9A;Dean's+List+Awardee+%C2%B7+B.Tech+CSE+%40+MUJ+'27+%F0%9F%8E%93" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&duration=2800&pause=900&color=38BDF8&center=true&vCenter=true&width=860&height=50&lines=AI+Researcher+%26+Agentic+Systems+Engineer+%F0%9F%A4%96;Mixture+of+Experts+(MoE)+%26+Deep+Learning+Architectures+%F0%9F%94%AC;Full-Stack+Architect+(Next.js+15+%C2%B7+FastAPI+%C2%B7+Distributed+DBs)+%E2%9A%A1;Published+Author+(Springer+Nature+%C2%B7+CLEF+2026)+%F0%9F%93%9A;Dean's+List+Awardee+%C2%B7+B.Tech+CSE+%40+MUJ+'27+%F0%9F%8E%93" alt="Typing SVG" />
 
 <br>
 
@@ -39,7 +39,7 @@
 </div>
 
 > **I am a Computer Science undergraduate & AI researcher at Manipal University Jaipur (Dean's List, GPA 9.11/10).**  
-> My work bridges deep learning theory with production-grade engineering — specializing in **Mixture of Experts (MoE)**, **biologically-inspired sparse attention mechanisms**, **adversarial multi-agent intelligence swarms**, and **high-throughput distributed full-stack systems**.
+> My work bridges deep learning theory with production-grade engineering — specializing in **Mixture of Experts (MoE)**, **adversarial multi-agent intelligence swarms**, **bioacoustic pattern recognition**, and **high-throughput distributed full-stack systems**.
 
 <br>
 
@@ -65,17 +65,7 @@
   </tr>
   <tr>
     <td width="100%" style="padding: 16px; background-color: #0d1117;">
-      <h3>⚡ 2. ADAPT-BIO: A Biologically Inspired Adaptive Sparse Attention Framework for Efficient Transformers</h3>
-      <p><b>Venue:</b> <img src="https://img.shields.io/badge/IEEE%20Access-Under%20Review%20(2026)-f59e0b?style=flat-square" /> <i>IEEE Access Journal</i></p>
-      <ul>
-        <li><b>Key Architectural Contribution:</b> Formulated sparse self-attention via <b>Self-Organizing Mask Anticipation (SOMA)</b> and dynamic mask editing to eliminate quadratic computational bottlenecks.</li>
-        <li><b>Efficiency Breakthrough:</b> Achieved <b>~94.5% attention sparsity</b> and <b>18.3× to 73.1× attention FLOPs reduction</b> with optimal linear $\mathcal{O}(nkd)$ scaling.</li>
-      </ul>
-    </td>
-  </tr>
-  <tr>
-    <td width="100%" style="padding: 16px; background-color: #0d1117;">
-      <h3>🔗 3. Blockchain in Public Distribution System</h3>
+      <h3>🔗 2. Blockchain in Public Distribution System</h3>
       <p><b>Venue:</b> <img src="https://img.shields.io/badge/Springer%20Nature-Published%20(2025)-a855f7?style=flat-square&logo=springer" /> <i>ICT4SD 2025 (Chapter 34, ISBN: 978-3-032-06665-7)</i></p>
       <ul>
         <li><b>Key Architectural Contribution:</b> Designed a consortium <b>Hyperledger Fabric</b> blockchain coupled with AI-driven biometric/beneficiary verification for tamper-proof, transparent grain supply-chain allocation.</li>
@@ -231,7 +221,7 @@
       <img src="https://skillicons.dev/icons?i=pytorch,tensorflow,sklearn&theme=dark" />
       &nbsp;
       <img src="https://img.shields.io/badge/Mixture%20of%20Experts%20(MoE)-FF6F00?style=flat-square&labelColor=0d1117" height="28" />
-      <img src="https://img.shields.io/badge/Sparse%20Transformers-a855f7?style=flat-square&labelColor=0d1117" height="28" />
+      <img src="https://img.shields.io/badge/RAG%20Pipelines-a855f7?style=flat-square&labelColor=0d1117" height="28" />
       <img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logo=langchain&logoColor=white&labelColor=0d1117" height="28" />
       <img src="https://img.shields.io/badge/ChromaDB-FF6F61?style=flat-square&labelColor=0d1117" height="28" />
       <img src="https://img.shields.io/badge/Google%20Gemini-4285F4?style=flat-square&logo=google&logoColor=white&labelColor=0d1117" height="28" />
