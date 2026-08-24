@@ -244,74 +244,36 @@
 
 ---
 
-## 🎓 Education & Academic Standing
-
-<table>
-  <tr>
-    <td width="70%">
-      <h3>🏛️ Manipal University Jaipur (Rajasthan, India)</h3>
-      <p><b>Bachelor of Technology in Computer Science & Engineering (2023 – 2027)</b></p>
-      <ul>
-        <li><b>CGPA:</b> <code>8.38 / 10.0</code> &nbsp;|&nbsp; <b>Dean’s List Recipient</b> (Semester GPA: <code>9.11 / 10.0</code>)</li>
-        <li><b>Core Coursework:</b> Data Structures & Algorithms, Design & Analysis of Algorithms, Operating Systems, Database Management Systems, Object-Oriented Programming in Java, Deep Learning, Natural Language Processing, Computer Vision, Artificial Intelligence & Soft Computing, Predictive Analytics, Computer Networks.</li>
-      </ul>
-    </td>
-    <td width="30%" align="center">
-      <img src="https://img.shields.io/badge/🏅-DEAN'S%20LIST-3B82F6?style=for-the-badge&labelColor=0d1117" width="180"><br><br>
-      <b>MUJ CSE '27</b><br>
-      <sub>Jaipur, Rajasthan</sub>
-    </td>
-  </tr>
-  <tr>
-    <td colspan="2">
-      <b>Apeejay School, Noida:</b> Class XII (CBSE, 2023) — <b>90.6%</b> &nbsp;|&nbsp; Class X (CBSE, 2021) — <b>93.4%</b>
-    </td>
-  </tr>
-</table>
-
----
-
 ## 🏆 Honors, Competitions & Key Distinctions
 
 <div align="center">
-<table border="0" cellpadding="10">
+<table border="0" cellpadding="10" width="100%">
   <tr>
-    <td align="center" width="33%">
-      <img src="https://img.shields.io/badge/🏆-WINNER-f59e0b?style=for-the-badge&labelColor=451a03" width="160"><br><br>
+    <td align="center" width="25%">
+      <img src="https://img.shields.io/badge/🏆-WINNER-f59e0b?style=for-the-badge&labelColor=451a03" width="150"><br><br>
       <b>AI for Good Hackathon</b><br>
-      <sub>India Consolation Prize for <b>Nivaasika</b> with Snowflake & CV</sub><br><br>
+      <sub>India Consolation Prize for <b>Nivaasika</b> with Snowflake &amp; CV</sub><br><br>
       <a href="https://yourstory.com/2026/05/ai-hackathon-apj-innovators-showcased-real-world-impact-snowflake-ai">
         <img src="https://img.shields.io/badge/Featured%20on-YourStory-FF5722?style=flat-square&logo=googlechrome&logoColor=white" />
       </a>
     </td>
-    <td align="center" width="33%">
-      <img src="https://img.shields.io/badge/🎖️-TOP%202%25-3B82F6?style=for-the-badge&labelColor=0d1117" width="160"><br><br>
+    <td align="center" width="25%">
+      <img src="https://img.shields.io/badge/🎖️-TOP%202%25-3B82F6?style=for-the-badge&labelColor=0d1117" width="150"><br><br>
       <b>India AI Impact Buildathon</b><br>
       <sub>National Finalist (Score 72/100 among <b>40,000+</b> participants)</sub><br><br>
       <img src="https://img.shields.io/badge/HCL%20GUVI-Recognized-009688?style=flat-square" />
     </td>
-    <td align="center" width="33%">
-      <img src="https://img.shields.io/badge/🌍-RANK%201558%20SOLO-10b981?style=for-the-badge&labelColor=064e3b" width="160"><br><br>
+    <td align="center" width="25%">
+      <img src="https://img.shields.io/badge/🌍-RANK%201558%20SOLO-10b981?style=for-the-badge&labelColor=064e3b" width="150"><br><br>
       <b>BirdCLEF+ 2026 Challenge</b><br>
       <sub>Top Solo Standing (<b>0.93957 ROC-AUC</b> out of 4,091 competitors)</sub><br><br>
       <img src="https://img.shields.io/badge/CLEF%202026-Accepted%20MoE-10b981?style=flat-square" />
     </td>
-  </tr>
-  <tr>
-    <td align="center">
-      <img src="https://img.shields.io/badge/🌟-SUPERCONTRIBUTOR-FF6B6B?style=for-the-badge&labelColor=8B0000" width="160"><br><br>
-      <b>Hacktoberfest & GSSoC'25</b><br>
-      <sub>6+ merged PRs across Dev-Elevate & accepted contributor in GSSoC Extended</sub>
-    </td>
-    <td align="center">
-      <img src="https://img.shields.io/badge/📜-NTSE%20QUALIFIER-a855f7?style=for-the-badge&labelColor=3b0764" width="160"><br><br>
-      <b>NTSE Stage 1</b><br>
-      <sub>Qualified National Talent Search Examination (Uttar Pradesh)</sub>
-    </td>
-    <td align="center">
-      <img src="https://img.shields.io/badge/⭐-DEAN'S%20LIST-3B82F6?style=for-the-badge&labelColor=0d1117" width="160"><br><br>
-      <b>Academic Excellence</b><br>
-      <sub>Recognized at Manipal University Jaipur with Semester GPA 9.11/10</sub>
+    <td align="center" width="25%">
+      <img src="https://img.shields.io/badge/🌟-SUPERCONTRIBUTOR-FF6B6B?style=for-the-badge&labelColor=8B0000" width="150"><br><br>
+      <b>Hacktoberfest &amp; GSSoC'25</b><br>
+      <sub>6+ merged PRs across Dev-Elevate &amp; GirlScript Summer of Code contributor</sub><br><br>
+      <img src="https://img.shields.io/badge/Open%20Source-Verified-10b981?style=flat-square" />
     </td>
   </tr>
 </table>
@@ -323,28 +285,47 @@
 
 <table>
   <tr>
-    <td width="50%">
+    <td width="50%" valign="top">
       <h4>🧠 DeepLearning.AI</h4>
       <ul>
-        <li><b>Mathematics for Machine Learning and Data Science Specialization</b><br>
-        <sub>Linear Algebra, Multivariate Calculus, PCA, Optimization, and Probability</sub></li>
+        <li>
+          <a href="https://www.coursera.org/specializations/mathematics-for-machine-learning-and-data-science"><b>Mathematics for Machine Learning and Data Science Specialization</b></a> <img src="https://img.shields.io/badge/Credential-Verified-3B82F6?style=flat-square" /><br>
+          <sub>Linear Algebra, Multivariate Calculus, PCA, Optimization, and Probability</sub>
+        </li>
       </ul>
-      <h4>💼 Deloitte</h4>
+      <h4>💼 Deloitte &amp; Microsoft</h4>
       <ul>
-        <li><b>Level 1 – GenW.AI Explorer</b> (Hacksplosion 2026)</li>
+        <li><b>Level 1 – GenW.AI Explorer</b> <i>(Deloitte Hacksplosion 2026)</i></li>
+        <li>
+          <a href="https://edunetfoundation.org/"><b>Artificial Intelligence &amp; Azure AI Specialization</b></a> <img src="https://img.shields.io/badge/Microsoft%20Initiative-Certified-00A4EF?style=flat-square" /><br>
+          <sub>4-week intensive training on AI/ML algorithms, Generative AI, and Azure AI Services</sub>
+        </li>
       </ul>
     </td>
-    <td width="50%">
+    <td width="50%" valign="top">
       <h4>☁️ IBM (Coursera)</h4>
       <ul>
-        <li><b>Microservices & Serverless Application Development</b> (Docker, Kubernetes, Event-Driven)</li>
-        <li><b>Introduction to Cloud Computing</b> (IaaS/PaaS, Security, IAM, Virtualization)</li>
-        <li><b>Introduction to Software Engineering</b> (SDLC, Agile, CI/CD)</li>
+        <li>
+          <a href="https://www.coursera.org/learn/microservices-serverless-apps"><b>Microservices &amp; Serverless Application Development</b></a> <img src="https://img.shields.io/badge/IBM-Verified-052FAD?style=flat-square" /><br>
+          <sub>Docker, Kubernetes, OpenShift, and Event-Driven Architecture</sub>
+        </li>
+        <li>
+          <a href="https://www.coursera.org/learn/introduction-to-cloud"><b>Introduction to Cloud Computing</b></a> <img src="https://img.shields.io/badge/IBM-Verified-052FAD?style=flat-square" /><br>
+          <sub>IaaS/PaaS/SaaS, Cloud Security, IAM, and Hybrid Cloud Architectures</sub>
+        </li>
+        <li>
+          <a href="https://www.coursera.org/learn/introduction-to-software-engineering"><b>Introduction to Software Engineering</b></a> <img src="https://img.shields.io/badge/IBM-Verified-052FAD?style=flat-square" /><br>
+          <sub>SDLC Methodologies, Agile/Scrum, Git Workflows, and Architecture Design</sub>
+        </li>
       </ul>
       <h4>🎓 NPTEL (IITs)</h4>
       <ul>
-        <li><b>DSA using Java</b> — <i>Elite Certificate (67%)</i>, IIT Kharagpur</li>
-        <li><b>Design and Analysis of Algorithms</b> — <i>Elite Certificate (63%)</i>, IIT Madras</li>
+        <li>
+          <a href="https://nptel.ac.in/courses/106105225"><b>Data Structures &amp; Algorithms using Java</b></a> — <img src="https://img.shields.io/badge/Elite%20(67%25)-IIT%20Kharagpur-D97706?style=flat-square" />
+        </li>
+        <li>
+          <a href="https://nptel.ac.in/courses/106106131"><b>Design and Analysis of Algorithms (DAA)</b></a> — <img src="https://img.shields.io/badge/Elite%20(63%25)-IIT%20Madras-D97706?style=flat-square" />
+        </li>
       </ul>
     </td>
   </tr>
@@ -352,48 +333,13 @@
 
 ---
 
-## 📊 Competitive Programming, Kaggle & GitHub Analytics
+## 📊 GitHub Analytics & Engineering Velocity
 
 <div align="center">
 
-<table>
-  <tr>
-    <td width="50%" align="center">
-      <h3>⚡ LeetCode Performance</h3>
-      <a href="https://leetcode.com/u/Kritzzz_11/">
-        <img src="https://leetcard.jacoblin.cool/Kritzzz_11?theme=dark&font=JetBrains%20Mono&ext=activity" alt="LeetCode Stats" width="100%"/>
-      </a>
-      <p><sub><b>46+ Problems Solved</b> · Easy: 16 | Medium: 28 | Hard: 2</sub></p>
-    </td>
-    <td width="50%" align="center">
-      <h3>🏆 Kaggle Standings</h3>
-      <table width="100%">
-        <tr>
-          <td><b>BirdCLEF+ 2026</b></td>
-          <td><code>0.93957 ROC-AUC</code> (Rank 1,558 / 4,091 solo)</td>
-        </tr>
-        <tr>
-          <td><b>Playground S6E4 (Irrigation)</b></td>
-          <td><b>Rank 873 / 4,315</b> (Top 20%)</td>
-        </tr>
-        <tr>
-          <td><b>Playground S6E3 (Churn)</b></td>
-          <td><code>0.91454 ROC-AUC</code> (Rank 920 / 4,142, Top 22%)</td>
-        </tr>
-      </table>
-      <br>
-      <a href="https://www.kaggle.com/kritikabenjwal">
-        <img src="https://img.shields.io/badge/Kaggle-View%20Competitions%20Profile-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white" />
-      </a>
-    </td>
-  </tr>
-</table>
-
-<br>
-
 <img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Kritika11052005&theme=github_dark"/>
 
-<br>
+<br><br>
 
 <table>
   <tr>
@@ -446,16 +392,29 @@
 
 ## 📬 Let's Connect & Collaborate
 
-Whether you want to discuss AI research, open-source projects, agentic architectures, or opportunities:
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-kritika--benjwal-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kritika-benjwal/)
-[![Kaggle](https://img.shields.io/badge/Kaggle-kritikabenjwal-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white)](https://www.kaggle.com/kritikabenjwal)
-[![Hugging Face](https://img.shields.io/badge/Hugging%20Face-Kritzzz11-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)](https://huggingface.co/Kritzzz11)
-[![LeetCode](https://img.shields.io/badge/LeetCode-Kritzzz__11-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/u/Kritzzz_11/)
-[![Codeforces](https://img.shields.io/badge/Codeforces-Kritzzz__11-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white)](https://codeforces.com/profile/Kritzzz_11)
-[![Gmail](https://img.shields.io/badge/Gmail-ananya.benjwal%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ananya.benjwal@gmail.com)
+Whether you want to discuss AI research, open-source projects, full-stack systems, or career opportunities:
 
 <br>
+
+<a href="https://drive.google.com/file/d/1Zyg6o_byTdbc32sMzf4QrotS_XzP-ycz/view?usp=sharing">
+  <img src="https://img.shields.io/badge/📄%20Download%20%2F%20View%20Resume-Google%20Drive-4285F4?style=for-the-badge&logo=googledrive&logoColor=white&labelColor=174EA6" height="38" />
+</a>
+
+<br><br>
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-kritika--benjwal-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kritika-benjwal/)
+&nbsp;
+[![Kaggle](https://img.shields.io/badge/Kaggle-kritikabenjwal-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white)](https://www.kaggle.com/kritikabenjwal)
+&nbsp;
+[![Hugging Face](https://img.shields.io/badge/Hugging%20Face-Kritzzz11-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)](https://huggingface.co/Kritzzz11)
+&nbsp;
+[![LeetCode](https://img.shields.io/badge/LeetCode-Kritzzz__11-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/u/Kritzzz_11/)
+&nbsp;
+[![Codeforces](https://img.shields.io/badge/Codeforces-Kritzzz__11-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white)](https://codeforces.com/profile/Kritzzz_11)
+&nbsp;
+[![Gmail](https://img.shields.io/badge/Gmail-ananya.benjwal%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ananya.benjwal@gmail.com)
+
+<br><br>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=2,4,14&height=120&section=footer&text=Building%20the%20Future%2C%20One%20Commit%20at%20a%20Time%20%E2%9C%A8&fontSize=18&fontColor=fff&animation=twinkling"/>
 
