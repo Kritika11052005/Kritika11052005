@@ -320,7 +320,7 @@ svg_content = f"""<svg width="100%" height="100%" viewBox="0 0 900 860" fill="no
         <text class="category">EDITORIAL PROFILE</text>
         <text y="22" class="article-title">The Engineer Building</text>
         <text y="42" class="article-title"><tspan class="article-title-italic">Intelligent</tspan> Systems</text>
-        <text y="62" class="article-sub">Intersection of fullstack and AI/ML</text>
+        <text y="62" class="article-sub">Intersection of Fullstack and AI/ML</text>
         <line x1="-195" y1="76" x2="0" y2="76" stroke="#292524" stroke-width="0.8"/>
       </g>
 
