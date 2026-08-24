@@ -3,21 +3,25 @@ import urllib.request
 import json
 import re
 
-# Fetch latest live metrics directly
+# Fetch latest live metrics directly from official endpoints
 try:
-    req = urllib.request.Request('https://github-contributions-api.jogruber.de/v4/Kritika11052005?y=last', headers={'User-Agent': 'Mozilla/5.0'})
+    req = urllib.request.Request('https://github-contributions-api.jogruber.de/v4/Kritika11052005', headers={'User-Agent': 'Mozilla/5.0'})
     data = json.loads(urllib.request.urlopen(req).read().decode('utf-8'))
+    # Past 365 days rolling total (requested by user)
     yearly_contributions = data.get('total', {}).get('lastYear', 689)
+    # All-time total across all years
+    all_time_contributions = sum(data.get('total', {}).values())
 except Exception as e:
     yearly_contributions = 689
+    all_time_contributions = 912
 
 try:
     req = urllib.request.Request('https://komarev.com/ghpvc/?username=Kritika11052005', headers={'User-Agent': 'Mozilla/5.0'})
     svg_raw = urllib.request.urlopen(req).read().decode('utf-8')
     nums = re.findall(r'>(\d+)<', svg_raw)
-    profile_views = nums[-1] if nums else "775"
+    profile_views = nums[-1] if nums else "777"
 except Exception as e:
-    profile_views = "775"
+    profile_views = "777"
 
 with open("placeholder-user1.png", "rb") as f:
     img_b64 = base64.b64encode(f.read()).decode("utf-8")
@@ -205,7 +209,7 @@ svg_content = f"""<svg width="100%" height="100%" viewBox="0 0 900 860" fill="no
     <rect x="14" y="14" width="872" height="832" fill="none" stroke="#292524" stroke-width="0.8" opacity="0.6"/>
     <rect x="18" y="18" width="864" height="824" fill="none" stroke="#44403C" stroke-width="0.4" opacity="0.3"/>
 
-    <!-- ═══════ CENTERPIECE PORTRAIT PHOTO (LOWERED ACCORDINGLY FOR LUXURIOUS CLEARANCE) ═══════ -->
+    <!-- ═══════ CENTERPIECE PORTRAIT PHOTO ═══════ -->
     <g transform="translate(170, 118)" opacity="0">
       <animate attributeName="opacity" from="0" to="1" dur="1.2s" begin="0.2s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.16 1 0.3 1"/>
       <animateTransform attributeName="transform" type="translate" from="170, 144" to="170, 118" dur="1.2s" begin="0.2s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.16 1 0.3 1"/>
@@ -214,7 +218,7 @@ svg_content = f"""<svg width="100%" height="100%" viewBox="0 0 900 860" fill="no
       <rect x="0" y="420" width="560" height="240" fill="url(#fadeBottom)" />
     </g>
 
-    <!-- ═══════ MASTHEAD (SHIFTED LOWER WITH COMFORTABLE TOP MARGIN) ═══════ -->
+    <!-- ═══════ MASTHEAD ═══════ -->
     <g transform="translate(450, 68)" text-anchor="middle">
       <g opacity="0">
         <animate attributeName="opacity" from="0" to="1" dur="0.8s" begin="0.1s" fill="freeze"/>
@@ -294,25 +298,26 @@ svg_content = f"""<svg width="100%" height="100%" viewBox="0 0 900 860" fill="no
         <text class="category">LIVE GITHUB CONTRIBUTIONS</text>
         <text y="22" class="article-title">Past 1-Year <tspan class="article-title-italic">Activity</tspan></text>
         
-        <g transform="translate(-195, 30)">
-          <rect width="195" height="26" rx="4" fill="url(#contribBadgeBg)" stroke="#38BDF8" stroke-width="1"/>
-          <line x1="135" y1="0" x2="135" y2="26" stroke="#38BDF8" stroke-width="0.8" opacity="0.6"/>
+        <!-- Live Contributions Badge -->
+        <g transform="translate(-200, 30)">
+          <rect width="200" height="26" rx="4" fill="url(#contribBadgeBg)" stroke="#38BDF8" stroke-width="1"/>
+          <line x1="140" y1="0" x2="140" y2="26" stroke="#38BDF8" stroke-width="0.8" opacity="0.6"/>
           
           <circle cx="12" cy="13" r="3.5" fill="#38BDF8">
             <animate attributeName="opacity" values="1;0.3;1" dur="1.6s" repeatCount="indefinite"/>
           </circle>
           
           <text x="22" y="17" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="700" fill="#E0F2FE" text-anchor="start" letter-spacing="1">
-            YEARLY COMMITS
+            CONTRIBUTIONS
           </text>
           
-          <text x="165" y="17" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="800" fill="#38BDF8" text-anchor="middle" letter-spacing="0.5">
+          <text x="170" y="17" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="800" fill="#38BDF8" text-anchor="middle" letter-spacing="0.5">
             {yearly_contributions}
           </text>
         </g>
         
         <text y="72" class="article-sub">Verified Past 365 Days on GitHub</text>
-        <line x1="-195" y1="86" x2="0" y2="86" stroke="#292524" stroke-width="0.8"/>
+        <line x1="-200" y1="86" x2="0" y2="86" stroke="#292524" stroke-width="0.8"/>
       </g>
 
       <!-- Section 2: EDITORIAL PROFILE -->
@@ -429,4 +434,4 @@ svg_content = f"""<svg width="100%" height="100%" viewBox="0 0 900 860" fill="no
 with open("tech-vogue.svg", "w", encoding="utf-8") as f:
     f.write(svg_content)
 
-print(f"Shifted KRITIKA BENJWAL lower with clean top margin. Views: {profile_views}, Commits: {yearly_contributions}")
+print(f"Updated tech-vogue.svg with CONTRIBUTIONS label. Views: {profile_views}, 1-Year Contributions: {yearly_contributions}, All-Time: {all_time_contributions}")
