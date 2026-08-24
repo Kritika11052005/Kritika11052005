@@ -1,4 +1,23 @@
 import base64
+import urllib.request
+import json
+
+# Fetch latest live metrics directly
+try:
+    req = urllib.request.Request('https://github-contributions-api.jogruber.de/v4/Kritika11052005?y=last', headers={'User-Agent': 'Mozilla/5.0'})
+    data = json.loads(urllib.request.urlopen(req).read().decode('utf-8'))
+    yearly_contributions = data.get('total', {}).get('lastYear', 689)
+except Exception as e:
+    yearly_contributions = 689
+
+try:
+    req = urllib.request.Request('https://komarev.com/ghpvc/?username=Kritika11052005', headers={'User-Agent': 'Mozilla/5.0'})
+    svg_raw = urllib.request.urlopen(req).read().decode('utf-8')
+    import re
+    nums = re.findall(r'>(\d+)<', svg_raw)
+    profile_views = nums[-1] if nums else "773"
+except Exception as e:
+    profile_views = "773"
 
 with open("placeholder-user1.png", "rb") as f:
     img_b64 = base64.b64encode(f.read()).decode("utf-8")
@@ -71,6 +90,13 @@ svg_content = f"""<svg width="100%" height="100%" viewBox="0 0 900 860" fill="no
         letter-spacing: 2px;
         fill: #57534E;
       }}
+      .ticker-text {{
+        font-family: 'JetBrains Mono', 'Courier New', monospace;
+        font-size: 14px;
+        font-weight: 700;
+        letter-spacing: 1.5px;
+        fill: #FCD34D;
+      }}
     </style>
 
     <!-- Background Gradients -->
@@ -97,50 +123,61 @@ svg_content = f"""<svg width="100%" height="100%" viewBox="0 0 900 860" fill="no
       <stop offset="100%" stop-color="#0C0C12" stop-opacity="1"/>
     </linearGradient>
 
+    <!-- Luxury Badge Gradients -->
+    <linearGradient id="viewsBadgeBg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#181512"/>
+      <stop offset="100%" stop-color="#0E0C0A"/>
+    </linearGradient>
+
+    <linearGradient id="contribBadgeBg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0B131E"/>
+      <stop offset="100%" stop-color="#080C14"/>
+    </linearGradient>
+
     <clipPath id="coverClip">
       <rect width="900" height="860" rx="4"/>
     </clipPath>
 
-    <!-- Typewriter Wipe Masks with generous Y-bounds -->
+    <!-- Typewriter Reveal Masks -->
     <clipPath id="typewriterTagline">
       <rect x="-350" y="10" width="0" height="40">
-        <animate attributeName="width" from="0" to="700" dur="1.4s" begin="0.7s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.25 0.1 0.25 1" />
+        <animate attributeName="width" from="0" to="700" dur="1.4s" begin="0.6s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.25 0.1 0.25 1" />
       </rect>
     </clipPath>
 
     <clipPath id="typewriterLeft1">
       <rect x="0" y="-20" width="0" height="90">
-        <animate attributeName="width" from="0" to="300" dur="0.9s" begin="1.1s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.25 0.1 0.25 1"/>
+        <animate attributeName="width" from="0" to="300" dur="0.9s" begin="0.9s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.25 0.1 0.25 1"/>
       </rect>
     </clipPath>
 
     <clipPath id="typewriterLeft2">
       <rect x="0" y="-20" width="0" height="90">
-        <animate attributeName="width" from="0" to="300" dur="0.9s" begin="1.4s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.25 0.1 0.25 1"/>
+        <animate attributeName="width" from="0" to="300" dur="0.9s" begin="1.2s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.25 0.1 0.25 1"/>
       </rect>
     </clipPath>
 
     <clipPath id="typewriterLeft3">
       <rect x="0" y="-20" width="0" height="180">
-        <animate attributeName="width" from="0" to="350" dur="1.2s" begin="1.7s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.25 0.1 0.25 1"/>
+        <animate attributeName="width" from="0" to="350" dur="1.2s" begin="1.5s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.25 0.1 0.25 1"/>
       </rect>
     </clipPath>
 
     <clipPath id="typewriterRight1">
       <rect x="-300" y="-20" width="0" height="110">
-        <animate attributeName="width" from="0" to="320" dur="0.9s" begin="1.2s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.25 0.1 0.25 1"/>
+        <animate attributeName="width" from="0" to="320" dur="0.9s" begin="1.0s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.25 0.1 0.25 1"/>
       </rect>
     </clipPath>
 
     <clipPath id="typewriterRight2">
       <rect x="-300" y="-20" width="0" height="120">
-        <animate attributeName="width" from="0" to="320" dur="0.9s" begin="1.5s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.25 0.1 0.25 1"/>
+        <animate attributeName="width" from="0" to="320" dur="0.9s" begin="1.3s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.25 0.1 0.25 1"/>
       </rect>
     </clipPath>
 
     <clipPath id="typewriterRight3">
       <rect x="-300" y="-20" width="0" height="130">
-        <animate attributeName="width" from="0" to="320" dur="0.9s" begin="1.8s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.25 0.1 0.25 1"/>
+        <animate attributeName="width" from="0" to="320" dur="0.9s" begin="1.6s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.25 0.1 0.25 1"/>
       </rect>
     </clipPath>
   </defs>
@@ -168,7 +205,7 @@ svg_content = f"""<svg width="100%" height="100%" viewBox="0 0 900 860" fill="no
     <rect x="14" y="14" width="872" height="832" fill="none" stroke="#292524" stroke-width="0.8" opacity="0.6"/>
     <rect x="18" y="18" width="864" height="824" fill="none" stroke="#44403C" stroke-width="0.4" opacity="0.3"/>
 
-    <!-- ═══════ CENTERPIECE PORTRAIT PHOTO (SPACIOUS CLEARANCE & ENTRANCE EFFECT) ═══════ -->
+    <!-- ═══════ CENTERPIECE PORTRAIT PHOTO ═══════ -->
     <g transform="translate(170, 104)" opacity="0">
       <animate attributeName="opacity" from="0" to="1" dur="1.2s" begin="0.2s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.16 1 0.3 1"/>
       <animateTransform attributeName="transform" type="translate" from="170, 130" to="170, 104" dur="1.2s" begin="0.2s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.16 1 0.3 1"/>
@@ -177,7 +214,7 @@ svg_content = f"""<svg width="100%" height="100%" viewBox="0 0 900 860" fill="no
       <rect x="0" y="420" width="560" height="240" fill="url(#fadeBottom)" />
     </g>
 
-    <!-- ═══════ MASTHEAD (SHIFTED UPWARD WITH SPACIOUS GAP ABOVE HAIR) ═══════ -->
+    <!-- ═══════ MASTHEAD ═══════ -->
     <g transform="translate(450, 52)" text-anchor="middle">
       <g opacity="0">
         <animate attributeName="opacity" from="0" to="1" dur="0.8s" begin="0.1s" fill="freeze"/>
@@ -185,7 +222,6 @@ svg_content = f"""<svg width="100%" height="100%" viewBox="0 0 900 860" fill="no
           <tspan class="masthead-first">KRITIKA</tspan>
           <tspan dx="16" class="masthead-last">BENJWAL</tspan>
         </text>
-        <!-- Gold Sub-rule -->
         <line x1="-340" y1="14" x2="340" y2="14" stroke="url(#goldBar)" stroke-width="1.2" opacity="0.9"/>
       </g>
 
@@ -206,12 +242,27 @@ svg_content = f"""<svg width="100%" height="100%" viewBox="0 0 900 860" fill="no
         <line x1="0" y1="52" x2="190" y2="52" stroke="#292524" stroke-width="0.8"/>
       </g>
 
-      <!-- Section 2: LIVE PROFILE VIEWS -->
+      <!-- Section 2: LIVE PROFILE VIEWS (Native Vector Badge) -->
       <g transform="translate(0, 72)" clip-path="url(#typewriterLeft2)">
         <text class="category">LIVE PROFILE VIEWS</text>
-        <g transform="translate(0, 10)">
-          <image href="https://komarev.com/ghpvc/?username=Kritika11052005&amp;label=PROFILE%20VIEWS&amp;color=D97706&amp;labelColor=141210&amp;style=flat-square" width="165" height="24" />
+        
+        <g transform="translate(0, 8)">
+          <rect width="170" height="26" rx="4" fill="url(#viewsBadgeBg)" stroke="#D97706" stroke-width="1"/>
+          <line x1="108" y1="0" x2="108" y2="26" stroke="#D97706" stroke-width="0.8" opacity="0.6"/>
+          
+          <circle cx="12" cy="13" r="3.5" fill="#D97706">
+            <animate attributeName="opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite"/>
+          </circle>
+          
+          <text x="22" y="17" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="700" fill="#E7E5E4" letter-spacing="1">
+            VIEWS
+          </text>
+          
+          <text x="139" y="17" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="800" fill="#F59E0B" text-anchor="middle" letter-spacing="0.5">
+            {profile_views}
+          </text>
         </g>
+        
         <text y="48" class="article-sub">Real-Time Traffic Counter</text>
         <line x1="0" y1="62" x2="190" y2="62" stroke="#292524" stroke-width="0.8"/>
       </g>
@@ -220,17 +271,14 @@ svg_content = f"""<svg width="100%" height="100%" viewBox="0 0 900 860" fill="no
       <g transform="translate(0, 154)" clip-path="url(#typewriterLeft3)">
         <text class="category">RECOGNITION &amp; IMPACT</text>
         
-        <!-- Bullet 1 -->
         <circle cx="4" cy="18" r="2.5" fill="#D97706"/>
         <text x="14" y="22" class="article-title" font-size="14px">Open Source Contributor</text>
         <text x="14" y="37" class="article-sub">Hacktoberfest &amp; GSSoC '25</text>
         
-        <!-- Bullet 2 -->
         <circle cx="4" cy="58" r="2.5" fill="#D97706"/>
         <text x="14" y="62" class="article-title" font-size="14px">AI for Good <tspan class="article-title-italic">Winner</tspan></text>
         <text x="14" y="77" class="article-sub">India Consolation Prize Winner</text>
 
-        <!-- Bullet 3: India AI Impact Buildathon Finalist / Top 2% amongst 40,000+ participants -->
         <circle cx="4" cy="98" r="2.5" fill="#D97706"/>
         <text x="14" y="102" class="article-title" font-size="13.5px">India AI Impact Buildathon Finalist</text>
         <text x="14" y="117" class="article-sub">Top 2% amongst 40,000+ participants</text>
@@ -241,30 +289,43 @@ svg_content = f"""<svg width="100%" height="100%" viewBox="0 0 900 860" fill="no
     <!-- ═══════ RIGHT COLUMN: EDITORIAL COVER LINES ═══════ -->
     <g transform="translate(858, 220)" text-anchor="end">
       
-      <!-- Section 1: LIVE GITHUB CONTRIBUTIONS -->
+      <!-- Section 1: LIVE GITHUB CONTRIBUTIONS (Native Vector Badge) -->
       <g transform="translate(0, 0)" clip-path="url(#typewriterRight1)">
         <text class="category">LIVE GITHUB CONTRIBUTIONS</text>
         <text y="22" class="article-title">Past 1-Year <tspan class="article-title-italic">Activity</tspan></text>
         
-        <!-- Live 1-Year Contributions Badge -->
-        <g transform="translate(-185, 32)">
-          <image href="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fgithub-contributions-api.jogruber.de%2Fv4%2FKritika11052005%3Fy%3Dlast&amp;query=total.lastYear&amp;label=YEARLY%20CONTRIBUTIONS&amp;color=38BDF8&amp;labelColor=141210&amp;style=flat-square" width="185" height="24" />
+        <g transform="translate(-195, 30)">
+          <rect width="195" height="26" rx="4" fill="url(#contribBadgeBg)" stroke="#38BDF8" stroke-width="1"/>
+          <line x1="135" y1="0" x2="135" y2="26" stroke="#38BDF8" stroke-width="0.8" opacity="0.6"/>
+          
+          <circle cx="12" cy="13" r="3.5" fill="#38BDF8">
+            <animate attributeName="opacity" values="1;0.3;1" dur="1.6s" repeatCount="indefinite"/>
+          </circle>
+          
+          <text x="22" y="17" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="700" fill="#E0F2FE" text-anchor="start" letter-spacing="1">
+            YEARLY COMMITS
+          </text>
+          
+          <text x="165" y="17" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="800" fill="#38BDF8" text-anchor="middle" letter-spacing="0.5">
+            {yearly_contributions}
+          </text>
         </g>
-        <text y="70" class="article-sub">Verified Past 365 Days on GitHub</text>
-        <line x1="-190" y1="84" x2="0" y2="84" stroke="#292524" stroke-width="0.8"/>
+        
+        <text y="72" class="article-sub">Verified Past 365 Days on GitHub</text>
+        <line x1="-195" y1="86" x2="0" y2="86" stroke="#292524" stroke-width="0.8"/>
       </g>
 
       <!-- Section 2: EDITORIAL PROFILE -->
-      <g transform="translate(0, 102)" clip-path="url(#typewriterRight2)">
+      <g transform="translate(0, 104)" clip-path="url(#typewriterRight2)">
         <text class="category">EDITORIAL PROFILE</text>
         <text y="22" class="article-title">The Engineer Building</text>
         <text y="42" class="article-title"><tspan class="article-title-italic">Intelligent</tspan> Systems</text>
         <text y="62" class="article-sub">Intersection of fullstack and AI/ML</text>
-        <line x1="-190" y1="76" x2="0" y2="76" stroke="#292524" stroke-width="0.8"/>
+        <line x1="-195" y1="76" x2="0" y2="76" stroke="#292524" stroke-width="0.8"/>
       </g>
 
       <!-- Section 3: BARCODE & ISSUE DETAILS -->
-      <g transform="translate(0, 202)" clip-path="url(#typewriterRight3)">
+      <g transform="translate(0, 204)" clip-path="url(#typewriterRight3)">
         <text class="category">ISSUE &amp; VERIFICATION</text>
         <g transform="translate(-120, 16)">
           <g fill="#3E3835">
@@ -300,10 +361,11 @@ svg_content = f"""<svg width="100%" height="100%" viewBox="0 0 900 860" fill="no
 
     </g>
 
-    <!-- ═══════ BELOW PHOTO: TYPEWRITER LIVE TICKER ═══════ -->
+    <!-- ═══════ BELOW PHOTO: PURE NATIVE VECTOR TYPEWRITER TICKER ═══════ -->
     <g transform="translate(450, 755)" text-anchor="middle">
       <g opacity="0">
-        <animate attributeName="opacity" from="0" to="1" dur="0.8s" begin="1.4s" fill="freeze"/>
+        <animate attributeName="opacity" from="0" to="1" dur="0.8s" begin="1.2s" fill="freeze"/>
+        
         <!-- Luxury Badge Pill Bar -->
         <rect x="-380" y="-22" width="760" height="44" rx="22" fill="#0C0A09" stroke="url(#goldBar)" stroke-width="1.2"/>
         
@@ -315,8 +377,37 @@ svg_content = f"""<svg width="100%" height="100%" viewBox="0 0 900 860" fill="no
           <animate attributeName="opacity" values="1;0.4;1" dur="1.8s" repeatCount="indefinite"/>
         </circle>
 
-        <!-- Embedded Typewriter Effect SVG Image -->
-        <image href="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&amp;weight=700&amp;size=14&amp;duration=2400&amp;pause=1000&amp;color=FCD34D&amp;center=true&amp;vCenter=true&amp;width=680&amp;height=36&amp;lines=%E2%9C%A6+Fullstack+development+%E2%9C%A6;%E2%9C%A6+AI%2FML+Engineering+and+Research+%E2%9C%A6;%E2%9C%A6+Software+Engineering+%E2%9C%A6;%E2%9C%A6+Building+Intelligent+platforms+and+systems+%E2%9C%A6" width="680" height="36" x="-340" y="-18" />
+        <!-- Slide 1: Fullstack development -->
+        <g opacity="0">
+          <text y="5" class="ticker-text">
+            <tspan fill="#F59E0B">✦</tspan> FULLSTACK DEVELOPMENT <tspan fill="#F59E0B">✦</tspan>
+          </text>
+          <animate attributeName="opacity" values="1;1;0;0;0;0;0;0;1" keyTimes="0;0.21;0.25;0.50;0.54;0.75;0.79;0.96;1" dur="12s" repeatCount="indefinite"/>
+        </g>
+
+        <!-- Slide 2: AI/ML Engineering and Research -->
+        <g opacity="0">
+          <text y="5" class="ticker-text">
+            <tspan fill="#38BDF8">✦</tspan> AI/ML ENGINEERING AND RESEARCH <tspan fill="#38BDF8">✦</tspan>
+          </text>
+          <animate attributeName="opacity" values="0;0;1;1;0;0;0;0;0" keyTimes="0;0.21;0.25;0.46;0.50;0.75;0.79;0.96;1" dur="12s" repeatCount="indefinite"/>
+        </g>
+
+        <!-- Slide 3: Software Engineering -->
+        <g opacity="0">
+          <text y="5" class="ticker-text">
+            <tspan fill="#A855F7">✦</tspan> SOFTWARE ENGINEERING <tspan fill="#A855F7">✦</tspan>
+          </text>
+          <animate attributeName="opacity" values="0;0;0;0;1;1;0;0;0" keyTimes="0;0.21;0.25;0.46;0.50;0.71;0.75;0.96;1" dur="12s" repeatCount="indefinite"/>
+        </g>
+
+        <!-- Slide 4: Building Intelligent platforms and systems -->
+        <g opacity="0">
+          <text y="5" class="ticker-text">
+            <tspan fill="#10B981">✦</tspan> BUILDING INTELLIGENT PLATFORMS AND SYSTEMS <tspan fill="#10B981">✦</tspan>
+          </text>
+          <animate attributeName="opacity" values="0;0;0;0;0;0;1;1;0" keyTimes="0;0.21;0.25;0.46;0.50;0.71;0.75;0.96;1" dur="12s" repeatCount="indefinite"/>
+        </g>
       </g>
     </g>
 
@@ -338,4 +429,4 @@ svg_content = f"""<svg width="100%" height="100%" viewBox="0 0 900 860" fill="no
 with open("tech-vogue.svg", "w", encoding="utf-8") as f:
     f.write(svg_content)
 
-print("tech-vogue.svg regenerated with perfect vertical clip boundaries.")
+print(f"Self-contained tech-vogue.svg generated with live views: {profile_views} and yearly contributions: {yearly_contributions}")
