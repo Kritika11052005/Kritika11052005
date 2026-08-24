@@ -1,7 +1,7 @@
 <div align="center">
 
 <a href="https://github.com/Kritika11052005">
-  <img src="https://raw.githubusercontent.com/Kritika11052005/Kritika11052005/main/header-banner.svg" alt="Kritika Benjwal - AI Researcher & Agentic Systems Engineer" width="100%"/>
+  <img src="https://raw.githubusercontent.com/Kritika11052005/Kritika11052005/main/header-banner.svg" alt="Kritika Benjwal - Tech Vogue" width="100%"/>
 </a>
 
 </div>
@@ -15,9 +15,6 @@
 <div align="center">
   <img src="https://raw.githubusercontent.com/Kritika11052005/Kritika11052005/main/about-me.svg" alt="Terminal Card" width="100%"/>
 </div>
-
-> **I am a Computer Science undergraduate & Engineer at Manipal University Jaipur (Class of 2027).**  
-> My work operates at the **intersection of Full-Stack Architecture and AI/ML Engineering** — building intelligent, scalable platforms and robust software systems.
 
 <br>
 
@@ -57,15 +54,13 @@
 
 ---
 
-## ⚡ Comprehensive Projects Showcase
-
-### 🤖 A. Flagship AI & Agentic Systems
+## ⚡ Flagship Projects & Intelligent Systems
 
 <table>
   <thead>
     <tr>
-      <th width="28%">Project</th>
-      <th width="42%">Core Architecture & Innovation</th>
+      <th width="24%">Project</th>
+      <th width="46%">Core Architecture & Innovation</th>
       <th width="30%">Stack & Impact</th>
     </tr>
   </thead>
@@ -73,60 +68,40 @@
     <tr>
       <td><b>NEXUS</b><br><sub>Adversarial Multi-Agent Swarm</sub></td>
       <td>Autonomous 7-agent intelligence swarm (planners, researchers, critics, validators, reconcilers) executing distributed adversarial synthesis with real-time SSE streaming.</td>
-      <td><code>LangGraph</code> <code>FastAPI</code> <code>Gemini 3.5</code> <code>Next.js 15</code> <code>Redis</code><br>⏱️ &lt;3 min complete multi-perspective reports with sliding-window rate limiting.</td>
+      <td><code>LangGraph</code> <code>FastAPI</code> <code>Gemini</code> <code>Next.js 15</code> <code>Redis</code><br>⏱️ &lt;3 min complete multi-perspective reports with sliding-window rate limiting.</td>
     </tr>
     <tr>
-      <td><b>Agentic Honey-Pot API</b><br><sub>Autonomous Cyber-Deception</sub></td>
-      <td>Autonomous deception engine powered by 12 heuristic patterns and rotating dynamic victim personas designed to ensnare and profile adversarial attackers.</td>
-      <td><code>Node.js</code> <code>Express</code> <code>Gemini 2.5 Flash</code><br>🏆 <b>Top 2% National Finalist</b> (Score 72/100, 40,000+ devs at HCL GUVI Buildathon).</td>
+      <td><b>RayWise</b><br><sub>AI Solar Rooftop &amp; Satellite CV</sub></td>
+      <td>Satellite computer vision platform for automated rooftop segmentation paired with solar irradiance models for clean energy ROI forecasting.</td>
+      <td><code>Next.js 15</code> <code>TypeScript</code> <code>Convex</code> <code>Clerk</code> <code>Gemini API</code> <code>Three.js</code><br>☀️ 92% segmentation accuracy with 3D solar rendering.</td>
     </tr>
     <tr>
-      <td><b>LeaseGuard</b><br><sub>Contract Fairness Auditor</sub></td>
+      <td><b>WildEcho</b><br><sub>TaxaMoE Multi-Taxa Bioacoustics</sub></td>
+      <td>Multi-taxa bioacoustic classification architecture processing 234 species across 5 biological taxa with probabilistic gating over Perch v2 embeddings.</td>
+      <td><code>PyTorch</code> <code>MoE</code> <code>Perch v2</code> <code>FastAPI</code> <code>ONNX Runtime</code><br>🌿 Accepted at CLEF 2026 (0.93957 ROC-AUC).</td>
+    </tr>
+    <tr>
+      <td><b>UCRIS</b><br><sub>Credit Risk Intelligent System</sub></td>
+      <td>Hybrid tree-neural stacking model with SHAP explainability for default prediction on 30,000+ banking portfolios.</td>
+      <td><code>PyTorch</code> <code>XGBoost</code> <code>SHAP</code> <code>FastAPI</code> <code>NeonDB</code><br>📈 0.9996 AUC with regulatory compliance reporting.</td>
+    </tr>
+    <tr>
+      <td><b>CellTrace APM</b><br><sub>EV Battery Health &amp; Provenance</sub></td>
+      <td>Gemini 2.5 Flash diagnostic agent with 3 Scikit-learn predictive models (SOH, RUL, knee-point) anchored to Polygon blockchain for immutable battery provenance.</td>
+      <td><code>FastAPI</code> <code>Scikit-learn</code> <code>Polygon Blockchain</code> <code>Solidity</code> <code>Next.js</code><br>🔋 Real-time telemetry visualizer &amp; failure-risk scoring.</td>
+    </tr>
+    <tr>
+      <td><b>ColdChain</b><br><sub>Automated B2B Lead Enrichment</sub></td>
+      <td>Autonomous B2B lead enrichment and personalized outreach automation engine with live WebSocket streaming.</td>
+      <td><code>FastAPI</code> <code>Python</code> <code>WebSockets</code> <code>Turso / libSQL</code> <code>Next.js</code><br>⚡ High-throughput automated pipeline.</td>
+    </tr>
+    <tr>
+      <td><b>LeaseGuard</b><br><sub>AI Contract Review &amp; Risk Auditor</sub></td>
       <td>Automated SLA parameter extraction and contract audit engine running RAG-guided risk assessments and counter-offer negotiation strategies.</td>
       <td><code>Next.js 15</code> <code>FastAPI</code> <code>LangChain</code> <code>ChromaDB</code> <code>NeonDB</code><br>🎯 50+ contract variables audited at 95% precision.</td>
     </tr>
-    <tr>
-      <td><b>VantageAI</b><br><sub>Voice AI Interview Coach</sub></td>
-      <td>Interactive speech AI mock interviewer analyzing spoken responses via Web Audio API, delivering instant rubric scoring and audio feedback.</td>
-      <td><code>Next.js</code> <code>VAPI Voice AI</code> <code>Firebase</code> <code>Web Audio API</code><br>🎙️ Sub-second conversational latency.</td>
-    </tr>
-    <tr>
-      <td><b>MindHaven</b><br><sub>Conversational Mental Health Agent</sub></td>
-      <td>Empathetic mental wellness agent with proactive crisis trigger classification and secure, encrypted session memory.</td>
-      <td><code>Next.js</code> <code>TypeScript</code> <code>MongoDB</code> <code>Gemini AI</code> <code>NextAuth</code><br>🛡️ Real-time safety guardrails & crisis routing.</td>
-    </tr>
-    <tr>
-      <td><b>RayWise</b><br><sub>Rooftop Solar & Satellite CV</sub></td>
-      <td>Satellite computer vision pipeline for automated rooftop segmentation paired with solar irradiance models for clean energy ROI forecasting.</td>
-      <td><code>Next.js 15</code> <code>Three.js</code> <code>GSAP</code> <code>Gemini API</code> <code>Convex</code><br>☀️ 92% segmentation accuracy with 3D solar rendering.</td>
-    </tr>
   </tbody>
 </table>
-
-<details>
-<summary><b>🔍 View Additional Project Portfolios (13 More Systems)</b></summary>
-<br>
-
-#### 🧬 B. Machine Learning, Deep Learning & Bioacoustics
-* **WildEcho (TaxaMoE)** — Multi-taxa bioacoustic classification system processing 234 species across 5 biological taxa with probabilistic gating. *(PyTorch, Perch v2, MoE, Prototypical Networks, ONNX Runtime)*
-* **UCRIS (Credit Risk Intelligent System)** — Hybrid tree-neural stacking model (0.9996 AUC) on 30K+ banking portfolios with SHAP regulatory compliance. *(PyTorch, XGBoost, SHAP, FastAPI, NeonDB)*
-* **CareerDNA** — Explainable candidate ranking & resume-job match scoring pipeline built for Redrob Hackathon. *(LightGBM LambdaMART, Scikit-learn, FastAPI, Next.js)*
-* **Transit-AI** — Astronomical deep learning model detecting candidate exoplanet transits from NASA Kepler/TESS photometric light curves. *(PyTorch, 1D-CNN, Lightkurve, Astropy)*
-
-#### 🛠️ C. Full-Stack Engineering & Developer Tooling
-* **CellTrace** — EV battery State of Health (SOH) predictive monitoring with Polygon smart contracts for immutable provenance. *(Next.js 15, FastAPI, Polygon Blockchain, Solidity, Random Forest)*
-* **FlowForge** — High-performance agile workspace with drag-and-drop Kanban orchestration, sprint analytics, and real-time synchronization. *(Next.js 15, React 19, Prisma, Neon PostgreSQL, Clerk)*
-* **ColdChain** — Automated B2B lead enrichment and personalized outreach automation engine with live WebSocket streaming. *(FastAPI, Python, WebSockets, Turso/libSQL, Next.js)*
-* **Code Wave** — Modern browser IDE with sub-500ms multi-language execution support across 6+ runtimes. *(Next.js, Monaco Editor, Zustand, Judge0 API)*
-* **DonorConnect** — Philanthropy platform for verified NGOs featuring automated 80G tax certificate generation. *(Next.js 15, Convex, Clerk, Stripe, jsPDF)*
-
-#### 📊 D. Data Engineering & Competitive Machine Learning
-* **Nivaasika** — Property defect detection platform backed by a 7-table Snowflake data warehouse schema. *(Snowflake, CV, FastAPI, Next.js — Winner, AI for Good Hackathon)*
-* **Bitcoin Sentiment vs Trader Performance** — Empirical 2-year analysis uncovering 4 trader behavioral archetypes and an 18-hour sentiment lag window. *(Kaggle EDA, K-Means Clustering, Time Series)*
-* **Kaggle S6E4 (Irrigation Need)** — Soil moisture forecasting pipeline achieving Rank 873 / 4,315 (Top 20%). *(LightGBM, CatBoost, Feature Engineering)*
-* **Kaggle S6E3 (Customer Churn)** — Customer attrition prediction achieving 0.91454 ROC-AUC (Top 22%, Rank 920 / 4,142). *(CatBoost, XGBoost, Optuna)*
-
-</details>
 
 ---
 
@@ -138,12 +113,12 @@
       <img src="https://img.shields.io/badge/01-3B82F6?style=for-the-badge&labelColor=0d1117" />
     </td>
     <td>
-      <h4>AariyaTech Corp Private Limited &nbsp;·&nbsp; <code>Software Engineering Intern (MERN / Next.js)</code></h4>
+      <h4>AariyaTech Corp Private Limited &nbsp;·&nbsp; <code>Software (MERN Stack / Next.js) Intern</code></h4>
       <p><i>Dec 2025 – Mar 2026 | Remote</i></p>
       <ul>
-        <li>Architected <b>Job Search Optimizer (JSO)</b>, an AI-powered ATS optimization platform serving <b>500+ active job seekers</b> with an <b>85% verified resume improvement rate</b>.</li>
-        <li>Engineered end-to-end full-stack modules using <b>Next.js 15, React, Node.js, Supabase, and Docker</b> handling 300+ live job listings.</li>
-        <li>Integrated OAuth (Google, GitHub, Bitbucket, LinkedIn), enterprise role-based dashboards, automated notification queues, and SEO optimizations.</li>
+        <li>Developed <b>Job Search Optimizer (JSO)</b>, an AI platform serving <b>500+ job seekers</b> with an <b>85% resume improvement rate</b>.</li>
+        <li>Built scalable full-stack features using <b>Next.js, React, Node.js, Supabase, and Docker</b> for ATS optimization with 300+ job opportunities.</li>
+        <li>Engineered admin dashboard, SEO optimizations, and Success Story feature; integrated Google, GitHub, Bitbucket &amp; LinkedIn OAuth and user notification system.</li>
       </ul>
       <p><b>Stack:</b> <code>Next.js</code> <code>React</code> <code>Node.js</code> <code>Supabase</code> <code>Docker</code> <code>OAuth</code></p>
     </td>
@@ -156,9 +131,9 @@
       <h4>Infosys Springboard &nbsp;·&nbsp; <code>Artificial Intelligence Virtual Intern</code></h4>
       <p><i>Dec 2025 – Mar 2026 | Remote</i></p>
       <ul>
-        <li>Engineered an AI/LLM-powered <b>Car Lease Contract Review</b> web platform using <b>Google Gemini</b> for automated SLA extraction and liability risk analysis.</li>
-        <li>Built a high-performance <b>FastAPI</b> backend processing <b>50+ critical contract parameters with 95% accuracy</b>, backed by <b>PostgreSQL (NeonDB) & Prisma</b>.</li>
-        <li>Implemented a contextual RAG pipeline with <b>LangChain + ChromaDB</b> for automated contract counter-negotiation and NHTSA safety integrations.</li>
+        <li>Developed an AI/LLM <b>Car Lease Contract Review</b> web app using <b>Google Gemini</b> for SLA extraction and contract analysis.</li>
+        <li>Built full-stack application with <b>Next.js/React frontend and FastAPI backend</b>, processing <b>50+ contract parameters with 95% accuracy</b>, backed by <b>NeonDB (PostgreSQL) via Prisma ORM</b>.</li>
+        <li>Integrated NHTSA API for VIN lookup and Marketplace API for real-time market price estimation; implemented RAG pipeline with <b>LangChain and ChromaDB</b> for context-aware lease negotiation chatbot.</li>
       </ul>
       <p><b>Stack:</b> <code>Google Gemini</code> <code>FastAPI</code> <code>LangChain</code> <code>ChromaDB</code> <code>NeonDB</code> <code>Prisma</code> <code>Next.js</code></p>
     </td>
@@ -168,13 +143,12 @@
       <img src="https://img.shields.io/badge/03-a855f7?style=for-the-badge&labelColor=0d1117" />
     </td>
     <td>
-      <h4>Edunet Foundation (Microsoft Initiative) &nbsp;·&nbsp; <code>Artificial Intelligence Intern</code></h4>
+      <h4>Edunet Foundation &nbsp;·&nbsp; <code>Artificial Intelligence Intern (Microsoft Initiative)</code></h4>
       <p><i>Apr 2025 – May 2025 | Remote</i></p>
       <ul>
-        <li>Completed intensive industry immersion in Generative AI architectures, advanced NLP pipelines, and machine learning deployment workflows.</li>
-        <li>Built applied prototypes leveraging <b>Microsoft Copilot</b> and <b>Azure AI services</b> for automated data understanding.</li>
+        <li>Completed 4-week intensive training on AI/ML algorithms, Generative AI, and NLP using <b>Microsoft Copilot</b> and <b>Azure AI</b>.</li>
       </ul>
-      <p><b>Stack:</b> <code>Azure AI</code> <code>Microsoft Copilot</code> <code>Python</code> <code>Machine Learning</code> <code>NLP</code></p>
+      <p><b>Stack:</b> <code>Azure AI</code> <code>Microsoft Copilot</code> <code>Generative AI</code> <code>NLP</code> <code>Machine Learning</code></p>
     </td>
   </tr>
 </table>
@@ -185,59 +159,89 @@
 
 <table align="center" width="100%">
   <tr>
-    <td width="22%" align="left"><b>💻 Core Languages</b></td>
+    <td width="24%" align="left"><b>💻 Languages</b></td>
     <td align="left">
-      <img src="https://skillicons.dev/icons?i=python,ts,js,java,cpp,c&theme=dark" />
+      <img src="https://skillicons.dev/icons?i=c,cpp,java,python,js,ts,solidity&theme=dark" />
       &nbsp;
       <img src="https://img.shields.io/badge/SQL-3B82F6?style=flat-square&logo=postgresql&logoColor=white&labelColor=0d1117" height="28" />
-      <img src="https://img.shields.io/badge/HTML5%2FCSS3-E34F26?style=flat-square&logo=html5&logoColor=white&labelColor=0d1117" height="28" />
+      <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white&labelColor=0d1117" height="28" />
+      <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white&labelColor=0d1117" height="28" />
     </td>
   </tr>
   <tr>
-    <td align="left"><b>🧠 Deep Learning & AI</b></td>
+    <td align="left"><b>🧠 Machine Learning</b></td>
     <td align="left">
-      <img src="https://skillicons.dev/icons?i=pytorch,tensorflow,sklearn&theme=dark" />
+      <img src="https://skillicons.dev/icons?i=sklearn,numpy,pandas&theme=dark" />
       &nbsp;
-      <img src="https://img.shields.io/badge/Mixture%20of%20Experts%20(MoE)-FF6F00?style=flat-square&labelColor=0d1117" height="28" />
-      <img src="https://img.shields.io/badge/RAG%20Pipelines-a855f7?style=flat-square&labelColor=0d1117" height="28" />
-      <img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logo=langchain&logoColor=white&labelColor=0d1117" height="28" />
-      <img src="https://img.shields.io/badge/ChromaDB-FF6F61?style=flat-square&labelColor=0d1117" height="28" />
-      <img src="https://img.shields.io/badge/Google%20Gemini-4285F4?style=flat-square&logo=google&logoColor=white&labelColor=0d1117" height="28" />
-      <img src="https://img.shields.io/badge/ONNX%20Runtime-005CED?style=flat-square&logo=onnx&logoColor=white&labelColor=0d1117" height="28" />
       <img src="https://img.shields.io/badge/SHAP-FF4154?style=flat-square&labelColor=0d1117" height="28" />
+      <img src="https://img.shields.io/badge/Matplotlib-11557c?style=flat-square&logo=python&logoColor=white&labelColor=0d1117" height="28" />
+      <img src="https://img.shields.io/badge/Plotly-3F4F75?style=flat-square&logo=plotly&logoColor=white&labelColor=0d1117" height="28" />
+      <img src="https://img.shields.io/badge/Seaborn-3776AB?style=flat-square&logo=python&logoColor=white&labelColor=0d1117" height="28" />
     </td>
   </tr>
   <tr>
-    <td align="left"><b>🌐 Full-Stack & UI</b></td>
+    <td align="left"><b>🧬 Deep Learning</b></td>
     <td align="left">
-      <img src="https://skillicons.dev/icons?i=nextjs,react,nodejs,express,tailwind,threejs&theme=dark" />
+      <img src="https://skillicons.dev/icons?i=pytorch,tensorflow&theme=dark" />
+    </td>
+  </tr>
+  <tr>
+    <td align="left"><b>🌐 Frameworks &amp; Libraries</b></td>
+    <td align="left">
+      <img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,express,fastapi,tailwind,threejs&theme=dark" />
       &nbsp;
-      <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white&labelColor=0d1117" height="28" />
-      <img src="https://img.shields.io/badge/Prisma%20ORM-2D3748?style=flat-square&logo=prisma&logoColor=white&labelColor=0d1117" height="28" />
-      <img src="https://img.shields.io/badge/shadcn%2Fui-000000?style=flat-square&logo=shadcnui&logoColor=white&labelColor=0d1117" height="28" />
-      <img src="https://img.shields.io/badge/Framer%20Motion-0055FF?style=flat-square&logo=framer&logoColor=white&labelColor=0d1117" height="28" />
       <img src="https://img.shields.io/badge/GSAP-88CE02?style=flat-square&logo=greensock&logoColor=white&labelColor=0d1117" height="28" />
+      <img src="https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white&labelColor=0d1117" height="28" />
+      <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white&labelColor=0d1117" height="28" />
+      <img src="https://img.shields.io/badge/Mongoose-880000?style=flat-square&logo=mongodb&logoColor=white&labelColor=0d1117" height="28" />
+      <img src="https://img.shields.io/badge/HardHat-FFF100?style=flat-square&logoColor=black&labelColor=0d1117" height="28" />
+      <img src="https://img.shields.io/badge/WebSockets-010101?style=flat-square&logo=socketdotio&logoColor=white&labelColor=0d1117" height="28" />
     </td>
   </tr>
   <tr>
-    <td align="left"><b>🗄️ Databases & Storage</b></td>
+    <td align="left"><b>🗄️ Databases</b></td>
     <td align="left">
-      <img src="https://skillicons.dev/icons?i=postgres,mongodb,mysql,supabase,firebase,redis&theme=dark" />
+      <img src="https://skillicons.dev/icons?i=mongodb,mysql,postgres,redis&theme=dark" />
       &nbsp;
-      <img src="https://img.shields.io/badge/Snowflake%20DW-29B5E8?style=flat-square&logo=snowflake&logoColor=white&labelColor=0d1117" height="28" />
-      <img src="https://img.shields.io/badge/Neon%20Postgres-00E5A0?style=flat-square&logo=neon&logoColor=black&labelColor=0d1117" height="28" />
-      <img src="https://img.shields.io/badge/Turso%20%2F%20libSQL-4FF8D2?style=flat-square&logo=turso&logoColor=black&labelColor=0d1117" height="28" />
-      <img src="https://img.shields.io/badge/Convex-F87171?style=flat-square&labelColor=0d1117" height="28" />
+      <img src="https://img.shields.io/badge/NeonDB-00E5A0?style=flat-square&logo=neon&logoColor=black&labelColor=0d1117" height="28" />
     </td>
   </tr>
   <tr>
-    <td align="left"><b>☁️ Cloud, DevOps & Web3</b></td>
+    <td align="left"><b>☁️ Cloud &amp; DevOps</b></td>
     <td align="left">
-      <img src="https://skillicons.dev/icons?i=docker,kubernetes,vercel,gcp,git,github,githubactions&theme=dark" />
+      <img src="https://skillicons.dev/icons?i=docker,vercel,firebase&theme=dark" />
       &nbsp;
-      <img src="https://img.shields.io/badge/Hyperledger%20Fabric-2F3134?style=flat-square&logo=hyperledger&logoColor=white&labelColor=0d1117" height="28" />
-      <img src="https://img.shields.io/badge/Polygon-8247E5?style=flat-square&logo=polygon&logoColor=white&labelColor=0d1117" height="28" />
       <img src="https://img.shields.io/badge/Render-46E3B7?style=flat-square&logo=render&logoColor=black&labelColor=0d1117" height="28" />
+      <img src="https://img.shields.io/badge/Snowflake-29B5E8?style=flat-square&logo=snowflake&logoColor=white&labelColor=0d1117" height="28" />
+      <img src="https://img.shields.io/badge/IBM%20Cloud-052FAD?style=flat-square&logo=ibm&logoColor=white&labelColor=0d1117" height="28" />
+    </td>
+  </tr>
+  <tr>
+    <td align="left"><b>⚡ Platforms &amp; Services</b></td>
+    <td align="left">
+      <img src="https://skillicons.dev/icons?i=supabase,postman&theme=dark" />
+      &nbsp;
+      <img src="https://img.shields.io/badge/Convex-F87171?style=flat-square&labelColor=0d1117" height="28" />
+      <img src="https://img.shields.io/badge/Clerk-6C47FF?style=flat-square&logo=clerk&logoColor=white&labelColor=0d1117" height="28" />
+      <img src="https://img.shields.io/badge/Stripe-635BFF?style=flat-square&logo=stripe&logoColor=white&labelColor=0d1117" height="28" />
+      <img src="https://img.shields.io/badge/Polygon%20(Amoy)-8247E5?style=flat-square&logo=polygon&logoColor=white&labelColor=0d1117" height="28" />
+      <img src="https://img.shields.io/badge/LemonSqueezy-FFC439?style=flat-square&labelColor=0d1117" height="28" />
+    </td>
+  </tr>
+  <tr>
+    <td align="left"><b>🛠️ Tools &amp; Technologies</b></td>
+    <td align="left">
+      <img src="https://skillicons.dev/icons?i=git,github,vscode&theme=dark" />
+      &nbsp;
+      <img src="https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white&labelColor=0d1117" height="28" />
+      <img src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black&labelColor=0d1117" height="28" />
+      <img src="https://img.shields.io/badge/Zustand-443e38?style=flat-square&labelColor=0d1117" height="28" />
+      <img src="https://img.shields.io/badge/RAG-a855f7?style=flat-square&labelColor=0d1117" height="28" />
+      <img src="https://img.shields.io/badge/ChromaDB-FF6F61?style=flat-square&labelColor=0d1117" height="28" />
+      <img src="https://img.shields.io/badge/VAPI%20AI-000000?style=flat-square&labelColor=0d1117" height="28" />
+      <img src="https://img.shields.io/badge/Google%20Gemini%20AI-4285F4?style=flat-square&logo=google&logoColor=white&labelColor=0d1117" height="28" />
+      <img src="https://img.shields.io/badge/Azure%20AI-0078D4?style=flat-square&logo=microsoftazure&logoColor=white&labelColor=0d1117" height="28" />
+      <img src="https://img.shields.io/badge/Microsoft%20Copilot-00A4EF?style=flat-square&logo=microsoft&logoColor=white&labelColor=0d1117" height="28" />
     </td>
   </tr>
 </table>
@@ -249,28 +253,22 @@
 <div align="center">
 <table border="0" cellpadding="10" width="100%">
   <tr>
-    <td align="center" width="25%">
-      <img src="https://img.shields.io/badge/🏆-WINNER-f59e0b?style=for-the-badge&labelColor=451a03" width="150"><br><br>
+    <td align="center" width="33.3%">
+      <img src="https://img.shields.io/badge/🏆-WINNER-f59e0b?style=for-the-badge&labelColor=451a03" width="160"><br><br>
       <b>AI for Good Hackathon</b><br>
       <sub>India Consolation Prize for <b>Nivaasika</b> with Snowflake &amp; CV</sub><br><br>
       <a href="https://yourstory.com/2026/05/ai-hackathon-apj-innovators-showcased-real-world-impact-snowflake-ai">
         <img src="https://img.shields.io/badge/Featured%20on-YourStory-FF5722?style=flat-square&logo=googlechrome&logoColor=white" />
       </a>
     </td>
-    <td align="center" width="25%">
-      <img src="https://img.shields.io/badge/🎖️-TOP%202%25-3B82F6?style=for-the-badge&labelColor=0d1117" width="150"><br><br>
+    <td align="center" width="33.3%">
+      <img src="https://img.shields.io/badge/🎖️-TOP%202%25-3B82F6?style=for-the-badge&labelColor=0d1117" width="160"><br><br>
       <b>India AI Impact Buildathon</b><br>
       <sub>National Finalist (Score 72/100 among <b>40,000+</b> participants)</sub><br><br>
       <img src="https://img.shields.io/badge/HCL%20GUVI-Recognized-009688?style=flat-square" />
     </td>
-    <td align="center" width="25%">
-      <img src="https://img.shields.io/badge/🌍-RANK%201558%20SOLO-10b981?style=for-the-badge&labelColor=064e3b" width="150"><br><br>
-      <b>BirdCLEF+ 2026 Challenge</b><br>
-      <sub>Top Solo Standing (<b>0.93957 ROC-AUC</b> out of 4,091 competitors)</sub><br><br>
-      <img src="https://img.shields.io/badge/CLEF%202026-Accepted%20MoE-10b981?style=flat-square" />
-    </td>
-    <td align="center" width="25%">
-      <img src="https://img.shields.io/badge/🌟-SUPERCONTRIBUTOR-FF6B6B?style=for-the-badge&labelColor=8B0000" width="150"><br><br>
+    <td align="center" width="33.3%">
+      <img src="https://img.shields.io/badge/🌟-SUPERCONTRIBUTOR-FF6B6B?style=for-the-badge&labelColor=8B0000" width="160"><br><br>
       <b>Hacktoberfest &amp; GSSoC'25</b><br>
       <sub>6+ merged PRs across Dev-Elevate &amp; GirlScript Summer of Code contributor</sub><br><br>
       <img src="https://img.shields.io/badge/Open%20Source-Verified-10b981?style=flat-square" />
@@ -278,58 +276,6 @@
   </tr>
 </table>
 </div>
-
----
-
-## 📜 Professional Certifications & Specializations
-
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h4>🧠 DeepLearning.AI</h4>
-      <ul>
-        <li>
-          <a href="https://www.coursera.org/specializations/mathematics-for-machine-learning-and-data-science"><b>Mathematics for Machine Learning and Data Science Specialization</b></a> <img src="https://img.shields.io/badge/Credential-Verified-3B82F6?style=flat-square" /><br>
-          <sub>Linear Algebra, Multivariate Calculus, PCA, Optimization, and Probability</sub>
-        </li>
-      </ul>
-      <h4>💼 Deloitte &amp; Microsoft</h4>
-      <ul>
-        <li><b>Level 1 – GenW.AI Explorer</b> <i>(Deloitte Hacksplosion 2026)</i></li>
-        <li>
-          <a href="https://edunetfoundation.org/"><b>Artificial Intelligence &amp; Azure AI Specialization</b></a> <img src="https://img.shields.io/badge/Microsoft%20Initiative-Certified-00A4EF?style=flat-square" /><br>
-          <sub>4-week intensive training on AI/ML algorithms, Generative AI, and Azure AI Services</sub>
-        </li>
-      </ul>
-    </td>
-    <td width="50%" valign="top">
-      <h4>☁️ IBM (Coursera)</h4>
-      <ul>
-        <li>
-          <a href="https://www.coursera.org/learn/microservices-serverless-apps"><b>Microservices &amp; Serverless Application Development</b></a> <img src="https://img.shields.io/badge/IBM-Verified-052FAD?style=flat-square" /><br>
-          <sub>Docker, Kubernetes, OpenShift, and Event-Driven Architecture</sub>
-        </li>
-        <li>
-          <a href="https://www.coursera.org/learn/introduction-to-cloud"><b>Introduction to Cloud Computing</b></a> <img src="https://img.shields.io/badge/IBM-Verified-052FAD?style=flat-square" /><br>
-          <sub>IaaS/PaaS/SaaS, Cloud Security, IAM, and Hybrid Cloud Architectures</sub>
-        </li>
-        <li>
-          <a href="https://www.coursera.org/learn/introduction-to-software-engineering"><b>Introduction to Software Engineering</b></a> <img src="https://img.shields.io/badge/IBM-Verified-052FAD?style=flat-square" /><br>
-          <sub>SDLC Methodologies, Agile/Scrum, Git Workflows, and Architecture Design</sub>
-        </li>
-      </ul>
-      <h4>🎓 NPTEL (IITs)</h4>
-      <ul>
-        <li>
-          <a href="https://nptel.ac.in/courses/106105225"><b>Data Structures &amp; Algorithms using Java</b></a> — <img src="https://img.shields.io/badge/Elite%20(67%25)-IIT%20Kharagpur-D97706?style=flat-square" />
-        </li>
-        <li>
-          <a href="https://nptel.ac.in/courses/106106131"><b>Design and Analysis of Algorithms (DAA)</b></a> — <img src="https://img.shields.io/badge/Elite%20(63%25)-IIT%20Madras-D97706?style=flat-square" />
-        </li>
-      </ul>
-    </td>
-  </tr>
-</table>
 
 ---
 
