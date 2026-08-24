@@ -4,32 +4,6 @@
   <img src="https://raw.githubusercontent.com/Kritika11052005/Kritika11052005/main/header-banner.svg" alt="Kritika Benjwal - AI Researcher & Agentic Systems Engineer" width="100%"/>
 </a>
 
-<br><br>
-
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&duration=2800&pause=900&color=38BDF8&center=true&vCenter=true&width=860&height=50&lines=AI+Researcher+%26+Agentic+Systems+Engineer+%F0%9F%A4%96;Mixture+of+Experts+(MoE)+%26+Deep+Learning+Architectures+%F0%9F%94%AC;Full-Stack+Architect+(Next.js+15+%C2%B7+FastAPI+%C2%B7+Distributed+DBs)+%E2%9A%A1;Published+Author+(Springer+Nature+%C2%B7+CLEF+2026)+%F0%9F%93%9A;Dean's+List+Awardee+%C2%B7+B.Tech+CSE+%40+MUJ+'27+%F0%9F%8E%93" alt="Typing SVG" />
-
-<br>
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-kritika--benjwal-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=004182)](https://www.linkedin.com/in/kritika-benjwal/)
-[![Kaggle](https://img.shields.io/badge/Kaggle-kritikabenjwal-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white&labelColor=0083B0)](https://www.kaggle.com/kritikabenjwal)
-[![Hugging Face](https://img.shields.io/badge/Hugging%20Face-Kritzzz11-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black&labelColor=B38F00)](https://huggingface.co/Kritzzz11)
-[![LeetCode](https://img.shields.io/badge/LeetCode-Kritzzz__11-FFA116?style=for-the-badge&logo=leetcode&logoColor=black&labelColor=9E5F00)](https://leetcode.com/u/Kritzzz_11/)
-[![Codeforces](https://img.shields.io/badge/Codeforces-Kritzzz__11-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white&labelColor=0E4B75)](https://codeforces.com/profile/Kritzzz_11)
-[![Resume](https://img.shields.io/badge/Resume-Google%20Drive-4285F4?style=for-the-badge&logo=googledrive&logoColor=white&labelColor=174EA6)](https://drive.google.com/file/d/1Zyg6o_byTdbc32sMzf4QrotS_XzP-ycz/view?usp=sharing)
-[![Email](https://img.shields.io/badge/Gmail-Contact%20Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=A51D14)](mailto:ananya.benjwal@gmail.com)
-
-<br>
-
-<a href="https://github.com/Kritika11052005">
-  <img src="https://komarev.com/ghpvc/?username=Kritika11052005&label=Profile+Views&color=3B82F6&labelColor=0d1117&style=flat-square&logo=eye&logoColor=white" alt="Profile Views" />
-</a>
-&nbsp;
-<img src="https://img.shields.io/badge/Status-B.Tech%20CSE%20%40%20MUJ%20'27-3B82F6?style=flat-square&logo=academia&logoColor=white&labelColor=0d1117" />
-&nbsp;
-<img src="https://img.shields.io/badge/Location-Jaipur%2C%20India-10b981?style=flat-square&logo=googlemaps&logoColor=white&labelColor=0d1117" />
-&nbsp;
-<img src="https://img.shields.io/badge/Open%20to-AI%20%2F%20SWE%20Opportunities-a855f7?style=flat-square&logo=target&logoColor=white&labelColor=0d1117" />
-
 </div>
 
 <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
@@ -42,8 +16,8 @@
   <img src="https://raw.githubusercontent.com/Kritika11052005/Kritika11052005/main/about-me.svg" alt="Terminal Card" width="100%"/>
 </div>
 
-> **I am a Computer Science undergraduate & AI researcher at Manipal University Jaipur (Dean's List, GPA 9.11/10).**  
-> My work bridges deep learning theory with production-grade engineering — specializing in **Mixture of Experts (MoE)**, **adversarial multi-agent intelligence swarms**, **bioacoustic pattern recognition**, and **high-throughput distributed full-stack systems**.
+> **I am a Computer Science undergraduate & Engineer at Manipal University Jaipur (Class of 2027).**  
+> My work operates at the **intersection of Full-Stack Architecture and AI/ML Engineering** — building intelligent, scalable platforms and robust software systems.
 
 <br>
 
