@@ -1,6 +1,7 @@
 import base64
 import urllib.request
 import json
+import re
 
 # Fetch latest live metrics directly
 try:
@@ -13,11 +14,10 @@ except Exception as e:
 try:
     req = urllib.request.Request('https://komarev.com/ghpvc/?username=Kritika11052005', headers={'User-Agent': 'Mozilla/5.0'})
     svg_raw = urllib.request.urlopen(req).read().decode('utf-8')
-    import re
     nums = re.findall(r'>(\d+)<', svg_raw)
-    profile_views = nums[-1] if nums else "773"
+    profile_views = nums[-1] if nums else "775"
 except Exception as e:
-    profile_views = "773"
+    profile_views = "775"
 
 with open("placeholder-user1.png", "rb") as f:
     img_b64 = base64.b64encode(f.read()).decode("utf-8")
@@ -29,7 +29,7 @@ svg_content = f"""<svg width="100%" height="100%" viewBox="0 0 900 860" fill="no
 
       .masthead-first {{
         font-family: 'Playfair Display', Georgia, serif;
-        font-size: 68px;
+        font-size: 66px;
         font-weight: 900;
         letter-spacing: 14px;
         fill: #FAFAF9;
@@ -37,7 +37,7 @@ svg_content = f"""<svg width="100%" height="100%" viewBox="0 0 900 860" fill="no
       }}
       .masthead-last {{
         font-family: 'Cormorant Garamond', Georgia, serif;
-        font-size: 64px;
+        font-size: 62px;
         font-weight: 400;
         font-style: italic;
         letter-spacing: 8px;
@@ -205,17 +205,17 @@ svg_content = f"""<svg width="100%" height="100%" viewBox="0 0 900 860" fill="no
     <rect x="14" y="14" width="872" height="832" fill="none" stroke="#292524" stroke-width="0.8" opacity="0.6"/>
     <rect x="18" y="18" width="864" height="824" fill="none" stroke="#44403C" stroke-width="0.4" opacity="0.3"/>
 
-    <!-- ═══════ CENTERPIECE PORTRAIT PHOTO ═══════ -->
-    <g transform="translate(170, 104)" opacity="0">
+    <!-- ═══════ CENTERPIECE PORTRAIT PHOTO (LOWERED ACCORDINGLY FOR LUXURIOUS CLEARANCE) ═══════ -->
+    <g transform="translate(170, 118)" opacity="0">
       <animate attributeName="opacity" from="0" to="1" dur="1.2s" begin="0.2s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.16 1 0.3 1"/>
-      <animateTransform attributeName="transform" type="translate" from="170, 130" to="170, 104" dur="1.2s" begin="0.2s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.16 1 0.3 1"/>
+      <animateTransform attributeName="transform" type="translate" from="170, 144" to="170, 118" dur="1.2s" begin="0.2s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.16 1 0.3 1"/>
       
       <image href="data:image/png;base64,{img_b64}" x="0" y="0" width="560" height="660" preserveAspectRatio="xMidYMid meet" />
       <rect x="0" y="420" width="560" height="240" fill="url(#fadeBottom)" />
     </g>
 
-    <!-- ═══════ MASTHEAD ═══════ -->
-    <g transform="translate(450, 52)" text-anchor="middle">
+    <!-- ═══════ MASTHEAD (SHIFTED LOWER WITH COMFORTABLE TOP MARGIN) ═══════ -->
+    <g transform="translate(450, 68)" text-anchor="middle">
       <g opacity="0">
         <animate attributeName="opacity" from="0" to="1" dur="0.8s" begin="0.1s" fill="freeze"/>
         <text y="0">
@@ -227,12 +227,12 @@ svg_content = f"""<svg width="100%" height="100%" viewBox="0 0 900 860" fill="no
 
       <!-- Tagline with Typewriter Reveal Effect -->
       <g clip-path="url(#typewriterTagline)">
-        <text y="33" class="tagline">"Building AI that thinks, systems that scale, and research that matters."</text>
+        <text y="34" class="tagline">"Building AI that thinks, systems that scale, and research that matters."</text>
       </g>
     </g>
 
     <!-- ═══════ LEFT COLUMN: EDITORIAL COVER LINES ═══════ -->
-    <g transform="translate(42, 220)">
+    <g transform="translate(42, 230)">
       
       <!-- Section 1: EDUCATION -->
       <g transform="translate(0, 0)" clip-path="url(#typewriterLeft1)">
@@ -242,7 +242,7 @@ svg_content = f"""<svg width="100%" height="100%" viewBox="0 0 900 860" fill="no
         <line x1="0" y1="52" x2="190" y2="52" stroke="#292524" stroke-width="0.8"/>
       </g>
 
-      <!-- Section 2: LIVE PROFILE VIEWS (Native Vector Badge) -->
+      <!-- Section 2: LIVE PROFILE VIEWS -->
       <g transform="translate(0, 72)" clip-path="url(#typewriterLeft2)">
         <text class="category">LIVE PROFILE VIEWS</text>
         
@@ -287,9 +287,9 @@ svg_content = f"""<svg width="100%" height="100%" viewBox="0 0 900 860" fill="no
     </g>
 
     <!-- ═══════ RIGHT COLUMN: EDITORIAL COVER LINES ═══════ -->
-    <g transform="translate(858, 220)" text-anchor="end">
+    <g transform="translate(858, 230)" text-anchor="end">
       
-      <!-- Section 1: LIVE GITHUB CONTRIBUTIONS (Native Vector Badge) -->
+      <!-- Section 1: LIVE GITHUB CONTRIBUTIONS -->
       <g transform="translate(0, 0)" clip-path="url(#typewriterRight1)">
         <text class="category">LIVE GITHUB CONTRIBUTIONS</text>
         <text y="22" class="article-title">Past 1-Year <tspan class="article-title-italic">Activity</tspan></text>
@@ -361,7 +361,7 @@ svg_content = f"""<svg width="100%" height="100%" viewBox="0 0 900 860" fill="no
 
     </g>
 
-    <!-- ═══════ BELOW PHOTO: PURE NATIVE VECTOR TYPEWRITER TICKER ═══════ -->
+    <!-- ═══════ BELOW PHOTO: TYPEWRITER LIVE TICKER ═══════ -->
     <g transform="translate(450, 755)" text-anchor="middle">
       <g opacity="0">
         <animate attributeName="opacity" from="0" to="1" dur="0.8s" begin="1.2s" fill="freeze"/>
@@ -429,4 +429,4 @@ svg_content = f"""<svg width="100%" height="100%" viewBox="0 0 900 860" fill="no
 with open("tech-vogue.svg", "w", encoding="utf-8") as f:
     f.write(svg_content)
 
-print(f"Self-contained tech-vogue.svg generated with live views: {profile_views} and yearly contributions: {yearly_contributions}")
+print(f"Shifted KRITIKA BENJWAL lower with clean top margin. Views: {profile_views}, Commits: {yearly_contributions}")
