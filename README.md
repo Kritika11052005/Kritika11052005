@@ -110,7 +110,20 @@
 <table>
   <tr>
     <td width="50" valign="top" align="center">
-      <img src="https://img.shields.io/badge/01-3B82F6?style=for-the-badge&labelColor=0d1117" />
+      <img src="https://img.shields.io/badge/01-38BDF8?style=for-the-badge&labelColor=0d1117" />
+    </td>
+    <td>
+      <h4>WalletConnect &nbsp;·&nbsp; <code>Junior AI Engineer</code></h4>
+      <p><i>Aug 2026 – Present | Remote</i></p>
+      <ul>
+        <li>Engineering AI-driven agentic architectures and intelligent tooling across decentralized Web3 infrastructure.</li>
+      </ul>
+      <p><b>Stack:</b> <code>AI Engineering</code> <code>Agentic Systems</code> <code>Web3</code> <code>Python</code> <code>TypeScript</code></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50" valign="top" align="center">
+      <img src="https://img.shields.io/badge/02-3B82F6?style=for-the-badge&labelColor=0d1117" />
     </td>
     <td>
       <h4>AariyaTech Corp Private Limited &nbsp;·&nbsp; <code>Software (MERN Stack / Next.js) Intern</code></h4>
@@ -125,7 +138,7 @@
   </tr>
   <tr>
     <td width="50" valign="top" align="center">
-      <img src="https://img.shields.io/badge/02-10b981?style=for-the-badge&labelColor=0d1117" />
+      <img src="https://img.shields.io/badge/03-10b981?style=for-the-badge&labelColor=0d1117" />
     </td>
     <td>
       <h4>Infosys Springboard &nbsp;·&nbsp; <code>Artificial Intelligence Virtual Intern</code></h4>
@@ -140,7 +153,7 @@
   </tr>
   <tr>
     <td width="50" valign="top" align="center">
-      <img src="https://img.shields.io/badge/03-a855f7?style=for-the-badge&labelColor=0d1117" />
+      <img src="https://img.shields.io/badge/04-a855f7?style=for-the-badge&labelColor=0d1117" />
     </td>
     <td>
       <h4>Edunet Foundation &nbsp;·&nbsp; <code>Artificial Intelligence Intern (Microsoft Initiative)</code></h4>

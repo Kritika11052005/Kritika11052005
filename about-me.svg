@@ -74,69 +74,74 @@
   <line x1="18" y1="50" x2="496" y2="50" stroke="#1e3a5f" stroke-width="0.8" opacity="0.9"/>
 
   <!-- Education -->
-  <text x="20" y="72" font-family="Courier New,monospace" font-size="11" fill="#3B82F6">&#9654;</text>
-  <text x="36" y="72" font-family="Courier New,monospace" font-size="11.5" font-weight="bold" fill="#06b6d4" letter-spacing="1.5" filter="url(#softGlow)">Education</text>
-  <text x="36" y="88" font-family="Courier New,monospace" font-size="10" fill="#94a3b8">  B.Tech CSE @ Manipal University Jaipur (2023-2027)</text>
-  <text x="36" y="102" font-family="Courier New,monospace" font-size="9.5" fill="#f59e0b">  CGPA: 8.27 / 10.0 · Core CSE &amp; AI/ML</text>
-  <line x1="18" y1="112" x2="496" y2="112" stroke="#1e3a5f" stroke-width="0.6" opacity="0.6"/>
+  <text x="20" y="70" font-family="Courier New,monospace" font-size="11" fill="#3B82F6">&#9654;</text>
+  <text x="36" y="70" font-family="Courier New,monospace" font-size="11.5" font-weight="bold" fill="#06b6d4" letter-spacing="1.5" filter="url(#softGlow)">Education</text>
+  <text x="36" y="86" font-family="Courier New,monospace" font-size="9.5" fill="#94a3b8">  B.Tech CSE @ Manipal University Jaipur (2023-2027)</text>
+  <text x="36" y="99" font-family="Courier New,monospace" font-size="9.5" fill="#f59e0b">  CGPA: 8.27 / 10.0 · Core CSE &amp; AI/ML</text>
+  <line x1="18" y1="108" x2="496" y2="108" stroke="#1e3a5f" stroke-width="0.6" opacity="0.6"/>
 
   <!-- Experience -->
-  <text x="20" y="128" font-family="Courier New,monospace" font-size="11" fill="#3B82F6">&#9654;</text>
-  <text x="36" y="128" font-family="Courier New,monospace" font-size="11.5" font-weight="bold" fill="#06b6d4" letter-spacing="1.5" filter="url(#softGlow)">Experience</text>
+  <text x="20" y="124" font-family="Courier New,monospace" font-size="11" fill="#3B82F6">&#9654;</text>
+  <text x="36" y="124" font-family="Courier New,monospace" font-size="11.5" font-weight="bold" fill="#06b6d4" letter-spacing="1.5" filter="url(#softGlow)">Experience</text>
 
-  <text x="36" y="145" font-family="Courier New,monospace" font-size="10" fill="#a855f7">&#9670;</text>
-  <text x="50" y="145" font-family="Courier New,monospace" font-size="9.5" fill="#e2e8f0" font-weight="bold">AariyaTech Corp</text>
-  <text x="165" y="145" font-family="Courier New,monospace" font-size="9" fill="#64748b"> — Next.js/MERN Intern</text>
-  <text x="36" y="159" font-family="Courier New,monospace" font-size="9" fill="#64748b">  JSO AI ATS Platform · 500+ users · Fullstack features development</text>
+  <!-- WalletConnect (Latest) -->
+  <text x="36" y="140" font-family="Courier New,monospace" font-size="9.5" fill="#38BDF8">&#9670;</text>
+  <text x="50" y="140" font-family="Courier New,monospace" font-size="9.5" fill="#e2e8f0" font-weight="bold">WalletConnect</text>
+  <text x="145" y="140" font-family="Courier New,monospace" font-size="9" fill="#38BDF8"> — Junior AI Engineer (Aug 2026 – Present)</text>
 
-  <text x="36" y="174" font-family="Courier New,monospace" font-size="10" fill="#06b6d4">&#9670;</text>
-  <text x="50" y="174" font-family="Courier New,monospace" font-size="9.5" fill="#e2e8f0" font-weight="bold">Infosys Springboard</text>
-  <text x="180" y="174" font-family="Courier New,monospace" font-size="9" fill="#64748b"> — AI Intern</text>
-  <text x="36" y="188" font-family="Courier New,monospace" font-size="9" fill="#64748b">  LLM Contract Review · FastAPI · RAG · AI</text>
+  <!-- AariyaTech -->
+  <text x="36" y="156" font-family="Courier New,monospace" font-size="9.5" fill="#a855f7">&#9670;</text>
+  <text x="50" y="156" font-family="Courier New,monospace" font-size="9.5" fill="#e2e8f0" font-weight="bold">AariyaTech Corp</text>
+  <text x="160" y="156" font-family="Courier New,monospace" font-size="9" fill="#64748b"> — Next.js/MERN Intern (JSO AI Platform)</text>
 
-  <text x="36" y="203" font-family="Courier New,monospace" font-size="10" fill="#10b981">&#9670;</text>
-  <text x="50" y="203" font-family="Courier New,monospace" font-size="9.5" fill="#e2e8f0" font-weight="bold">Edunet Foundation</text>
-  <text x="175" y="203" font-family="Courier New,monospace" font-size="9" fill="#64748b"> — AI Intern · Microsoft</text>
-  <text x="36" y="217" font-family="Courier New,monospace" font-size="9" fill="#64748b">  Azure AI · GenAI · NLP · Copilot Ecosystem</text>
-  <line x1="18" y1="226" x2="496" y2="226" stroke="#1e3a5f" stroke-width="0.6" opacity="0.6"/>
+  <!-- Infosys Springboard -->
+  <text x="36" y="172" font-family="Courier New,monospace" font-size="9.5" fill="#06b6d4">&#9670;</text>
+  <text x="50" y="172" font-family="Courier New,monospace" font-size="9.5" fill="#e2e8f0" font-weight="bold">Infosys Springboard</text>
+  <text x="180" y="172" font-family="Courier New,monospace" font-size="9" fill="#64748b"> — AI Intern (LLM Contract Review)</text>
+
+  <!-- Edunet Foundation -->
+  <text x="36" y="188" font-family="Courier New,monospace" font-size="9.5" fill="#10b981">&#9670;</text>
+  <text x="50" y="188" font-family="Courier New,monospace" font-size="9.5" fill="#e2e8f0" font-weight="bold">Edunet Foundation</text>
+  <text x="175" y="188" font-family="Courier New,monospace" font-size="9" fill="#64748b"> — AI Intern (Microsoft Initiative)</text>
+  <line x1="18" y1="198" x2="496" y2="198" stroke="#1e3a5f" stroke-width="0.6" opacity="0.6"/>
 
   <!-- Core Arsenal -->
-  <text x="20" y="242" font-family="Courier New,monospace" font-size="11" fill="#3B82F6">&#9654;</text>
-  <text x="36" y="242" font-family="Courier New,monospace" font-size="11.5" font-weight="bold" fill="#06b6d4" letter-spacing="1.5" filter="url(#softGlow)">Core Arsenal</text>
+  <text x="20" y="214" font-family="Courier New,monospace" font-size="11" fill="#3B82F6">&#9654;</text>
+  <text x="36" y="214" font-family="Courier New,monospace" font-size="11.5" font-weight="bold" fill="#06b6d4" letter-spacing="1.5" filter="url(#softGlow)">Core Arsenal</text>
 
-  <text x="36" y="259" font-family="Courier New,monospace" font-size="9" fill="#f59e0b">&#9670;</text>
-  <text x="48" y="259" font-family="Courier New,monospace" font-size="9" fill="#cbd5e1">Python · PyTorch · Scikit-learn · Pandas · NumPy</text>
+  <text x="36" y="230" font-family="Courier New,monospace" font-size="9" fill="#f59e0b">&#9670;</text>
+  <text x="48" y="230" font-family="Courier New,monospace" font-size="9" fill="#cbd5e1">Python · PyTorch · Scikit-learn · Pandas · NumPy</text>
 
-  <text x="36" y="274" font-family="Courier New,monospace" font-size="9" fill="#06b6d4">&#9670;</text>
-  <text x="48" y="274" font-family="Courier New,monospace" font-size="9" fill="#cbd5e1">LangChain · RAG · ChromaDB · Gemini API · Azure AI</text>
+  <text x="36" y="245" font-family="Courier New,monospace" font-size="9" fill="#06b6d4">&#9670;</text>
+  <text x="48" y="245" font-family="Courier New,monospace" font-size="9" fill="#cbd5e1">LangChain · RAG · ChromaDB · Gemini API · Azure AI</text>
 
-  <text x="36" y="289" font-family="Courier New,monospace" font-size="9" fill="#10b981">&#9670;</text>
-  <text x="48" y="289" font-family="Courier New,monospace" font-size="9" fill="#cbd5e1">Next.js 15 · React · FastAPI · Node.js · Prisma</text>
+  <text x="36" y="260" font-family="Courier New,monospace" font-size="9" fill="#10b981">&#9670;</text>
+  <text x="48" y="260" font-family="Courier New,monospace" font-size="9" fill="#cbd5e1">Next.js 15 · React · FastAPI · Node.js · Prisma</text>
 
-  <text x="36" y="304" font-family="Courier New,monospace" font-size="9" fill="#a855f7">&#9670;</text>
-  <text x="48" y="304" font-family="Courier New,monospace" font-size="9" fill="#cbd5e1">PostgreSQL · MongoDB · Supabase · Docker · Redis</text>
-  <line x1="18" y1="314" x2="496" y2="314" stroke="#1e3a5f" stroke-width="0.6" opacity="0.6"/>
+  <text x="36" y="275" font-family="Courier New,monospace" font-size="9" fill="#a855f7">&#9670;</text>
+  <text x="48" y="275" font-family="Courier New,monospace" font-size="9" fill="#cbd5e1">PostgreSQL · MongoDB · Supabase · Docker · Redis</text>
+  <line x1="18" y1="285" x2="496" y2="285" stroke="#1e3a5f" stroke-width="0.6" opacity="0.6"/>
 
   <!-- Research -->
-  <text x="20" y="330" font-family="Courier New,monospace" font-size="11" fill="#3B82F6">&#9654;</text>
-  <text x="36" y="330" font-family="Courier New,monospace" font-size="11.5" font-weight="bold" fill="#06b6d4" letter-spacing="1.5" filter="url(#softGlow)">Research</text>
-  <text x="36" y="348" font-family="Courier New,monospace" font-size="9.5" fill="#94a3b8">&#10022; <tspan fill="#e2e8f0" font-weight="bold">TaxaMoE</tspan> — CLEF 2026 (BirdCLEF+ [Accepted])</text>
-  <text x="36" y="366" font-family="Courier New,monospace" font-size="9.5" fill="#94a3b8">&#10022; <tspan fill="#e2e8f0" font-weight="bold">Blockchain in PDS</tspan> — Springer Nature ICT4SD 2025</text>
-  <line x1="18" y1="386" x2="496" y2="386" stroke="#1e3a5f" stroke-width="0.6" opacity="0.6"/>
+  <text x="20" y="301" font-family="Courier New,monospace" font-size="11" fill="#3B82F6">&#9654;</text>
+  <text x="36" y="301" font-family="Courier New,monospace" font-size="11.5" font-weight="bold" fill="#06b6d4" letter-spacing="1.5" filter="url(#softGlow)">Research</text>
+  <text x="36" y="318" font-family="Courier New,monospace" font-size="9.5" fill="#94a3b8">&#10022; <tspan fill="#e2e8f0" font-weight="bold">TaxaMoE</tspan> — CLEF 2026 (BirdCLEF+ [Accepted])</text>
+  <text x="36" y="335" font-family="Courier New,monospace" font-size="9.5" fill="#94a3b8">&#10022; <tspan fill="#e2e8f0" font-weight="bold">Blockchain in PDS</tspan> — Springer Nature ICT4SD 2025</text>
+  <line x1="18" y1="352" x2="496" y2="352" stroke="#1e3a5f" stroke-width="0.6" opacity="0.6"/>
 
   <!-- Mission -->
-  <text x="20" y="403" font-family="Courier New,monospace" font-size="11" fill="#3B82F6">&#9654;</text>
-  <text x="36" y="403" font-family="Courier New,monospace" font-size="11.5" font-weight="bold" fill="#06b6d4" letter-spacing="1.5" filter="url(#softGlow)">Mission</text>
-  <text x="36" y="420" font-family="Courier New,monospace" font-size="9.5" fill="#94a3b8">"Building AI that thinks, systems that scale,</text>
-  <text x="36" y="434" font-family="Courier New,monospace" font-size="9.5" fill="#94a3b8"> and research that matters."</text>
-  <line x1="18" y1="444" x2="496" y2="444" stroke="#1e3a5f" stroke-width="0.6" opacity="0.6"/>
+  <text x="20" y="369" font-family="Courier New,monospace" font-size="11" fill="#3B82F6">&#9654;</text>
+  <text x="36" y="369" font-family="Courier New,monospace" font-size="11.5" font-weight="bold" fill="#06b6d4" letter-spacing="1.5" filter="url(#softGlow)">Mission</text>
+  <text x="36" y="386" font-family="Courier New,monospace" font-size="9.5" fill="#94a3b8">"Building AI that thinks, systems that scale,</text>
+  <text x="36" y="400" font-family="Courier New,monospace" font-size="9.5" fill="#94a3b8"> and research that matters."</text>
+  <line x1="18" y1="416" x2="496" y2="416" stroke="#1e3a5f" stroke-width="0.6" opacity="0.6"/>
 
   <!-- STATUS -->
-  <circle cx="30" cy="468" r="5" fill="#3B82F6">
+  <circle cx="30" cy="445" r="5" fill="#3B82F6">
     <animate attributeName="opacity" values="1;0.2;1" dur="2s" repeatCount="indefinite"/>
   </circle>
-  <text x="46" y="473" font-family="Courier New,monospace" font-size="12" font-weight="bold" fill="#cbd5e1" letter-spacing="2">STATUS: <tspan fill="#3B82F6" filter="url(#blueGlow)">RESEARCH &amp; BUILD</tspan><tspan fill="#06b6d4">_</tspan></text>
-  <rect x="250" y="460" width="7" height="13" fill="#06b6d4">
+  <text x="46" y="450" font-family="Courier New,monospace" font-size="12" font-weight="bold" fill="#cbd5e1" letter-spacing="2">STATUS: <tspan fill="#3B82F6" filter="url(#blueGlow)">RESEARCH &amp; BUILD</tspan><tspan fill="#06b6d4">_</tspan></text>
+  <rect x="250" y="437" width="7" height="13" fill="#06b6d4">
     <animate attributeName="opacity" values="1;0;1" dur="0.9s" repeatCount="indefinite"/>
   </rect>
 
