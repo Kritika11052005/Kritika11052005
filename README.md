@@ -1,6 +1,10 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,50:1E3A5F,100:3B82F6&height=230&section=header&text=Kritika%20Benjwal&fontSize=52&fontAlignY=36&desc=Building%20AI%20that%20thinks%2C%20systems%20that%20scale%2C%20and%20research%20that%20matters.&descAlignY=62&descSize=15&fontColor=ffffff&animation=fadeIn" width="100%"/>
+<a href="https://github.com/Kritika11052005">
+  <img src="https://raw.githubusercontent.com/Kritika11052005/Kritika11052005/main/header-banner.svg" alt="Kritika Benjwal - AI Researcher & Agentic Systems Engineer" width="100%"/>
+</a>
+
+<br><br>
 
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&duration=2800&pause=900&color=38BDF8&center=true&vCenter=true&width=860&height=50&lines=AI+Researcher+%26+Agentic+Systems+Engineer+%F0%9F%A4%96;Mixture+of+Experts+(MoE)+%26+Deep+Learning+Architectures+%F0%9F%94%AC;Full-Stack+Architect+(Next.js+15+%C2%B7+FastAPI+%C2%B7+Distributed+DBs)+%E2%9A%A1;Published+Author+(Springer+Nature+%C2%B7+CLEF+2026)+%F0%9F%93%9A;Dean's+List+Awardee+%C2%B7+B.Tech+CSE+%40+MUJ+'27+%F0%9F%8E%93" alt="Typing SVG" />
 
