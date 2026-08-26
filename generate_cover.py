@@ -1,27 +1,4 @@
 import base64
-import urllib.request
-import json
-import re
-
-# Fetch latest live metrics directly from official endpoints
-try:
-    req = urllib.request.Request('https://github-contributions-api.jogruber.de/v4/Kritika11052005', headers={'User-Agent': 'Mozilla/5.0'})
-    data = json.loads(urllib.request.urlopen(req).read().decode('utf-8'))
-    # Past 365 days rolling total (requested by user)
-    yearly_contributions = data.get('total', {}).get('lastYear', 689)
-    # All-time total across all years
-    all_time_contributions = sum(data.get('total', {}).values())
-except Exception as e:
-    yearly_contributions = 689
-    all_time_contributions = 912
-
-try:
-    req = urllib.request.Request('https://komarev.com/ghpvc/?username=Kritika11052005', headers={'User-Agent': 'Mozilla/5.0'})
-    svg_raw = urllib.request.urlopen(req).read().decode('utf-8')
-    nums = re.findall(r'>(\d+)<', svg_raw)
-    profile_views = nums[-1] if nums else "777"
-except Exception as e:
-    profile_views = "777"
 
 with open("placeholder-user1.png", "rb") as f:
     img_b64 = base64.b64encode(f.read()).decode("utf-8")
@@ -125,17 +102,6 @@ svg_content = f"""<svg width="100%" height="100%" viewBox="0 0 900 860" fill="no
       <stop offset="40%" stop-color="#0C0C12" stop-opacity="0.5"/>
       <stop offset="80%" stop-color="#0C0C12" stop-opacity="0.95"/>
       <stop offset="100%" stop-color="#0C0C12" stop-opacity="1"/>
-    </linearGradient>
-
-    <!-- Luxury Badge Gradients -->
-    <linearGradient id="viewsBadgeBg" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#181512"/>
-      <stop offset="100%" stop-color="#0E0C0A"/>
-    </linearGradient>
-
-    <linearGradient id="contribBadgeBg" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#0B131E"/>
-      <stop offset="100%" stop-color="#080C14"/>
     </linearGradient>
 
     <clipPath id="coverClip">
@@ -246,29 +212,12 @@ svg_content = f"""<svg width="100%" height="100%" viewBox="0 0 900 860" fill="no
         <line x1="0" y1="52" x2="190" y2="52" stroke="#292524" stroke-width="0.8"/>
       </g>
 
-      <!-- Section 2: LIVE PROFILE VIEWS -->
+      <!-- Section 2: CURRENT ROLE -->
       <g transform="translate(0, 72)" clip-path="url(#typewriterLeft2)">
-        <text class="category">LIVE PROFILE VIEWS</text>
-        
-        <g transform="translate(0, 8)">
-          <rect width="170" height="26" rx="4" fill="url(#viewsBadgeBg)" stroke="#D97706" stroke-width="1"/>
-          <line x1="108" y1="0" x2="108" y2="26" stroke="#D97706" stroke-width="0.8" opacity="0.6"/>
-          
-          <circle cx="12" cy="13" r="3.5" fill="#D97706">
-            <animate attributeName="opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite"/>
-          </circle>
-          
-          <text x="22" y="17" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="700" fill="#E7E5E4" letter-spacing="1">
-            VIEWS
-          </text>
-          
-          <text x="139" y="17" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="800" fill="#F59E0B" text-anchor="middle" letter-spacing="0.5">
-            {profile_views}
-          </text>
-        </g>
-        
-        <text y="48" class="article-sub">Real-Time Traffic Counter</text>
-        <line x1="0" y1="62" x2="190" y2="62" stroke="#292524" stroke-width="0.8"/>
+        <text class="category">CURRENT ROLE</text>
+        <text y="22" class="article-title">Junior AI <tspan class="article-title-italic">Engineer</tspan></text>
+        <text y="39" class="article-sub">@WalletConnect</text>
+        <line x1="0" y1="52" x2="190" y2="52" stroke="#292524" stroke-width="0.8"/>
       </g>
 
       <!-- Section 3: RECOGNITION & IMPACT -->
@@ -293,35 +242,17 @@ svg_content = f"""<svg width="100%" height="100%" viewBox="0 0 900 860" fill="no
     <!-- ═══════ RIGHT COLUMN: EDITORIAL COVER LINES ═══════ -->
     <g transform="translate(858, 230)" text-anchor="end">
       
-      <!-- Section 1: LIVE GITHUB CONTRIBUTIONS -->
+      <!-- Section 1: PREVIOUS INTERNSHIPS -->
       <g transform="translate(0, 0)" clip-path="url(#typewriterRight1)">
-        <text class="category">LIVE GITHUB CONTRIBUTIONS</text>
-        <text y="22" class="article-title">Past 1-Year <tspan class="article-title-italic">Activity</tspan></text>
-        
-        <!-- Live Contributions Badge -->
-        <g transform="translate(-200, 30)">
-          <rect width="200" height="26" rx="4" fill="url(#contribBadgeBg)" stroke="#38BDF8" stroke-width="1"/>
-          <line x1="140" y1="0" x2="140" y2="26" stroke="#38BDF8" stroke-width="0.8" opacity="0.6"/>
-          
-          <circle cx="12" cy="13" r="3.5" fill="#38BDF8">
-            <animate attributeName="opacity" values="1;0.3;1" dur="1.6s" repeatCount="indefinite"/>
-          </circle>
-          
-          <text x="22" y="17" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="700" fill="#E0F2FE" text-anchor="start" letter-spacing="1">
-            CONTRIBUTIONS
-          </text>
-          
-          <text x="170" y="17" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="800" fill="#38BDF8" text-anchor="middle" letter-spacing="0.5">
-            {yearly_contributions}
-          </text>
-        </g>
-        
-        <text y="72" class="article-sub">Verified Past 365 Days on GitHub</text>
-        <line x1="-200" y1="86" x2="0" y2="86" stroke="#292524" stroke-width="0.8"/>
+        <text class="category">PREVIOUS INTERNSHIPS</text>
+        <text y="22" class="article-title">Previously <tspan class="article-title-italic">Interned</tspan></text>
+        <text y="39" class="article-sub">AariyaTech Corp. Pvt. Ltd.</text>
+        <text y="53" class="article-sub">&amp; Infosys Springboard</text>
+        <line x1="-200" y1="66" x2="0" y2="66" stroke="#292524" stroke-width="0.8"/>
       </g>
 
       <!-- Section 2: EDITORIAL PROFILE -->
-      <g transform="translate(0, 104)" clip-path="url(#typewriterRight2)">
+      <g transform="translate(0, 86)" clip-path="url(#typewriterRight2)">
         <text class="category">EDITORIAL PROFILE</text>
         <text y="22" class="article-title">The Engineer Building</text>
         <text y="42" class="article-title"><tspan class="article-title-italic">Intelligent</tspan> Systems</text>
@@ -330,7 +261,7 @@ svg_content = f"""<svg width="100%" height="100%" viewBox="0 0 900 860" fill="no
       </g>
 
       <!-- Section 3: BARCODE & ISSUE DETAILS -->
-      <g transform="translate(0, 204)" clip-path="url(#typewriterRight3)">
+      <g transform="translate(0, 186)" clip-path="url(#typewriterRight3)">
         <text class="category">ISSUE &amp; VERIFICATION</text>
         <g transform="translate(-120, 16)">
           <g fill="#3E3835">
@@ -434,4 +365,4 @@ svg_content = f"""<svg width="100%" height="100%" viewBox="0 0 900 860" fill="no
 with open("tech-vogue.svg", "w", encoding="utf-8") as f:
     f.write(svg_content)
 
-print(f"Updated tech-vogue.svg with CONTRIBUTIONS label. Views: {profile_views}, 1-Year Contributions: {yearly_contributions}, All-Time: {all_time_contributions}")
+print("Successfully generated tech-vogue.svg")
