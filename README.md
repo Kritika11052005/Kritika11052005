@@ -116,9 +116,9 @@
       <h4>WalletConnect &nbsp;·&nbsp; <code>Junior AI Engineer</code></h4>
       <p><i>Aug 2026 – Present | Remote</i></p>
       <ul>
-        <li>Engineering AI-driven agentic architectures and intelligent tooling across decentralized Web3 infrastructure.</li>
+        <li>Building and deploying <b>AI agents and AI-driven features</b> to automate and enhance internal workplace tooling at WalletConnect, improving team efficiency.</li>
       </ul>
-      <p><b>Stack:</b> <code>AI Engineering</code> <code>Agentic Systems</code> <code>Web3</code> <code>Python</code> <code>TypeScript</code></p>
+      <p><b>Stack:</b> <code>AI Agents</code> <code>AI Engineering</code> <code>Tooling Automation</code> <code>Python</code> <code>TypeScript</code></p>
     </td>
   </tr>
   <tr>
